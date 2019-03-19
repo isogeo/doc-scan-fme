@@ -1,0 +1,8 @@
+.git
+.nuget
+.vscode
+dist/*
+Help/*
+install/*
+node_modules/*
+tmp/*

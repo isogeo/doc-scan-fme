@@ -1,0 +1,42 @@
+{
+    "plugins": [
+        "ga",
+        "html-minifier",
+        "image-captions",
+        "page-toc",
+        "sitemap-general",
+        "timeline",
+        "toggle-headers",
+        "youtube"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-22345848-2"
+        },
+        "html-minifier": {
+            "decodeEntities": true,
+            "html5": true,
+            "removeEmptyElements": false
+        },
+        "image-captions": {
+            "variable_name": "pictures",
+            "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_",
+            "images": {
+                "1.1.1": {
+                    "skip": true
+                }
+            }
+        },
+        "page-toc": {
+            "position": "top",
+            "selector": ".markdown-section h2, .markdown-section h3"
+        },
+        "sitemap-general": {
+            "prefix": "http://help.isogeo.com/scan/"
+        }
+    },
+    "variables": {
+        "author": "Isogeo",
+        "pictures": []
+    }
+}

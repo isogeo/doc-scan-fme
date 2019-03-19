@@ -1,0 +1,11 @@
+{
+ "author": "Isogeo",
+ "language": "fr",
+ "title": "Isogeo Scan FME - Documentation utilisateur",
+ "links": {
+             "sidebar": {
+                         "Site Isogeo": "https://www.isogeo.com/nos-produits/Scan",
+                         "Autres documentations Isogeo": "http://help.isogeo.com"
+                         }
+             }
+ }
