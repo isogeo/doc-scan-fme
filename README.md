@@ -1,6 +1,6 @@
 # Isogeo - Scan FME documentation
 
-[![CircleCI](https://circleci.com/gh/isogeo/doc-scan-fme.svg?style=svg)](https://circleci.com/gh/isogeo/doc-scan-fme)
+[![CircleCI](https://circleci.com/gh/isogeo/doc-scan-fme/tree/master.svg?style=svg&circle-token=c5ff09dcfc8035307bd4760b18d45c6e7bb3c85b)](https://circleci.com/gh/isogeo/doc-scan-fme/tree/master)
 
 Content, structure and media of the website documentation. It's part of the Isogeo online documentations ([see Github repositories](https://github.com/search?q=topic%3Adocumentation+org%3Aisogeo&type=Repositories)).
 
