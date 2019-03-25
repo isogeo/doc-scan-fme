@@ -8,7 +8,7 @@
 ## Installation
 
 * [Configuration du serveur](installation/server.md)
-* [Prerequis logiciels](installation/softwares.md)
+* [Prérequis logiciels](installation/softwares.md)
 * [Déploiement d'un service](installation/setup.md)
 * [Configuration avancée](installation/advanced.md)
 * [Désinstaller](installation/uninstall.md))

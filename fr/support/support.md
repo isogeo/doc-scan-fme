@@ -25,13 +25,13 @@ Le service du Scan FME (nommé Isogeo Worker) étant le seul composant installé
 
 Le service Isogeo Worker produit plusieurs types de log (fichiers de journalisation des opérations et erreurs d&apos;un processus informatique - [fiche Wikipédia [en]](https://en.wikipedia.org/wiki/Log_file)). Celui à joindre est celui contenu dans le dossier `dossier_installation_isogeo\daemon\logs` :
 
-![Scan FME - Fichier de log](/assets/scanFME/scanFME_install_log_file.png "Fichier log du service Isogeo Worker (Scan FME)")
+![Scan FME - Fichier de log](/assets/scanFME_install_log_file.png "Fichier log du service Isogeo Worker (Scan FME)")
 
 ### Liens directs
 
 Afin d&apos;accéder rapidement à la bonne requête du Scan, joindre l&apos;URL directe ou du moins celle du point d&apos;entrée :
 
-![Scan FME - URL unique des requêtes](/assets/scanFME/scanFME_request_url.png "Récupérer l&apos;URL directe d&apos;une requête du Scan")
+![Scan FME - URL unique des requêtes](/assets/scanFME_request_url.png "Récupérer l&apos;URL directe d&apos;une requête du Scan")
 
 Exemples :
 

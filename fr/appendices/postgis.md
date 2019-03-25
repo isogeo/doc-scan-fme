@@ -20,7 +20,7 @@ L&apos;objectif est de scanner les tables des 6 schémas de données avec l&apos
 
 ### 1. Configurer le point d&apos;entrée
 
-Suivre [les indications données ici](/features/scan_fme/scanFME_new_db.html), afin d&apos;obtenir quelque chose de similaire à cela :
+Suivre [les indications données ici](/assets/scanFME_new_db.html), afin d&apos;obtenir quelque chose de similaire à cela :
 
 ![APP - Point d&apos;entrée PostGIS](/assets/annex_scanPostGIS_entryPoint_geofla.png "Point d&apos;entrée configuré dans Isogeo")
 
