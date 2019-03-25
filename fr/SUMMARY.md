@@ -17,7 +17,7 @@
 ## Usage
 
 * [Inventaire automatique](usage/inventory.md)
-* [Créer un point d'entrée](usage/entry_point.md)
+* [Créer un point d'entrée](usage/entrypoint.md)
     * [Fichier](usage/files.md)
     * [Base de données](usage/bdd.md)   
     * [SDE](usage/sde.md)
