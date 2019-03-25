@@ -7,7 +7,7 @@
 
 <br> Publiée le 1er novembre 2017 :
 
-> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-scan-fme/milestone/6?closed=1)
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/6?closed=1)
 
 * ajout des filtres contacts et licences
 * ajout du filtre sur toutes les données (vecteur ET raster) dans le type
@@ -26,7 +26,7 @@
 
 <br> Publiée le 30 mai 2017 :
 
-> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-scan-fme/milestone/5?closed=1)
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/5?closed=1)
 
 * refonte de la fiche de métadonnées : informations complètes, présentation en onglets, design.
 * gestion des nouvelles métadonnées de service Isogeo : appel du _GetCapabilities_ pour les informations complémentaires, optimisation de la construction d'URL d'ajout à QGIS, gestion des espaces de nommage
@@ -42,7 +42,7 @@
 
 <br> Publiée le 28 décembre 2016 :
 
-> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-scan-fme/milestone/2?closed=1)
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/2?closed=1)
 
 * ajout d'une fenêtre "A propos" avec les crédits
 * ajout de messages d'informations temporaires dans QGIS
@@ -60,7 +60,7 @@
 
 <br> Publiée le 1er octobre 2016 :
 
-> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-scan-fme/milestone/1?closed=1)
+> [Consulter la fiche de version sur Github.](https://github.com/isogeo/isogeo-plugin-qgis/milestone/1?closed=1)
 
 * produit minimum atteint ;
 * socle fonctionnel de base : recherche textuelle, filtres dynamiques, recherche géographique, affichage des résultats, ajout des données, fiche de métadonnées minimaliste, recherches rapides, etc.

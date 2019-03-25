@@ -1,28 +1,35 @@
 # Summary
 
-## Présentation générale
+## General
 
 * [Introduction](README.md)
 * [Prérequis](prerequisites.md)
 
 ## Installation
 
-* [Standard](installation/standard.md)
-* [Version bêta](installation/beta.md)
-* [Version en développement](installation/dev.md)
+* [Configuration du serveur](installation/server.md)
+* [Prerequis logiciels](installation/softwares.md)
+* [Déploiement d'un service](installation/setup.md)
+* [Configuration avancée](installation/advanced.md)
+* [Désinstaller](installation/uninstall.md))
+* [Mettre à jour](installation/update.md)
 
-## Utilisation
+## Usage
 
-* [Configurer](usage/configuration.md)
-* [Rechercher](usage/search.md)
-* [Métadonnées](usage/metadata.md)
-* [Ajouter une donnée](usage/display.md)
-* [Recherches rapides](usage/advanced/quicksearch.md)
-* [Recherche par défaut](usage/advanced/defaultsearch.md)
-* [Recherches spéciales](usage/advanced/eastereggs.md)
+* [Inventaire automatique](usage/inventory.md)
+* [Créer un point d'entrée](usage/entry_point.md)
+    * [Fichier](usage/files.md)
+    * [Base de données](usage/bdd.md)   
+    * [SDE](usage/sde.md)
+* [Formats pris en compte](usage/formats.md)
 
-## Annexes
+## Support
 
-* [Questions fréquentes et support](appendices/support.md)
-* [Notes des versions](appendices/versions.md)
-* [Index des images et figures](pictures.md)
+* [FAQ](support/faq.md)
+* [Support](support/support.md)
+
+## Appendices
+
+* [Configuration de PostGIS](appendices/postgis.md)
+* [Notes de versions](appendices/versions.md)
+* [Figures](pictures.md)

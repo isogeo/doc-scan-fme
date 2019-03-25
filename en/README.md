@@ -23,4 +23,4 @@ Plugin is available in 2 languages:
 
 ### License
 
-Plugin is developed under [GNU LGPL v3 license](https://github.com/isogeo/isogeo-scan-fme/blob/master/LICENSE).
+Plugin is developed under [GNU LGPL v3 license](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/LICENSE).
