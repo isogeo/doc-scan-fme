@@ -1,3 +1,7 @@
+---
+description: Gestion des mots-clés de la base de données Isogeo dans l'application Isogeo Manager.
+---
+
 ## Système de Gestion de Base de Données (SGBD) <i class="fa fa-database"></i>
 
 ![Point d&apos;entrée SGBD](/assets/scanFME/scanFME_new_DB_btn.png "Sélecteur de type de point d&apos;entrée - Base de données")
