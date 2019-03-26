@@ -1,3 +1,7 @@
+---
+description: Créer un point d'entrée de type arborescence de fichiers pour le Scan FME Isogeo
+---
+
 # Arborescence de fichiers <i class="fa fa-folder-open"></i>
 
 ![Point d&apos;entrée Fichiers](/assets/scanFME/scanFME_new_files_btn.png "Sélecteur de type de point d&apos;entrée - Arborescence de fichiers")
