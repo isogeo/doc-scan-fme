@@ -34,6 +34,6 @@ Selon la configuration de l'environnement Windows, il se peut qu'il faille suppr
 sc delete "Isogeo Worker"
 ```
 
-![Scan - Supp](/assets/scanFME/scanFME_service_remove_cmd.png)
+![Scan - Supp](/assets/scanFME_service_remove_cmd.png)
 
 Puis redémarrer la machine.

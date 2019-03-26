@@ -2,7 +2,7 @@
 
 Le service est théoriquement capable de scanner l’ensemble des formats pris en compte par l’ETL  FME sur lequel il est basé. Cependant, nous ajoutons les nouveaux formats au fur et à mesure des besoins rencontrés.
 
-![Les formats scannés automatiquement](/assets/scanFME/scanFME_Formats_WordCloud.png "Chercher les données dans Isogeo")
+![Les formats scannés automatiquement](/assets/scanFME_Formats_WordCloud.png "Chercher les données dans Isogeo")
 
 ## Les formats de fichiers
 

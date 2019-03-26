@@ -10,17 +10,17 @@ Chaque instance s&apos;occupe d&apos;une action associée à une donnée : par e
 
 La licence de FME utilisée est de nouveau disponible pour d&apos;autres usages une fois le scan terminé.
 
-![Tour d&apos;horizon de l&apos;interface du Scan](/assets/scanFME/scanFME_tour_GeoFLA_2016-07-15.gif "Tour d&apos;horizon de l&apos;interface de gestion du Scan")
+![Tour d&apos;horizon de l&apos;interface du Scan](/assets/scanFME_tour_GeoFLA_2016-07-15.gif "Tour d&apos;horizon de l&apos;interface de gestion du Scan")
 
 ## Processus
 
 1. Cliquer sur le bouton « Scanner » en regard du point d’entrée choisi. La liste des requêtes s’affiche.
 
-    ![Les requêtes d&apos;un point d&apos;entrée](/assets/scanFME/scanFME_EntryPoint_Requests.png "Afficher l&apos;historique des requêtes effectuées sur un point d&apos;entrée")
+    ![Les requêtes d&apos;un point d&apos;entrée](/assets/scanFME_EntryPoint_Requests.png "Afficher l&apos;historique des requêtes effectuées sur un point d&apos;entrée")
 
 2. Cliquer sur la ligne d’une requête en cours pour visualiser le scan.
 
-    ![Déroulement d&apos;un scan](/assets/scanFME/scanFME_ProcessLive_GeoFLA_2014-12-26.gif "Le processus de scan à l&apos;oeuvre")
+    ![Déroulement d&apos;un scan](/assets/scanFME_ProcessLive_GeoFLA_2014-12-26.gif "Le processus de scan à l&apos;oeuvre")
 
 3. L’opération de scan se déroule en 3 phases :
 
@@ -28,7 +28,7 @@ La licence de FME utilisée est de nouveau disponible pour d&apos;autres usages 
     2. Signer : le scan signe toutes les données qu’il a recensées de façon à marquer les données au moment du scan et pouvoir en déduire si la donnée a déjà été scannée ou pas auparavant ou modifiée depuis le dernier scan ;
     3. Documenter : le scan crée les fiches pour les données nouvellement détectées ou met à jour les fiches des données modifiées.
 
-    ![Les formats scannés automatiquement](/assets/scanFME/scanFME_PostGIS_requete_annot.png "Chercher les données dans Isogeo")
+    ![Les formats scannés automatiquement](/assets/scanFME_PostGIS_requete_annot.png "Chercher les données dans Isogeo")
 
 4. Une fois terminé, le scan vous indique :
 

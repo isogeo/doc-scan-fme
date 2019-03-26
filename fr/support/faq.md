@@ -6,7 +6,7 @@ De  notre expérience d&apos;années de support, dans la plupart des cas les sou
 
 Si le message suivant s&apos;affiche, veuillez vérifier [les prérequis](prerequisites.html), en particulier [les droits de l&apos;utilisateur configuré](prerequisites.html#compte-utilisateur) pour lancer le service.
 
-![Service non démarré](/assets/scanFME/scanFME_install_errors_ServiceDoNotStart.png "Le service n&apos;a pas démarré")
+![Service non démarré](/assets/scanFME_install_errors_ServiceDoNotStart.png "Le service n&apos;a pas démarré")
 
 ____
 
@@ -18,13 +18,13 @@ Après s&apos;être authentifié sur l&apos;interface du Scan FME, il arrive que
 
 Pour résoudre le problème, cliquer sur https://daemons.isogeo.com/logout puis réessayez.
 
-![Scan FME - Oups forbidden](/assets/scanFME/scanFME_error_forbidden.png "Scan FME - Problème d&apos;authentification \(Oups! Forbidden\)")
+![Scan FME - Oups forbidden](/assets/scanFME_error_forbidden.png "Scan FME - Problème d&apos;authentification \(Oups! Forbidden\)")
 
 ### Impossible d&apos;accéder au chemin spécifié {#scan_err_ui_unreachable}
 
 Si l&apos;un des messages ci-dessous s&apos;affiche, c&apos;est qu&apos;il y a un problème avec les paramètres d&apos;accès aux données entrés dans le point d&apos;entrée : chemin, schém, base de données, droits utilisateur...
 
-![Echec du scan](/assets/scanFME/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d&apos;accéder au chemin spécifié")
+![Echec du scan](/assets/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d&apos;accéder au chemin spécifié")
 
 ____
 

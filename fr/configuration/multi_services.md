@@ -8,17 +8,17 @@ Voici la marche à suivre pour 2 groupes de travail, l&apos;un nommé CA (le pri
 
 | Dans le groupe principal | Dans le groupe subsidiaire |
 | :----------------------: | :----------------------: |
-| ![Télécharger le service](/assets/scanFME/scanFME_install_muli_gt01.png "Télécharger le service depuis le groupe de travail n°1") | ![Télécharger le service](/assets/scanFME/scanFME_install_muli_gt02.png "Télécharger le service depuis le groupe de travail n°2") |
+| ![Télécharger le service](/assets/scanFME_install_muli_gt01.png "Télécharger le service depuis le groupe de travail n°1") | ![Télécharger le service](/assets/scanFME_install_muli_gt02.png "Télécharger le service depuis le groupe de travail n°2") |
 
 2- Organiser correctement les installations pour éviter les confusions. Arborescence type attendue :
 
-![Arborescence type](/assets/scanFME/scanFME_install_muli_arborescence.png "Bien ranger les différents services")
+![Arborescence type](/assets/scanFME_install_muli_arborescence.png "Bien ranger les différents services")
 
 3- Renommer les services dans les fichiers `install.bat` et `uninstall.bat` (sous-dossier *daemon*), en remplaçant les 3 occurrences de `Isogeo Worker` par un nom spécifique à chacun :
 
 | Pour le groupe principal | Pour le groupe subsidiaire |
 | :----------------------: | :------------------------: |
-| ![Editer les fichiers](/assets/scanFME/scanFME_install_muli_edited_files_gt01.png "Edition des fichiers dans un éditeur de texte") | ![Editer les fichiers](/assets/scanFME/scanFME_install_muli_edited_files_gt02.png "Edition des fichiers dans un éditeur de texte") |
+| ![Editer les fichiers](/assets/scanFME_install_muli_edited_files_gt01.png "Edition des fichiers dans un éditeur de texte") | ![Editer les fichiers](/assets/scanFME_install_muli_edited_files_gt02.png "Edition des fichiers dans un éditeur de texte") |
 
 4- Lancer les fichiers `install.bat` et vérifier que les services sont bien enregistrés et fonctionnels :
 

@@ -1,6 +1,6 @@
 ## Système de Gestion de Base de Données (SGBD) <i class="fa fa-database"></i>
 
-![Point d&apos;entrée SGBD](/assets/scanFME/scanFME_new_DB_btn.png "Sélecteur de type de point d&apos;entrée - Base de données")
+![Point d&apos;entrée SGBD](/assets/scanFME_new_DB_btn.png "Sélecteur de type de point d&apos;entrée - Base de données")
 
 Indiquer les paramètres de connexion à la base de données et les instances / schémas à scanner.
 
@@ -22,7 +22,7 @@ Pour créer un point d’entrée « Base de données » :
 5. Saisir les paramètres de connexion ;
 6. Sauvegarder.
 
-    ![Nouveau point d&apos;entrée base](/assets/scanFME/scanFME_new_DB_ready.png "Le nouveau point d&apos;entrée est prêt à être scanné")
+    ![Nouveau point d&apos;entrée base](/assets/scanFME_new_DB_ready.png "Le nouveau point d&apos;entrée est prêt à être scanné")
 
 ### Paramètres requis selon le type de base de données
 
