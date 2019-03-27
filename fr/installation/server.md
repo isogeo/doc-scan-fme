@@ -20,14 +20,3 @@ Vous devez créer un compte utilisateur Windows permettant :
 * d’accéder aux ressources réseaux nécessaires pour lire vos données SIG.
 
 Il est recommandé de créer un nouveau compte utilisateur de niveau administrateur local intitulé Isogeo ayant les droits adéquats sur les données.
-
-___
-
-## Configuration réseau et sécurité
-
-Si votre serveur est connecté à Internet via un réseau d’entreprise soumis à des politiques de sécurité (cas le plus fréquent), vous devez vous assurer que :
-
-* votre navigateur peut accéder aux différents sites Internet gérés par Isogeo (tous nos sites ont des domaines qui se terminent par isogeo.com et utilisent le protocole sécurisé HTTPS) tel que [https://app.isogeo.com](https://app.isogeo.com)
-* votre système d’exploitation peut se connecter au port **5671** des domaines **daemons-mq.isogeo.com** et **daemons.isogeo.com**, tous deux sur l&apos;IP *65.52.153.255*, à l&apos;aide du **protocole TCP sécurisé**.
-
-Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts que le filtre par domaine ou  IP autorise bien les communications. Généralement vous obtiendrez ces informations auprès de votre service informatique.
