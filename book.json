@@ -35,6 +35,20 @@
             "prefix": "http://help.isogeo.com/scan/"
         }
     },
+    "pdf": {
+        "pageNumbers": true,
+        "fontFamily": "arial",
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 45,
+            "left": 45,
+            "top": 36,
+            "bottom": 36
+        },
+        "headerTemplate": "_TITLE_",
+        "footerTemplate": "_SECTION_"
+    },
     "variables": {
         "author": "Isogeo",
         "pictures": []
