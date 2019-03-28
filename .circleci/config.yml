@@ -14,6 +14,11 @@ defaults:
     docker:
       - image: circleci/golang:1-stretch
 
+  calibre_container: &calibre_container
+    working_directory: *workspace_root
+    docker:
+      - image: circleci/python:2.7-node
+
   filters: &default_filters
     tags:
       only: '/v[0-9]+(\.[0-9]+)*/'
@@ -87,6 +92,38 @@ jobs:
           paths:
             - dist/
 
+  # PDF generation.
+  # Inspired by: https://github.com/mallowlabs/gitbook-circleci-example
+  pdf:
+    <<: *calibre_container
+    steps:
+      - *attach_workspace
+      - *restore_node_modules
+
+      - run:
+          name: Install Calibre
+          command: |
+            wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin install_dir=~/calibre-bin isolated=y
+
+      # - run:
+      #     name: install NotoSans
+      #     command: |
+      #       wget -nv https://noto-website.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip
+      #       unzip NotoSansCJKjp-hinted.zip
+      #       mkdir -p ~/.fonts
+      #       mv *otf ~/.fonts
+      #       fc-cache -f -v
+      #       rm -f NotoSansCJKjp-hinted.zip LICENSE_OFL.txt README
+
+      - run:
+          name: build
+          command: |
+            yarn
+            ln -s ~/calibre-bin/calibre/ebook-convert node_modules/.bin/ebook-convert
+            yarn pdf
+      - store_artifacts:
+          path: _book
+
   deploy-qa:
     <<: *golang_container
     steps:
@@ -142,6 +179,11 @@ workflows:
       - build:
           requires:
             - install
+          filters: *default_filters
+
+      - pdf:
+          requires:
+            - build
           filters: *default_filters
 
       - deploy-qa:
