@@ -141,7 +141,7 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/scan qa:\$web/scan --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
+          command: rclone sync dist/scan qa:\$web/scan --delete-after --exclude .circleci/ --exclude .vscode/ --exclude package.json --exclude yarn.lock
 
   deploy-prod:
     <<: *golang_container
@@ -160,7 +160,7 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/scan prod:\$web/scan --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
+          command: rclone sync dist/scan prod:\$web/scan --delete-after --exclude .circleci/ --exclude .vscode/ --exclude package.json --exclude yarn.lock
 
 # Workflows ###################################################################
 workflows:
