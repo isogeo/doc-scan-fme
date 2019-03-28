@@ -192,10 +192,12 @@ workflows:
 
       - deploy-qa:
           requires:
+            - build
             - pdf
 
       - deploy-prod:
           requires:
+            - build
             - pdf
           filters:
             <<: *default_filters
