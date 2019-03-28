@@ -34,9 +34,10 @@
 * [FAQ](support/faq.md)
 * [Support](support/support.md)
 
-## Appendices
+## Annexes
 
 * [Configuration de PostGIS](appendices/postgis.md)
+* [Métadonnées sans emprise ni SRS](appendices/scan_srsnotfound_fme_fix.md)
 * [Notes de versions - Client](appendices/versions_client.md)
 * [Notes de versions - Serveur](appendices/versions_server.md)
 * [Table des figures](pictures.md)

@@ -32,7 +32,7 @@ Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts qu
 
 * L’accès aux données s’effectue par l’intermédiaire du logiciel [FME](http://www.safe.com/fme/fme-technology/fme-desktop/overview/)
 
-* L’accès aux données est entièrement configurable par l’organisme. Il suffit d’indiquer à l’exécutable les bases de données et les répertoires auquel il peut accéder.
+* L’accès aux données est entièrement configurable par l’organisme. Il suffit d’indiquer à l’exécutable les bases de données et les répertoires auxquels il peut accéder.
 
 * L’accès aux données dépend du type de stockage des données :
   * Système de Gestion de Base de Données (SGBD) : tous systèmes d&apos;exploitation.
