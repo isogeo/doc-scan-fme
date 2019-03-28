@@ -106,7 +106,7 @@ jobs:
             wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin install_dir=~/calibre-bin isolated=y
 
       # - run:
-      #     name: install NotoSans
+      #     name: Install NotoSans font
       #     command: |
       #       wget -nv https://noto-website.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip
       #       unzip NotoSansCJKjp-hinted.zip
@@ -116,13 +116,13 @@ jobs:
       #       rm -f NotoSansCJKjp-hinted.zip LICENSE_OFL.txt README
 
       - run:
-          name: build
+          name: Generate PDF
           command: |
             yarn
             ln -s ~/calibre-bin/calibre/ebook-convert node_modules/.bin/ebook-convert
-            yarn pdf
-      - store_artifacts:
-          path: _book
+            yarn gitbook pdf ./ dist/scan/
+      # - store_artifacts:
+      #     path: _book
 
   deploy-qa:
     <<: *golang_container
@@ -162,7 +162,7 @@ jobs:
           name: Upload to Azure Blob Storage
           command: rclone sync dist/scan prod:\$web/scan --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
 
-
+# Workflows ###################################################################
 workflows:
   version: 2
 
@@ -188,11 +188,11 @@ workflows:
 
       - deploy-qa:
           requires:
-            - build
+            - pdf
 
       - deploy-prod:
           requires:
-            - build
+            - pdf
           filters:
             <<: *default_filters
             branches:
