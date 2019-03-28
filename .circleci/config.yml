@@ -1,5 +1,6 @@
 version: 2
 
+# Variables and shortcuts definition ##########################################
 defaults:
   workspace_root: &workspace_root
     ~/isogeo-help
@@ -7,12 +8,17 @@ defaults:
   nodejs_container: &nodejs_container
     working_directory: *workspace_root
     docker:
-      - image: circleci/node:8-stretch
+      - image: circleci/node:10-stretch
 
   golang_container: &golang_container
     working_directory: *workspace_root
     docker:
       - image: circleci/golang:1-stretch
+
+  calibre_container: &calibre_container
+    working_directory: *workspace_root
+    docker:
+      - image: circleci/python:2.7-node
 
   filters: &default_filters
     tags:
@@ -29,7 +35,10 @@ defaults:
         - isogeo-help-node-{{ checksum "yarn.lock" }}
         - isogeo-help-
 
+# Tasks #######################################################################
 jobs:
+
+  # Pull repository
   checkout:
     <<: *nodejs_container
     steps:
@@ -40,6 +49,7 @@ jobs:
           paths:
             - ./
 
+  # Install dependencies
   install:
     <<: *nodejs_container
     steps:
@@ -68,6 +78,7 @@ jobs:
           paths:
             - node_modules/
 
+  # Build website
   build:
     <<: *nodejs_container
     steps:
@@ -87,6 +98,35 @@ jobs:
           paths:
             - dist/
 
+  # PDF generation.
+  # Inspired by: https://github.com/mallowlabs/gitbook-circleci-example
+  pdf:
+    <<: *calibre_container
+    steps:
+      - *attach_workspace
+      - *restore_node_modules
+
+      - run:
+          name: Install Calibre
+          command: |
+            wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin install_dir=~/calibre-bin isolated=y
+
+      - run:
+          name: Install Gitbook dependencies
+          command: |
+            yarn
+            ln -s ~/calibre-bin/calibre/ebook-convert node_modules/.bin/ebook-convert
+
+      - run:
+          name: Generate PDF
+          command: yarn gitbook pdf ./ dist/scan/Isogeo_DOC_ScanFME.pdf
+
+      - persist_to_workspace:
+          root: *workspace_root
+          paths:
+            - dist/scan/*.pdf
+
+  # Deploy to QA
   deploy-qa:
     <<: *golang_container
     steps:
@@ -104,8 +144,9 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/scan qa:\$web/scan --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
+          command: rclone sync dist/scan qa:\$web/scan --delete-after --exclude .circleci/ --exclude .vscode/ --exclude package.json --exclude yarn.lock
 
+  # Deploy to PROD
   deploy-prod:
     <<: *golang_container
     steps:
@@ -123,9 +164,9 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/scan prod:\$web/scan --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
+          command: rclone sync dist/scan prod:\$web/scan --delete-after --exclude .circleci/ --exclude .vscode/ --exclude package.json --exclude yarn.lock
 
-
+# Workflows (tasks orchestration ##############################################
 workflows:
   version: 2
 
@@ -144,13 +185,20 @@ workflows:
             - install
           filters: *default_filters
 
+      - pdf:
+          requires:
+            - build
+          filters: *default_filters
+
       - deploy-qa:
           requires:
             - build
+            - pdf
 
       - deploy-prod:
           requires:
             - build
+            - pdf
           filters:
             <<: *default_filters
             branches:

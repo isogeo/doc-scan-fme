@@ -5,6 +5,7 @@
  "links": {
              "sidebar": {
                          "Site Isogeo": "https://www.isogeo.com/nos-produits/Scan",
+                         "Version PDF": "../Isogeo_DOC_ScanFME_fr.pdf",
                          "Autres documentations Isogeo": "http://help.isogeo.com"
                          }
              }
