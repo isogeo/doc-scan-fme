@@ -3,8 +3,7 @@
  "language": "en",
  "links": {
              "sidebar": {
-                         "Isogeo": "https://www.isogeo.com/page/In-english-please",
-                         "Plugin source code": "https://github.com/isogeo/isogeo-plugin-qgis"
+                         "Isogeo": "https://www.isogeo.com/page/In-english-please"
                          }
              }
 }
