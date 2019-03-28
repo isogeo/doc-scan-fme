@@ -120,8 +120,14 @@ jobs:
           command: |
             yarn
             ln -s ~/calibre-bin/calibre/ebook-convert node_modules/.bin/ebook-convert
-            yarn gitbook pdf ./ dist/scan/
-      # - store_artifacts:
+            yarn gitbook pdf ./ dist/scan/DOC_Isogeo_ScanFME.pdf
+
+      - persist_to_workspace:
+          root: *workspace_root
+          paths:
+            - dist/scan/*.pdf
+
+    # - store_artifacts:
       #     path: _book
 
   deploy-qa:
