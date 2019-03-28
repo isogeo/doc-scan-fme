@@ -11,10 +11,10 @@ Plusieurs versions de FME pouvant être installées sur une même machine, il es
     SET FME_HOME="C:\Program Files\FME\2016.1\"
     ```
 
-    ![Scan FME - Chemin vers FME](/assets/scanFME/scanFME_install_fmePath_worker_set.png "Scan FME - Forcer la version de FME à utiliser")
+    ![Scan FME - Chemin vers FME](/assets/scanFME_install_fmePath_worker_set.png "Scan FME - Forcer la version de FME à utiliser")
 
 4. Redémarrer le service `Isogeo Worker`.
 
 Il est également possible de forcer la version par défaut de FME dans le système via la base de registre de Windows :
 
-![Scan FME - Version par défaut système](/assets/scanFME/scanFME_install_fmePath_registry.png "Scan FME - Forcer la version de FME dans la base de registre")
+![Scan FME - Version par défaut système](/assets/scanFME_install_fmePath_registry.png "Scan FME - Forcer la version de FME dans la base de registre")
