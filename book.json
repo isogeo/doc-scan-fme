@@ -47,7 +47,7 @@
             "bottom": 36
         },
         "headerTemplate": "_TITLE_",
-        "footerTemplate": "_SECTION_"
+        "footerTemplate": "Isogeo {{ gitbook.time }}"
     },
     "variables": {
         "author": "Isogeo",
