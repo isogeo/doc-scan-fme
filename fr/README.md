@@ -1,5 +1,6 @@
 # Scan FME Isogeo - Installation et utilisation
 
+
 ## Historique
 
 Développé en 2013 par Isogeo, le service Isogeo Worker a commencé à être déployé à la fin de la même année et surtout à partir de début 2014.
@@ -21,3 +22,7 @@ Basé sur l&apos;ETL FME, édité par Safe Software, il permet de lire un très 
 ## Guide vidéo
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/gLCSeQZMqvs" frameborder="0" allowfullscreen></iframe>
+
+----
+
+*Date de la dernière mise à jour de cette documentation : {{ gitbook.time | date("DD-MM-YYYY") }}*
