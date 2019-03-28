@@ -1,5 +1,6 @@
 version: 2
 
+# Variables and shortcuts definition ##########################################
 defaults:
   workspace_root: &workspace_root
     ~/isogeo-help
@@ -7,7 +8,7 @@ defaults:
   nodejs_container: &nodejs_container
     working_directory: *workspace_root
     docker:
-      - image: circleci/node:8-stretch
+      - image: circleci/node:10-stretch
 
   golang_container: &golang_container
     working_directory: *workspace_root
@@ -34,7 +35,10 @@ defaults:
         - isogeo-help-node-{{ checksum "yarn.lock" }}
         - isogeo-help-
 
+# Tasks #######################################################################
 jobs:
+
+  # Pull repository
   checkout:
     <<: *nodejs_container
     steps:
@@ -45,6 +49,7 @@ jobs:
           paths:
             - ./
 
+  # Install dependencies
   install:
     <<: *nodejs_container
     steps:
@@ -73,6 +78,7 @@ jobs:
           paths:
             - node_modules/
 
+  # Build website
   build:
     <<: *nodejs_container
     steps:
@@ -105,31 +111,22 @@ jobs:
           command: |
             wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin install_dir=~/calibre-bin isolated=y
 
-      # - run:
-      #     name: Install NotoSans font
-      #     command: |
-      #       wget -nv https://noto-website.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip
-      #       unzip NotoSansCJKjp-hinted.zip
-      #       mkdir -p ~/.fonts
-      #       mv *otf ~/.fonts
-      #       fc-cache -f -v
-      #       rm -f NotoSansCJKjp-hinted.zip LICENSE_OFL.txt README
-
       - run:
-          name: Generate PDF
+          name: Install Gitbook dependencies
           command: |
             yarn
             ln -s ~/calibre-bin/calibre/ebook-convert node_modules/.bin/ebook-convert
-            yarn gitbook pdf ./ dist/scan/DOC_Isogeo_ScanFME.pdf
+
+      - run:
+          name: Generate PDF
+          command: yarn gitbook pdf ./ dist/scan/DOC_Isogeo_ScanFME.pdf
 
       - persist_to_workspace:
           root: *workspace_root
           paths:
             - dist/scan/*.pdf
 
-    # - store_artifacts:
-      #     path: _book
-
+  # Deploy to QA
   deploy-qa:
     <<: *golang_container
     steps:
@@ -149,6 +146,7 @@ jobs:
           name: Upload to Azure Blob Storage
           command: rclone sync dist/scan qa:\$web/scan --delete-after --exclude .circleci/ --exclude .vscode/ --exclude package.json --exclude yarn.lock
 
+  # Deploy to PROD
   deploy-prod:
     <<: *golang_container
     steps:
@@ -168,7 +166,7 @@ jobs:
           name: Upload to Azure Blob Storage
           command: rclone sync dist/scan prod:\$web/scan --delete-after --exclude .circleci/ --exclude .vscode/ --exclude package.json --exclude yarn.lock
 
-# Workflows ###################################################################
+# Workflows (tasks orchestration ##############################################
 workflows:
   version: 2
 
@@ -189,7 +187,7 @@ workflows:
 
       - pdf:
           requires:
-            - build
+            - install
           filters: *default_filters
 
       - deploy-qa:

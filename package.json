@@ -23,8 +23,7 @@
     },
     "scripts": {
         "build": "gitbook build",
-        "dev": "gitbook serve",
-        "pdf": "gitbook pdf . ./_book/book.pdf"
+        "dev": "gitbook serve"
     },
     "engines": {
         "node": ">=8.11.1",
