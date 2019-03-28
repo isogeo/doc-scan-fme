@@ -47,7 +47,7 @@
             "bottom": 36
         },
         "headerTemplate": "_TITLE_",
-        "footerTemplate": "Isogeo {{ gitbook.time }}"
+        "footerTemplate": "Isogeo - Scan FME"
     },
     "variables": {
         "author": "Isogeo",
