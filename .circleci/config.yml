@@ -166,7 +166,7 @@ jobs:
           name: Upload to Azure Blob Storage
           command: rclone sync dist/scan prod:\$web/scan --delete-after --exclude .circleci/ --exclude .vscode/ --exclude package.json --exclude yarn.lock
 
-# Workflows (tasks orchestration ##############################################
+# Workflows (tasks orchestration) #############################################
 workflows:
   version: 2
 
