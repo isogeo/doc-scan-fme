@@ -1,5 +1,5 @@
 ---
-description: Changelog des versions du Scan FME Isogeo (client Windows)
+description: Notes de versions (changelog) du Scan FME Isogeo (client Windows)
 ---
 
 # Notes de versions du service client Isogeo Worker
@@ -8,7 +8,9 @@ Indépendant de la plateforme, le service est mis à jour lorsque des anomalies 
 
 Vous pouvez facilement vérifier la version du service installée chez vous en passant la souris sur le(s) voyant(s) en haut à droite de l&apos;interface d&apos;administration du scan :
 
-![Scan FME - version](/assets/scanFME/scanFME_service_version.png "Vérifier la version du service")
+![Scan FME - Version du client](/assets/scanFME_service_version.png "Vérifier la version du service")
+
+## Versions valides {#valid}
 
 ### 2.1.0
 
@@ -82,9 +84,11 @@ Voir [la lettre d&apos;informations](http://eepurl.com/b8uYqb).
 
 _________
 
+## Versions obsolètes {#deprecated}
+
 > Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s&apos;affiche en orange.
 
-![Scan FME - version obsolète](/assets/scanFME/scanFME_service_version_obsolete.png "Service obsolète")
+![Scan FME - version obsolète](/assets/scanFME_service_version_obsolete.png "Service obsolète")
 
 ### 1.0.20
 
