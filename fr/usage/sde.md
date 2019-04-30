@@ -1,3 +1,6 @@
+---
+description: Créer un point d'entrée de type SDE pour le Scan FME Isogeo
+---
 # ArcSDE <i class="fa fa-database"></i>
 
 ## Caractéristiques et précisions

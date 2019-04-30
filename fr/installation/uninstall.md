@@ -1,3 +1,7 @@
+---
+description: Désinstallation du service client du Scan FME (Isogeo)
+---
+
 # Désinstallation du service de scan
 
 La suppression d&apos;un service Isogeo s&apos;effectue en deux étapes dépendantes dont l&apos;ordre d’exécution n&apos;est pas important. Cependant, si l&apos;une des deux étapes n&apos;est pas réalisée, cela peut amener des dysfonctionnements futurs lors de l&apos;utilisation de l&apos;application.

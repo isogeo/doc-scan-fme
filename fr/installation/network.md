@@ -1,5 +1,5 @@
 ---
-description: Paramètres de connection réseau du service client du Scan FME (Isogeo)
+description: Paramètres de connexion réseau du service client du Scan FME (Isogeo)
 ---
 
 # Configuration réseau et sécurité des échanges

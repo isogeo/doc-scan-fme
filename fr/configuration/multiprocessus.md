@@ -1,3 +1,7 @@
+---
+description: Parallélisation du Scan FME (Isogeo)
+---
+
 # Paralléliser le Scan {#scan_concurrency}
 
 Le service de scan permet d&apos;utiliser jusqu&apos;à 5 instances de FME à partir de la même licence. Par défaut, l&apos;installation en utilise 3.

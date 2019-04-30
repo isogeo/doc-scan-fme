@@ -1,3 +1,7 @@
+---
+description: Fonctionnement global du Scan FME (Isogeo)
+---
+
 # Inventaire automatique et exhaustif avec le Scan FME
 
 Pour installer et déployer le scan automatique basé sur FME, reportez-vous à la [section dédiée](installation/index.html).

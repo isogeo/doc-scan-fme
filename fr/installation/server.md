@@ -1,3 +1,7 @@
+---
+description: Configuration du serveur Windows du service client du Scan FME (Isogeo)
+---
+
 # Configuration
 
 Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé Isogeo Worker sur une machine, virtuelle ou physique, de votre organisme respectant les pré-requis.
