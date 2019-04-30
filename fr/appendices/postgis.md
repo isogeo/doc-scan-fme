@@ -1,4 +1,4 @@
-# Configurer les schémas PostgreSQL visibles par le Scan
+# Configurer les schémas PostgreSQL visibles par le Scan {#postgis_configuration}
 
 Lors du scan d&apos;un point d&apos;entrée de type base de données, c&apos;est l&apos;utilisateur configuré qui détermine quelles tables et vues seront scannées dans l&apos;instance (pour Oracle) ou dans la base de données (pour PostgreSQL et MS SQL Server) indiquée.
 
@@ -10,7 +10,7 @@ Pour que le Scan FME puisse analyser les tables d&apos;un schéma, il faut donc 
 * l&apos;utilisateur configuré ait les droit en lecture sur les tables ;
 * le chemin du parcours de l&apos;utilisateur contienne les schémas contenant les tables.
 
-## Démonstration et commandes
+## Démonstration et commandes {#demonstration}
 
 Prenons l&apos;exemple d&apos;une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dont laquelle sont stockées les limites administratives du [produit idoine de l&apos;IGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondant à la métropole et chaque DOM, l&apos;un (*global*) la fusion de l&apos;ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
 
@@ -18,7 +18,7 @@ L&apos;objectif est de scanner les tables des 6 schémas de données avec l&apos
 
 ![PGAdmin 3 - Structure GeoFLA](/assets/annex_scanPostGIS_db_geofla.png "Structure de la base de données GeoFLA dans PgAdmin")
 
-### 1. Configurer le point d&apos;entrée
+### 1. Configurer le point d&apos;entrée 
 
 Suivre [les indications données ici](/assets/scanFME_new_db.html), afin d&apos;obtenir quelque chose de similaire à cela :
 
@@ -78,7 +78,7 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO &apos;$user&apos;, 
 
 ![APP - 5ème scan du point d&apos;entrée](/assets/annex_scanPostGIS_scan4_all.png "Les 3 schémas sont bien scannés")
 
-## Résumé des commandes
+## Résumé des commandes {#resume}
 
 Si on avait voulu scanner l&apos;ensemble des 6 schémas dans lesquels sont stockées les données, on aurait fait :
 
@@ -92,7 +92,7 @@ GRANT SELECT ON ALL TABLES IN SCHEMA guadeloupe, guyane, lareunion, martinique, 
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO &apos;$user&apos;, &apos;public&apos;, &apos;guadeloupe&apos;, &apos;guyane&apos;, &apos;lareunion&apos;, &apos;martinique&apos;, &apos;mayotte&apos;, &apos;metropole&apos;;
 ```
 
-### Précisions complémentaires
+### Précisions complémentaires {#precisions}
 
 * le chemin du parcours de l&apos;utilisateur doit obligatoirement contenir *public*, sinon FME n&apos;y parviendra pas ;
 * le *$user* correspond à la table de l&apos;utilisateur. Facultatif. ;
@@ -105,7 +105,7 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO &apos;$user&apos;, 
     show search_path;
     ```
 
-## Ressources
+## Ressources {#ressources}
 
 * Dans la documentation officelle de PostgreSQL (version 9.3) : [Chemin de parcours des schémas](http://docs.postgresql.fr/9.3/ddl-schemas.html#ddl-schemas-path) ;
 * Dans les forums de FME (EN) :

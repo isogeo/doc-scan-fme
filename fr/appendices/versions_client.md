@@ -2,7 +2,7 @@
 description: Notes de versions (changelog) du Scan FME Isogeo (client Windows)
 ---
 
-# Notes de versions du service client Isogeo Worker
+# Notes de versions du service client Isogeo Worker {#versions_client}
 
 Indépendant de la plateforme, le service est mis à jour lorsque des anomalies sont remontées ou pour couvrir de nouveaux besoins identifiés (nouveaux formats par exemple). Attention, ne pas confondre avec les mises à jour concernant l&apos;interface d&apos;administration du scan à laquelle vous accédez via [https://app.isogeo.com/admin/isogeo-worker](https://app.isogeo.com/admin/isogeo-worker).
 

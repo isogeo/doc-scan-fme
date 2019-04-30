@@ -2,11 +2,11 @@
 description: Fonctionnement global du Scan FME (Isogeo)
 ---
 
-# Inventaire automatique et exhaustif avec le Scan FME
+# Inventaire automatique et exhaustif avec le Scan FME {#inventory}
 
 Pour installer et déployer le scan automatique basé sur FME, reportez-vous à la [section dédiée](installation/index.html).
 
-## Fonctionnement
+## Fonctionnement {#operation}
 
 Le scan se sert de FME pour parcourir les données et nécessite donc qu&apos;une licence soit disponible durant le processus. Par défaut, le scan lance jusqu&apos;à 3 instances de FME en parallèle, avec une seule licence utilisée.
 
@@ -16,7 +16,7 @@ La licence de FME utilisée est de nouveau disponible pour d&apos;autres usages 
 
 ![Tour d&apos;horizon de l&apos;interface du Scan](/assets/scanFME_tour_GeoFLA_2016-07-15.gif "Tour d&apos;horizon de l&apos;interface de gestion du Scan")
 
-## Processus
+## Processus {#process}
 
 1. Cliquer sur le bouton « Scanner » en regard du point d’entrée choisi. La liste des requêtes s’affiche.
 
@@ -51,7 +51,7 @@ La liste complète des données recensées pendant le scan vous permet d’ident
 
 Allez dans l’inventaire pour découvrir ces données et parcourir leurs métadonnées.
 
-## Cas particuliers
+## Cas particuliers {#cases}
 
 * Le renommage un point d&apos;entrée n&apos;est pas possible aujourd&apos;hui. Il faut nécessairement le supprimer et en re-créer un ;
 

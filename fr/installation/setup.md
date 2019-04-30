@@ -2,9 +2,9 @@
 description: Installation du service client du Scan FME (Isogeo)
 ---
 
-# Déploiement du service
+# Déploiement du service {#deployment}
 
-## Téléchargement du service
+## Téléchargement du service {#download}
 
 Le service Isogeo est généré à partir de notre plate-forme pour chaque groupe de travail et possède ses propres identifiants.
 
@@ -22,7 +22,7 @@ Une fois nommé, vous pouvez télécharger le service.
 
 ![Nouveau service](/assets/scanFME_install_new_service_download.png "Nommer le nouveau service et cliquer sur télécharger")
 
-## Installation du service
+## Installation du service {#installation}
 
 1.	Décompresser l’archive (zip) téléchargée dans le dossier `C:\Program files\Isogeo`. S&apos;il n&apos;existe pas, il faut le créer.
 
@@ -35,7 +35,7 @@ Une fois nommé, vous pouvez télécharger le service.
 
 Une console Windows s’ouvre alors, indiquant que l’installation et le démarrage du service sont en cours puis se ferme automatiquement. Si la fenêtre ne se ferme pas et qu’un message d’erreur apparaît, revérifier les prérequis. Si le problème persiste, [contacter le support](../../../support/index.html).
 
-## Vérifier l&apos;installation du service
+## Vérifier l&apos;installation du service {#verification}
 
 1. Ouvrir la console des services Windows (cliquez sur « Démarrer », rechercher « services »).
 
@@ -47,7 +47,7 @@ Une console Windows s’ouvre alors, indiquant que l’installation et le démar
 
 Si ce service n&apos;apparaît pas, tenter de rafraîchir la liste (F5).<br />S&apos;il n&apos;apparaît toujours pas, essayer de nouveau l’installation.
 
-## Configuration du service
+## Configuration du service {#configuration}
 
 Le service **doit être lancé par l&apos;utilisateur Windows dédié isogeo** ([voir les pré-requis](prerequisites.html#compte-utilisateur)). Or après l&apos;installation, c&apos;est le compte administrateur local qui en est "maître".
 
@@ -61,7 +61,7 @@ Le service **doit être lancé par l&apos;utilisateur Windows dédié isogeo** (
 
 L’installation est à présent terminée :) !
 
-## Retour à l’application Isogeo
+## Retour à l’application Isogeo {#app}
 
 Une fois l’installation effectuée, revenez sur votre navigateur et cliquez sur « Aller à l’application ». Normalement vous devez voir un point vert dans l’en-tête de l’application, cela veut dire que la communication entre le service que vous venez d’installer et la Plateforme Isogeo est établie !
 

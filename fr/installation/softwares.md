@@ -3,7 +3,7 @@ description: Paramètres logiciels (FME, ArcGIS) du service client du Scan FME (
 ---
 
 
-## Installation de FME Desktop
+## Installation de FME Desktop {#fme_installation}
 
 FME Desktop doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques. Points de vérification :
 
@@ -26,7 +26,7 @@ Pour télécharger FME :
 
 Pour plus d’informations, veuillez contacter votre distributeur FME.
 
-### Cas spécifique pour les connexions Esri ArcSDE
+### Cas spécifique pour les connexions Esri ArcSDE {#sde}
 
 Pour des questions d&apos;interopérabilité entre FME et Esri, il faut être particulièrement vigilant sur les prérequis à installer pour pouvoir scanner correctement les schémas ArcSDE.
 
@@ -45,6 +45,6 @@ Pour aller plus loin :
 * si vous utilisez une [version d&apos;ArcGIS qui n&apos;est plus supportée](http://support.esri.com/other-resources/product-life-cycle) par Esri, [consulter l&apos;article dédié](https://knowledge.safe.com/articles/22886/fme-compatibility-for-retired-esri-software.html) ;
 * si vous utilisez Direct Connect, [consulter cet article](https://knowledge.safe.com/articles/227/how-do-i-connect-to-my-arcsde-geodatabase-using-di.html).
 
-### Oracle
+### Oracle {#oracle}
 
 Pour les bases de données Oracle, penser à installer le client sur la même machine que FME.

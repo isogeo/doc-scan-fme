@@ -2,13 +2,13 @@
 description: Créer un point d'entrée de type arborescence de fichiers pour le Scan FME Isogeo
 ---
 
-# Arborescence de fichiers <i class="fa fa-folder-open"></i>
+# Arborescence de fichiers <i class="fa fa-folder-open"></i> {#files}
 
 ![Point d&apos;entrée Fichiers](/assets/scanFME_new_files_btn.png "Sélecteur de type de point d&apos;entrée - Arborescence de fichiers")
 
 Indiquer le chemin absolu d&apos;accès à une  arborescence de répertoires contenant les données géographiques.
 
-## Caractéristiques et précisions
+## Caractéristiques et précisions {#precisions}
 
 * les fichiers doivent être accessibles via un partage de type Windows (protocole [SMB](https://fr.wikipedia.org/wiki/Server_Message_Block)) ;
 
@@ -18,7 +18,7 @@ Indiquer le chemin absolu d&apos;accès à une  arborescence de répertoires con
 
 * il n&apos;est pas possible de filtrer sur un format en particulier.
 
-### Ajouter un répertoire de fichiers à scanner
+### Ajouter un répertoire de fichiers à scanner {#add_repertory}
 
 Pour créer un point d’entrée « Fichiers » :
 

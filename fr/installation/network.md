@@ -2,11 +2,11 @@
 description: Paramètres de connexion réseau du service client du Scan FME (Isogeo)
 ---
 
-# Configuration réseau et sécurité des échanges
+# Configuration réseau et sécurité des échanges {#network_configuration}
 
 Le Scan FME utilise le protocole [AMQP(S)](https://fr.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol), dans l'implémentation faite par [RabbitMQ](https://fr.wikipedia.org/wiki/RabbitMQ).
 
-## Connectivité
+## Connectivité {#connectivity}
 
 Pour que le client du Scan FME puisse communiquer correctement avec les serveurs d'Isogeo, il faut s'assurer que :
 
@@ -18,7 +18,7 @@ Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts qu
 
 ----
 
-## Sécurité
+## Sécurité {#security}
 
 ### Sécurisation des accès et des transmissions
 

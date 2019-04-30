@@ -2,20 +2,20 @@
 description: Créer un point d'entrée de type base de données (PostgreSQL, PostGIS, Oracle, Microsoft SQL Server) pour le Scan FME Isogeo
 ---
 
-# Système de Gestion de Base de Données (SGBD) <i class="fa fa-database"></i>
+# Système de Gestion de Base de Données (SGBD) <i class="fa fa-database"></i> {#sgbd}
 
 ![Point d&apos;entrée SGBD](/assets/scanFME_new_DB_btn.png "Sélecteur de type de point d&apos;entrée - Base de données")
 
 Indiquer les paramètres de connexion à la base de données et les instances / schémas à scanner.
 
-## Caractéristiques et précisions
+## Caractéristiques et précisions {#precisions}
 
 * les SGBD sont indépendants du système d&apos;exploitation ;
 * les bases de données dites "plates" ou "fichiers" sont considérées comme telles (Esri FileGDB par exemple) ;
 * les tables sans géométrie ne sont pas prises en compte ;
 * une table visible depuis plusieurs chaînes de connexion n&apos;est pas dupliquée.
 
-## Démarche globale
+## Démarche globale {#process}
 
 Pour créer un point d’entrée « Base de données » :
 
@@ -28,7 +28,7 @@ Pour créer un point d’entrée « Base de données » :
 
     ![Nouveau point d&apos;entrée base](/assets/scanFME_new_DB_ready.png "Le nouveau point d&apos;entrée est prêt à être scanné")
 
-## Paramètres requis selon le type de base de données
+## Paramètres requis selon le type de base de données {#parameters}
 
 Légende :
 

@@ -1,4 +1,4 @@
-# Systèmes de référence spatiale (SRS) et emprises non reconnus
+# Systèmes de référence spatiale (SRS) et emprises non reconnus {#srs}
 
 Il peut arriver que le scan automatique ne parvienne pas à renseigner le système de coordonnées et/ou l&apos;enveloppe convexe. Pour identifier les données concernées, rien de plus simple :
 * [les vecteurs](https://app.isogeo.com/inventory/search?p=1&ob=_created&od=des&q=has-no%3Acoordinate-system%20type%3Avector-dataset) ;
@@ -6,7 +6,7 @@ Il peut arriver que le scan automatique ne parvienne pas à renseigner le systè
 
 La technologie utilisée étant celle de FME, il faut s&apos;assurer que les projections soient renseignées de façon à être correctement lues par l&apos;[ETL](https://fr.wikipedia.org/wiki/Extract_Transform_Load).
 
-## Cas n°1 (majoritaire) : une emprise, pas de SRS
+## Cas n°1 (majoritaire) : une emprise, pas de SRS {#case1}
 
 Dans la majeure partie des cas, le problème provient du fait que FME ne reconnaît pas le système de coordonnées. Cela ne veut pas dire que le système n’a pu être lu et utilisé par FME. Pour résumer, FME utilise la définition du système, mais ne le reconnaît pas.
 
@@ -14,7 +14,7 @@ Dans la majeure partie des cas, le problème provient du fait que FME ne reconna
 
 Afin de corriger ce problème, il faut donc indiquer à FME comment reconnaître ce système. Deux cas de figure sont possibles :
 
-### Le système est référencé avec un code EPSG
+### Le système est référencé avec un code EPSG 
 
 Il faut se rendre dans le dossier `Reproject/Exceptions` (dans le répertoire d’installation de FME), et éditer le fichier correspondant au format utilisé. Il faut ensuite trouver le paragraphe concernant le pays du système de coordonnées. Puis comme pour les systèmes déjà présents dans le document, ajouter une nouvelle ligne pour le système à ajouter.
 
@@ -43,7 +43,7 @@ reconnu :
 
 Le SRS ne sera pas indiqué mais l&apos;enveloppe convexe sera quand même dessinée.
 
-## Cas n°2 : ni emprise, ni SRS
+## Cas n°2 : ni emprise, ni SRS {#case2}
 
 Si la fiche n’a pas d’emprise, c&apos;est que la reprojection n’a pu être effectuée, ce qui signifie que FME ne possède pas le système d’origine.
 
@@ -51,7 +51,7 @@ Si la fiche n’a pas d’emprise, c&apos;est que la reprojection n’a pu être
 
 Cela peut se produire pour les formats de données qui ne gèrent pas correctement les systèmes de coordonnées, comme cela est le cas des fichiers CAO / DAO par exemple.
 
-## Ressources
+## Ressources {#ressources}
 
 * trouvez votre système de coordonnées dans le [registre officiel EPSG](http://epsg.io/) ;
 * les [systèmes de coordonnées français dans FME](http://documentation.veremes.net/public/fme/fme_ft_systemes_de_projection_francais.pdf).

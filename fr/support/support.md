@@ -27,7 +27,7 @@ Le service Isogeo Worker produit plusieurs types de log (fichiers de journalisat
 
 ![Scan FME - Fichier de log](/assets/scanFME_install_log_file.png "Fichier log du service Isogeo Worker (Scan FME)")
 
-### Liens directs
+### Liens directs {#direct_link}
 
 Afin d&apos;accéder rapidement à la bonne requête du Scan, joindre l&apos;URL directe ou du moins celle du point d&apos;entrée :
 
@@ -49,6 +49,6 @@ Pour l&apos;utiliser, les **droits d&apos;administrateur** sur la machine où FM
 
 Joindre à votre mail le fichier `FMEReport.html`, généré à côté du fichier `system_information.bat` ainsi que sur le bureau.
 
-## Envoyer le mail
+## Envoyer le mail {#mail}
 
 Cliquer ici pour envoyer un mail enrichi des éléments ci-dessus à [support@isogeo.fr](mailto:support+scan@isogeo.fr?subject=Scan FME - TITRE_PROBLEME_ICI&cc=projets@isogeo.fr)

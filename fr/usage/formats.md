@@ -2,13 +2,13 @@
 description: Formats (shp, tab, ecw, tiff...) pris en compte par le Scan FME (Isogeo)
 ---
 
-# Les formats de données pris en charge automatiquement
+# Les formats de données pris en charge automatiquement 
 
 Le service est théoriquement capable de scanner l’ensemble des formats pris en compte par l’ETL FME sur lequel il est basé. Cependant, nous ajoutons les nouveaux formats au fur et à mesure des besoins rencontrés.
 
 ![Les formats scannés automatiquement](/assets/scanFME_Formats_WordCloud.png "Chercher les données dans Isogeo")
 
-## Les formats de fichiers
+## Les formats de fichiers {#formats_files}
 
 * Apic Exchange Format (.asc),
 * AutoCAD DWG (.dwg),
@@ -35,7 +35,7 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 * TIFF (.tiff),
 * XYZ (.xyz) [*seulement pour les fichiers contenant 3 colonnes attributaires (X Y et Z) séparées par des espaces*].
 
-## Les systèmes de gestion de bases de données (SGBD)
+## Les systèmes de gestion de bases de données (SGBD) {#sgbd}
 
 * Esri Enterprise Geodatabase (ArcSDE) [*licence FME Esri Edition nécessaire*]
 * Microsoft SQL Server Spatial (toutes versions) ;

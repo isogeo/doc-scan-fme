@@ -1,4 +1,4 @@
-# Ajouter un nouveau point d&apos;entrée à scanner
+# Ajouter un nouveau point d&apos;entrée à scanner {#create_entrypoint}
 
 Un point d&apos;entrée correspond à l&apos;emplacement des données sources. Un administrateur peut créer autant de `Points d’entrée` qu’il le souhaite.
 

@@ -1,6 +1,6 @@
 # ArcSDE <i class="fa fa-database"></i>
 
-## Générer un fichier de connexion SDE depuis ArcCatalog
+## Générer un fichier de connexion SDE depuis ArcCatalog {#generate_sde}
 
 1. Se connecter au serveur où le service Isogeo et FME sont installés ;
 2. Ouvrir ArcCatalog ;
@@ -14,7 +14,7 @@ Pour plus d'informations, veuillez consulter la [documentation officielle](http:
 
 !["Ajouter une connexion aux bases de données"](/assets/scanFME_sde_arcCatalog.png)
 
-## Scanner un point d'entrée SDE
+## Scanner un point d'entrée SDE {#scan_sde}
 
 1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau » ;
 2. Sélectionner le type « Base de données » ;

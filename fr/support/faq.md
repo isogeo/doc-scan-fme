@@ -1,8 +1,8 @@
-# Question et erreurs fréquentes
+# Question et erreurs fréquentes {#questions_errors}
 
 De  notre expérience d&apos;années de support, dans la plupart des cas les soucis sont résolus en vérifiant de nouveau [les prérequis](prerequisites.html) puis en redémarrant le service. Sinon cette page peut peut-être répondre à votre problème, avant d&apos;écrire au [support du Scan](support.html).
 
-## Du côté de l&apos;installation
+## Du côté de l&apos;installation {#installation}
 
 Si le message suivant s&apos;affiche, veuillez vérifier [les prérequis](prerequisites.html), en particulier [les droits de l&apos;utilisateur configuré](prerequisites.html#compte-utilisateur) pour lancer le service.
 
@@ -10,7 +10,7 @@ Si le message suivant s&apos;affiche, veuillez vérifier [les prérequis](prereq
 
 ____
 
-## Du côté de l&apos;interface
+## Du côté de l&apos;interface {#interface}
 
 ### Problème d&apos;authentification \(Oups! Forbidden\) {#scan_err_ui_auth}
 
