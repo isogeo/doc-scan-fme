@@ -2,13 +2,9 @@
 description: Fonctionnement global du Scan FME (Isogeo)
 ---
 
-# Inventaire automatique et exhaustif avec le Scan FME {#inventory}
+# Fonctionnement global du Scan FME {#operation}
 
-Pour installer et déployer le scan automatique basé sur FME, reportez-vous à la [section dédiée](installation/index.html).
-
-## Fonctionnement {#operation}
-
-Le scan se sert de FME pour parcourir les données et nécessite donc qu&apos;une licence soit disponible durant le processus. Par défaut, le scan lance jusqu&apos;à 3 instances de FME en parallèle, avec une seule licence utilisée.
+Le Scan s'appuie FME pour parcourir les données et nécessite donc qu&apos;une licence soit disponible durant le processus. Par défaut, le scan lance jusqu&apos;à 3 instances de FME en parallèle, avec une seule licence utilisée (voir [Configuration Avancée - Paralléliser](/configuration/multiprocessus.html)).
 
 Chaque instance s&apos;occupe d&apos;une action associée à une donnée : par exemple *signer GEOFLA.DEPARTEMENTS* ou *documenter GEOFLA.COMMUNES*. Une file d&apos;attente (indépendante des points d&apos;entrée) démarre une nouvelle instance dès qu&apos;une se termine.
 

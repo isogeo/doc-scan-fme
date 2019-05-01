@@ -27,7 +27,7 @@
 * [Créer un point d'entrée](usage/entrypoint.md)
   * [Fichier](usage/files.md)
   * [Base de données](usage/databases.md)
-  * [SDE](usage/databases_esri_sde.md)
+  * [Base de données avec Esri SDE](usage/databases_esri_sde.md)
 
 ## Support
 
