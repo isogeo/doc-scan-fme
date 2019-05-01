@@ -23,11 +23,11 @@
 ## Usage
 
 * [Fonctionnement global](usage/inventory.md)
+* [Formats pris en compte](usage/formats.md)
 * [Créer un point d'entrée](usage/entrypoint.md)
   * [Fichier](usage/files.md)
-  * [Base de données](usage/bdd.md)
-  * [SDE](usage/sde.md)
-* [Formats pris en compte](usage/formats.md)
+  * [Base de données](usage/databases.md)
+  * [SDE](usage/databases_esri_sde.md)
 
 ## Support
 

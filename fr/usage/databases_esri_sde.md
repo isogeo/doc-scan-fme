@@ -1,4 +1,8 @@
-# ArcSDE <i class="fa fa-database"></i>
+---
+description: Créer un point d'entrée pour le Scan FME Isogeo de type base de données pour les bases utilisant Esri SDE
+---
+
+# Scanner une base de données Esri (SDE) <i class="fa fa-database"></i>
 
 ## Scanner un point d'entrée SDE {#scan_sde}
 
@@ -18,7 +22,7 @@ Il est conseillé de créer un dossier sur le serveur où est installé le servi
 Ensuite, il suffit de copier-coller les fichiers SDE générés sur ArcCatalog par l'administrateur SIG dans ce dossier.
 Pour info, les fichiers SDE sont généralement stockés par ArcCatalog au chemin suivant : `C:\Users\Nom_utilisateur\AppData\Roaming\ESRI\Desktop10.6\ArcCatalog\`.
 
-## Générer un fichier de connexion SDE depuis ArcCatalog {#generate_sde}
+### Générer un fichier de connexion SDE depuis ArcCatalog {#generate_sde}
 
 1. Ouvrir ArcCatalog ;
 2. Ajouter une connexion aux bases de données (cf. figure ci-dessous) ;
