@@ -8,7 +8,7 @@ Si le message suivant s&apos;affiche, veuillez vérifier [les prérequis](prereq
 
 ![Service non démarré](/assets/scanFME_install_errors_ServiceDoNotStart.png "Le service n&apos;a pas démarré")
 
-____
+----
 
 ## Du côté de l&apos;interface {#interface}
 
@@ -26,7 +26,7 @@ Si l&apos;un des messages ci-dessous s&apos;affiche, c&apos;est qu&apos;il y a u
 
 ![Echec du scan](/assets/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d&apos;accéder au chemin spécifié")
 
-____
+----
 
 ## Cas particuliers connus {#scan_known_cases}
 
@@ -75,3 +75,19 @@ Le Scan a été lancé avec une version de FME non compatible (FME 2018 ou 2017)
 #### Solution {#scan_err_badName_solve}
 
 Installer FME 2016.1 comme indiqué dans [les prérequis](prerequisites.html), puis redémarrer le service.
+
+----
+
+### Le service refuse de démarrer (commande interne non reconnue) {#batch_error_file}
+
+#### Constat {#scan_err_bad_filepath_obs}
+
+![Installation impossible](/assets/support_batch_error_bad_file_path.png)
+
+#### Problème {#scan_err_bad_filepath_diagnostic}
+
+Le problème provient d'une impossibilité de résoudre le chemin Windows avec des espaces lorsque c'est le disque D (alors que ça fonctionne sur le disque C:).
+
+#### Solution {#scan_err_bad_filepath_solve}
+
+S'assurer qu'il n'y a aucun espace ou caractère spécial dans le chemin du dossier d'installation du service de Scan.
