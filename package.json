@@ -1,7 +1,7 @@
 {
     "author": "Isogeo <contact@isogeo.fr>",
     "name": "isogeo-help-app-scan-fme",
-    "version": "2019.03",
+    "version": "2019.09",
     "private": true,
     "description": "Scan FME Isogeo - Documentation",
     "license": "CC-BY-NC-SA-4.0",
@@ -26,12 +26,11 @@
         "dev": "gitbook serve"
     },
     "engines": {
-        "node": ">=8.11.1",
+        "node": ">=10.15",
         "gitbook": ">=3.2.2",
         "yarn": ">= 1.0.0"
     },
     "dependencies": {
-        "ebook-convert":"~2.0.1",
         "gitbook": "^3.2.3",
         "gitbook-cli": "^2.3.2",
         "gitbook-plugin-ga": "^1.0.1",
