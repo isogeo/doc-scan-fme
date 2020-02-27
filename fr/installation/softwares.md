@@ -1,8 +1,6 @@
 ---
 description: Paramètres logiciels (FME, ArcGIS) du service client du Scan FME (Isogeo)
 ---
-
-
 ## Installation de FME Desktop {#fme_installation}
 
 FME Desktop doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques. Points de vérification :
@@ -21,22 +19,29 @@ Ainsi que les Service Pack associés.
 
 Pour télécharger FME :
 
-* la dernière version compatible [en 32 bits](https://s3.amazonaws.com/downloads.safe.com/fme/2016/fme-desktop-b16717-win-x86.msi) ou [en 64 bits](https://s3.amazonaws.com/downloads.safe.com/fme/2016/fme-desktop-b16717-win-x64.msi) ;
+* la dernière version compatible [en 32 bits](https://downloads.safe.com/fme/2018/fme-desktop-2018.1.2.1-b18592-win-x86.msi) ou [en 64 bits](https://downloads.safe.com/fme/2018/fme-desktop-2018.1.2.1-b18592-win-x64.msi) ;
 * une [ancienne version spécifique](https://www.safe.com/support/support-resources/fme-downloads/archived/).
 
 Pour plus d’informations, veuillez contacter votre distributeur FME.
 
 ### Cas spécifique pour les connexions Esri ArcSDE {#sde}
 
-Pour des questions d&apos;interopérabilité entre FME et Esri, il faut être particulièrement vigilant sur les prérequis à installer pour pouvoir scanner correctement les schémas ArcSDE.
+Selon votre installation Esri, voici la version de FME à installer.
 
-1. Tout d&apos;abord, il faut **la version 32 bits de FME** et si possible l&apos;édition Esri
+|                                Installation Esri                                |     Version de FME    |
+|:-------------------------------------------------------------------------------:|:---------------------:|
+|                             ArcGIS Desktop (32 bits)                            | FME Desktop (32 bits) |
+| ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Desktop (64 bits) |
+|                               ArcGIS Pro (64 bits)                              | FME Desktop (64 bits) |
+
+
+<!-- 1. Tout d&apos;abord, il faut **la version 32 bits de FME** et si possible l&apos;édition Esri
 2. Ensuite :
     * soit ArcGIS Desktop 32 bits sur la même machine avec une licence disponible pendant toute la durée du Scan - méthode recommandée ;
     * soit installer les librairies SDE sur la machine où est installée votre FME ([voir cet article](https://knowledge.safe.com/articles/358/arcsde-libraries-required-for-the-esri-arcsde-sde3.html)) - méthode plus complexe.
 3. Si ArcGIS est en licence flottante liée à un serveur de licences distant, ajouter la variable d&apos;environnement `ARCGIS_LICENCE_FILE` (voir [la doc Esri](http://resources.arcgis.com/fr/help/install-guides/license-manager/10.1/index.html#/Defining_port_host_to_one_or_more_license_servers/00790000000t000000/)) avec pour valeur le port et l&apos;adresse de votre serveur de licence (information située dans ArcGIS Administrator) :
 
-    ![Scan - ArcGIS SDE license](/assets/scanFME_install_SDE_env_var_arcgis_licensing.png "Variable d&apos;environnement pour le serveur de licence d&apos;ArcGIS")
+    ![Scan - ArcGIS SDE license](/assets/scanFME_install_SDE_env_var_arcgis_licensing.png "Variable d&apos;environnement pour le serveur de licence d&apos;ArcGIS") -->
 
 Pour aller plus loin :
 
@@ -47,4 +52,5 @@ Pour aller plus loin :
 
 ### Oracle {#oracle}
 
-Pour les bases de données Oracle, penser à installer le client sur la même machine que FME.
+Pour les bases de données Oracle, penser à installer le client
+ sur la même machine que FME.
