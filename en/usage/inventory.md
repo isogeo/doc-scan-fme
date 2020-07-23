@@ -4,18 +4,18 @@
 
 1.	Click on the "Scan" button opposite the selected entry point. The list of queries is displayed.
 
-    ![Entry point requests](/assets/scanFME_EntryPoint_Requests.png "Displaying the history of requests made on an entry point")
+    ![Entry point requests](/assets/EntryPoint_Requests.png "Displaying the history of requests made on an entry point")
 
 2.	Click on the line of a request in progress to view the scan.
 
-    ![Scan procedure](/assets/ScanFME_ProcessLive_GeoFLA_2014-12-26.gif "The scan process in action")
+    ![Scan procedure](/assets/ProcessLive_GeoFLA_2014-12-26.gif "The scan process in action")
 
 3.	The scan operation comprises 3 phases:
     4.	Inventorize: the scan establishes the list of data;
     5.	Sign: the scan signs all the data it has inventorized to mark the data when scanned, and to be able to deduce whether the data has already been scanned previously or modified since the last scan;
     6.	Document: the scan creates the records for newly detected data, or updates the records for modified data.
 
-    ![Formats scanned automatically](/assets/scanFME_PostGIS_requete_annot.png "Data search in Isogeo")
+    ![Formats scanned automatically](/assets/PostGIS_requete_annot.png "Data search in Isogeo")
 
 4.	Once it has finished, the scan indicates:
 	* The complete list of data inventorized. Each data item in this list is characterized by a unique identifier, its name, location, format and status (new, modified, unchanged, deleted, error). You can sort this list;

@@ -12,7 +12,7 @@ Pour que le client du Scan FME puisse communiquer correctement avec les serveurs
 
 * votre navigateur peut accéder aux différents sites Internet gérés par Isogeo (tous nos sites ont des domaines qui se terminent par isogeo.com et utilisent le protocole sécurisé HTTPS) tel que [https://app.isogeo.com](https://app.isogeo.com)
 
-* votre système d’exploitation peut se connecter au port **5671** des domaines **daemons-mq.isogeo.com** et **daemons.isogeo.com**, tous deux sur l&apos;IP *65.52.153.255*, à l&apos;aide du **protocole TCP sécurisé**.
+* votre système d’exploitation peut se connecter au port **5671** des domaines **daemons-mq.isogeo.com** et **daemons.isogeo.com**, tous deux sur lIP *65.52.153.255*, à laide du **protocole TCP sécurisé**.
 
 Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts que le filtre par domaine ou IP autorise bien les communications. Généralement vous obtiendrez ces informations auprès de votre service informatique.
 
@@ -35,9 +35,9 @@ Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts qu
 * L’accès aux données est entièrement configurable par l’organisme. Il suffit d’indiquer à l’exécutable les bases de données et les répertoires auxquels il peut accéder.
 
 * L’accès aux données dépend du type de stockage des données :
-  * Système de Gestion de Base de Données (SGBD) : tous systèmes d&apos;exploitation.
-  * Fichiers : il faut pouvoir mettre à disposition du service un partage de type Windows (protocole SMB). De plus, il est préférable qu&apos;ils soient hébergés sur un OS de type serveur.
+  * Système de Gestion de Base de Données (SGBD) : tous systèmes dexploitation.
+  * Fichiers : il faut pouvoir mettre à disposition du service un partage de type Windows (protocole SMB). De plus, il est préférable quils soient hébergés sur un OS de type serveur.
 
-* L&apos;accès aux données est en lecture seule, mais certains fournisseurs d’accès aux données requièrent un accès en lecture/écriture. La donnée géographique n’est pas modifiée, mais des mises à jour de fichiers d’index ou d’informations techniques peuvent demander des accès en écriture.
+* Laccès aux données est en lecture seule, mais certains fournisseurs d’accès aux données requièrent un accès en lecture/écriture. La donnée géographique n’est pas modifiée, mais des mises à jour de fichiers d’index ou d’informations techniques peuvent demander des accès en écriture.
 
 * L’agent ne stocke pas d’informations pour lui-même. Cependant il peut être amené à générer des fichiers temporaires potentiellement volumineux dont il assure le nettoyage de façon automatique.

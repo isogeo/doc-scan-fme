@@ -1,30 +1,30 @@
 # Question et erreurs fréquentes
 
-De  notre expérience d&apos;années de support, dans la plupart des cas les soucis sont résolus en vérifiant de nouveau [les prérequis](prerequisites.html) puis en redémarrant le service. Sinon cette page peut peut-être répondre à votre problème, avant d&apos;écrire au [support du Scan](support.html).
+De  notre expérience dannées de support, dans la plupart des cas les soucis sont résolus en vérifiant de nouveau [les prérequis](prerequisites.html) puis en redémarrant le service. Sinon cette page peut peut-être répondre à votre problème, avant décrire au [support du Scan](support.html).
 
-## Du côté de l&apos;installation
+## Du côté de linstallation
 
-Si le message suivant s&apos;affiche, veuillez vérifier [les prérequis](prerequisites.html), en particulier [les droits de l&apos;utilisateur configuré](prerequisites.html#compte-utilisateur) pour lancer le service.
+Si le message suivant saffiche, veuillez vérifier [les prérequis](prerequisites.html), en particulier [les droits de lutilisateur configuré](prerequisites.html#compte-utilisateur) pour lancer le service.
 
-![Service non démarré](/assets/scanFME_install_errors_ServiceDoNotStart.png "Le service n&apos;a pas démarré")
+![Service non démarré](/assets/install_errors_ServiceDoNotStart.png "Le service na pas démarré")
 
 ____
 
-## Du côté de l&apos;interface
+## Du côté de linterface
 
-### Problème d&apos;authentification \(Oups! Forbidden\) {#scan_err_ui_auth}
+### Problème dauthentification \(Oups! Forbidden\) {#scan_err_ui_auth}
 
-Après s&apos;être authentifié sur l&apos;interface du Scan FME, il arrive que le message ci-dessous s&apos;affiche. Il s&apos;agit d&apos;un problème qui peut intervenir lors de multiples authentifications à Isogeo dans différents onglets.
+Après sêtre authentifié sur linterface du Scan FME, il arrive que le message ci-dessous saffiche. Il sagit dun problème qui peut intervenir lors de multiples authentifications à Isogeo dans différents onglets.
 
 Pour résoudre le problème, cliquer sur https://daemons.isogeo.com/logout puis réessayez.
 
-![Scan FME - Oups forbidden](/assets/scanFME_error_forbidden.png "Scan FME - Problème d&apos;authentification \(Oups! Forbidden\)")
+![Scan FME - Oups forbidden](/assets/error_forbidden.png "Scan FME - Problème dauthentification \(Oups! Forbidden\)")
 
-### Impossible d&apos;accéder au chemin spécifié {#scan_err_ui_unreachable}
+### Impossible daccéder au chemin spécifié {#scan_err_ui_unreachable}
 
-Si l&apos;un des messages ci-dessous s&apos;affiche, c&apos;est qu&apos;il y a un problème avec les paramètres d&apos;accès aux données entrés dans le point d&apos;entrée : chemin, schém, base de données, droits utilisateur...
+Si lun des messages ci-dessous saffiche, cest quil y a un problème avec les paramètres daccès aux données entrés dans le point dentrée : chemin, schém, base de données, droits utilisateur...
 
-![Echec du scan](/assets/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d&apos;accéder au chemin spécifié")
+![Echec du scan](/assets/scan_errors_UnableToAccessEntryPoint.png "Impossible daccéder au chemin spécifié")
 
 ____
 
@@ -36,16 +36,16 @@ FME ne lit pas les shapefiles dont la taille de chaque composant (.shp / .dbf / 
 
 >  Note: Shape datasets larger than 2GB are considered invalid and will cause errors when opened in other applications.
 
-Il s&apos;agit d&apos;ailleurs d&apos;une limite inhérente au format, qu&apos;Esri précise dans http://support.esri.com/technical-article/000010813[](http://support.esri.com/technical-article/000010813).
+Il sagit dailleurs dune limite inhérente au format, quEsri précise dans http://support.esri.com/technical-article/000010813[](http://support.esri.com/technical-article/000010813).
 
 ### Donnée géographique corrompue ou incohérente {#scan_err_corrupted_data}
 
-Si un jeu de données contient un objet sans géomtrie, la donnée ne peut être lue jusqu&apos;au bout par le Scan FME. Elle est donc indiquée dans la colonne erreur du détail de la requête du Scan avec la mantion "Impossible de lire la donnée".
+Si un jeu de données contient un objet sans géomtrie, la donnée ne peut être lue jusquau bout par le Scan FME. Elle est donc indiquée dans la colonne erreur du détail de la requête du Scan avec la mantion "Impossible de lire la donnée".
 
-Dans le fichier LOG, l&apos;erreur intervient sur l&apos;étape "LookUp". Exemple tiré d&apos;une table PostGIS où le nombre d&apos;enregistrement (lignes) était incohérent par rapport au nombre d&apos;objets géométriques liés :
+Dans le fichier LOG, lerreur intervient sur létape "LookUp". Exemple tiré dune table PostGIS où le nombre denregistrement (lignes) était incohérent par rapport au nombre dobjets géométriques liés :
 
 ```json
-{"worker":"wk-d864517e","level":"info","message":"(etl) Start new fme script from queue with options :  [ &apos;C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\scripts\\\\lookup-postgis.fmw&apos;,\n  &apos;--OUTPUT_JSON&apos;,\n  &apos;C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\lookup-gC9aIjzL6&apos;,\n  &apos;--LOG_FILE&apos;,\n  &apos;C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\log-UUOBAvNXz&apos;,\n  &apos;--USERNAME&apos;,\n  &apos;isogeo&apos;,\n  &apos;--PASSWORD&apos;,\n  &apos;modepassepasse&apos;,\n  &apos;--SOURCE&apos;,\n  &apos;bdgeo_prod&apos;,\n  &apos;--HOST&apos;,\n  &apos;192.168.1.1&apos;,\n  &apos;--PORT&apos;,\n  5432,\n  &apos;--FEATURE_TYPES&apos;,\n  &apos;schema.dataset&apos; ]","timestamp":"2017-12-14T16:14:30.604Z"}
+{"worker":"wk-d864517e","level":"info","message":"(etl) Start new fme script from queue with options :  [ C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\scripts\\\\lookup-postgis.fmw,\n  --OUTPUT_JSON,\n  C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\lookup-gC9aIjzL6,\n  --LOG_FILE,\n  C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\log-UUOBAvNXz,\n  --USERNAME,\n  isogeo,\n  --PASSWORD,\n  modepassepasse,\n  --SOURCE,\n  bdgeo_prod,\n  --HOST,\n  192.168.1.1,\n  --PORT,\n  5432,\n  --FEATURE_TYPES,\n  schema.dataset ]","timestamp":"2017-12-14T16:14:30.604Z"}
 ```
 
 ### Mauvais nombre d'entités géographiques détecté (voire doublé) {#scan_err_featureCount}

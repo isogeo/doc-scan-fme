@@ -1,19 +1,19 @@
 # Isogeo Worker service releases (Scan FME)
 
-This platform-independent service is upgraded to correct any bugs, or to add new features (such as new formats). Note: these upgrades are not the same as upgrades to the scan&apos;s administration interface, accessed via https://app.isogeo.com/admin/isogeo-worker.
+This platform-independent service is upgraded to correct any bugs, or to add new features (such as new formats). Note: these upgrades are not the same as upgrades to the scans administration interface, accessed via https://app.isogeo.com/admin/isogeo-worker.
 
 To check which version of the service is installed on your machine, hover the mouse over the indicator light(s) at the top right of the scan administration interface:
 
-![FME scan - version](/assets/scanFME_service_version.png "Checking the service version")
+![FME scan - version](/assets/service_version.png "Checking the service version")
 
 ### 1.3.4
 
 * Add LAS format
-* (Fix) a scan continue even if the service could&apos;nt access a system folder
+* (Fix) a scan continue even if the service couldnt access a system folder
 
 ### 1.3.3
 
-* (Fix) The convex hull are generated even if coordinates system isn&apos;t recognized (value *_FME_0*)
+* (Fix) The convex hull are generated even if coordinates system isnt recognized (value *_FME_0*)
 
 ### 1.3.2
 
@@ -61,7 +61,7 @@ _________
 
 > Services below this line are considered obsolete, and the indicator light is orange.
 
-![Scan FME - obsolete version](/assets/scanFME_service_version_obsolete.png "Obsolete service")
+![Scan FME - obsolete version](/assets/service_version_obsolete.png "Obsolete service")
 
 ### 1.0.20
 

@@ -11,7 +11,7 @@ Proceed as follows to create a "Database" entry point:
 5. Enter the connection settings.
 6. Save.
 
-    ![New database entry point](/assets/scanFME_new_DB_ready.png "The new entry point is ready to be scanned")
+    ![New database entry point](/assets/new_DB_ready.png "The new entry point is ready to be scanned")
 
 ## Settings required depending on the database type
 

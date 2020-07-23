@@ -12,7 +12,7 @@
 
 Pour plus d'informations, veuillez consulter la [documentation officielle](http://desktop.arcgis.com/fr/arcmap/latest/manage-data/using-arccatalog/connecting-to-an-enterprise-geodatabase-from-the-catalog-window.htm)
 
-!["Ajouter une connexion aux bases de données"](/assets/scanFME_sde_arcCatalog.png)
+!["Ajouter une connexion aux bases de données"](/assets/sde_arcCatalog.png)
 
 ## Scanner un point d'entrée SDE
 
@@ -24,4 +24,4 @@ Pour plus d'informations, veuillez consulter la [documentation officielle](http:
 6. Indiquer le chemin vers le fichier de connexion (.sde), généralement les fichiers SDE sont stockés au chemin suivant `C:\Users\Nom_utilisateur\AppData\Roaming\ESRI\Desktop10.6\ArcCatalog\`
 7. Sauvegarder.
 
-    ![Nouveau point d&apos;entrée base](/assets/scanFME_new_DB_ready.png "Le nouveau point d&apos;entrée est prêt à être scanné")
+    ![Nouveau point dentrée base](/assets/new_DB_ready.png "Le nouveau point dentrée est prêt à être scanné")

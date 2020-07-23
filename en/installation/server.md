@@ -4,7 +4,7 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé I
 
 ## Système d’exploitation
 
-Même s&apos;il est possible d’installer le service Isogeo sur un poste d&apos;utilisateur, **il est fortement recommandé d’utiliser un serveur** pour des questions de performances, d’accès et de disponibilité.
+Même sil est possible d’installer le service Isogeo sur un poste dutilisateur, **il est fortement recommandé d’utiliser un serveur** pour des questions de performances, d’accès et de disponibilité.
 
 Les versions de Windows supportées sont (les versions  en **gras** sont recommandées) :
 
@@ -15,8 +15,8 @@ Les versions de Windows supportées sont (les versions  en **gras** sont recomma
 
 Vous devez créer un compte utilisateur Windows permettant :
 
-* d&apos;exécuter FME Desktop sur le poste où est installé le service Isogeo,
-* d&apos;écrire dans le répertoire d&apos;installation du service Isogeo,
+* dexécuter FME Desktop sur le poste où est installé le service Isogeo,
+* décrire dans le répertoire dinstallation du service Isogeo,
 * d’accéder aux ressources réseaux nécessaires pour lire vos données SIG.
 
 Il est recommandé de créer un nouveau compte utilisateur de niveau administrateur local intitulé Isogeo ayant les droits adéquats sur les données.

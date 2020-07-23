@@ -6,7 +6,7 @@ description: Formats (shp, tab, ecw, tiff...) pris en compte par le Scan FME (Is
 
 Le service est théoriquement capable de scanner l’ensemble des formats pris en compte par l’ETL FME sur lequel il est basé. Cependant, nous ajoutons les nouveaux formats au fur et à mesure des besoins rencontrés.
 
-![Les formats scannés automatiquement](/assets/scanFME_Formats_WordCloud.png "Chercher les données dans Isogeo")
+![Les formats scannés automatiquement](/assets/Formats_WordCloud.png "Chercher les données dans Isogeo")
 
 ## Les formats de fichiers {#formats_files}
 
@@ -19,9 +19,9 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 * Esri File Geodatabase (.gdb),
 * Esri Personal Geodatabase (.mdb),
 * Esri shapefiles (.shp),
-* Geography Markup Language (.gml) [*seulement la 1ère couche dans l&apos;ordre alphabétique*],
+* Geography Markup Language (.gml) [*seulement la 1ère couche dans lordre alphabétique*],
 * GeoTIFF (.geotiff),
-* Google Earth (.kml / .kmz) [*seulement la 1ère couche dans l&apos;ordre alphabétique*],
+* Google Earth (.kml / .kmz) [*seulement la 1ère couche dans lordre alphabétique*],
 * GPS eXchange Format (.gpx),
 * Intergraph GeoMedia database (.mdb),
 * JPEG (.jpg / .jpeg),

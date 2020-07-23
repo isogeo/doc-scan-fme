@@ -16,8 +16,9 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé I
 
 * [Réseau](installation/network.md)
   * Accès en https aux domaines qui se terminent par isogeo.com (`*.isogeo.com`)
-  * Ouverture du port **5671** vers les domaines **daemons-mq.isogeo.com** et **daemons.isogeo.com**, tous deux sur l&apos;IP *65.52.153.255*, à l&apos;aide du **protocole TCP sécurisé**.
+  * Configuration du proxy
+  * Configuraiton de l'antivirus
 
 * [Logiciels](installation/softwares.md)  
   * FME Desktop 2018
-  * éventuellement ArcGIS pour les formats Esri spécifiques
+  * ArcGIS Desktop pour les formats Esri (Geodatabases)

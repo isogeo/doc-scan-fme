@@ -2,7 +2,7 @@
 
 In theory, the service can scan all formats supported by the FME ETL on which it is based. However, as new needs arise, new formats are added.
 
-![Formats scanned automatically](/assets/scanFME_Formats_WordCloud.png "Searching for data in Isogeo")
+![Formats scanned automatically](/assets/Formats_WordCloud.png "Searching for data in Isogeo")
 
 ## File formats
 

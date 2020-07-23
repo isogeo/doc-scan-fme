@@ -2,13 +2,17 @@
 description: Mise à jour du service client du Scan FME (Isogeo)
 ---
 
-# Mise à jour d&apos;un service Isogeo {#update}
+# Mise à jour
 
-L’application Scan FME évolue régulièrement et il est donc parfois nécessaire de mettre à jour le service Isogeo installé afin qu’il soit compatible avec les dernières évolutions.
+Les mises à jour sont effectuées automatiquement par Isogeo lors de la mise en production d'une nouvelle version.
 
-Si l’un de vos services n’est plus compatible, l’application vous en informera et vous empêchera de déclencher de nouveaux scans.
+Vous pouvez co,nsulter les notes de versions dans le détail du service
+
+Pour les versions du service inférieure à la 2.5, les mise à jour sont toujours manuelles.
 
 Pour mettre à jour il suffit de procéder à :
 
 1. une [désinstallation du service existant](uninstall.html) ;
 2. une [nouvelle installation](setup.html).
+
+La nouvelle installation vous permettre de bénéficier ensuite des mises à jour automatiques.
