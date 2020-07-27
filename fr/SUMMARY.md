@@ -16,9 +16,8 @@
 
 ## Configuration avancée
 
-* [Lier plusieurs services](configuration/multi_services.md)
-* [Paralléliser](configuration/multiprocessus.md)
-* [Spécifier la version de FME](configuration/set_specific_fme_version.md)
+* [Configurer le service](configuration/configuration.md)
+* [Lier plusieurs services (déprécié)](configuration/multi_services.md)
 
 ## Usage
 
@@ -26,8 +25,8 @@
 * [Formats pris en compte](usage/formats.md)
 * [Créer un point d'entrée](usage/entrypoint.md)
   * [Fichier](usage/files.md)
+  * [Geodatabase d'entreprise Esri SDE](usage/databases_esri_sde.md)
   * [Base de données](usage/databases.md)
-  * [Base de données avec Esri SDE](usage/databases_esri_sde.md)
 
 ## Support
 

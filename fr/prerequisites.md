@@ -17,7 +17,6 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé I
 * [Réseau](installation/network.md)
   * Accès en https aux domaines qui se terminent par isogeo.com (`*.isogeo.com`)
   * Configuration du proxy
-  * Configuraiton de l'antivirus
 
 * [Logiciels](installation/softwares.md)  
   * FME Desktop 2018

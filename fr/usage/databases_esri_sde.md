@@ -4,17 +4,18 @@ description: Créer un point d'entrée pour le Scan FME Isogeo de type base de d
 
 # Scanner une base de données Esri (SDE) <i class="fa fa-database"></i>
 
-## Scanner un point d'entrée SDE {#scan_sde}
+Indiquer le chemin vers le fichier de connexion à la geodatabase d'entreprise à scanner.
 
-1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau » ;
-2. Sélectionner le type « Base de données » ;
-3. Nommer le point d’entrée. Exemple : Base de références ;
-4. Sélectionner le type de base de données sur lequel est installé le cartouche spatial SDE ;
-5. Dans `Paramètres de la geodatabase ESRI`, cocher `Oui`
-6. Indiquer le chemin vers le fichier de connexion (.sde), ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur))
-7. Sauvegarder.
+## Ajouter un point d'entrée SDE {#scan_sde}
 
-    ![Nouveau point dentrée base](/assets/new_DB_sde_ready.png "Le nouveau point dentrée est prêt à être scanné")
+1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau...» ;
+2. Sélectionner le type « Géodatabase d’entreprise Esri (SDE) » ;
+3. Nommer le point d’entrée.
+4. Dans `Fichier de connexion`, indiquer le chemin vers le fichier de connexion (.sde), ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur))
+5. Choississez dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique) 
+6. Sauvegarder.
+
+![Nouveau point d'entrée SDE](/assets/new_DB_sde_ready.png)
 
 ## Bonnes pratiques
 

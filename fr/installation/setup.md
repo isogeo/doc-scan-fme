@@ -50,7 +50,7 @@ Le service **doit être lancé par l'utilisateur Windows dédié isogeo** ([voir
 
 2. Dans l’onglet `Connexion`, choisir l’option `Ce compte` et indiquer les identifiants du compte utilisateur `isogeo`.
 
-!["Accéder au gestionnaire de services de Windows"](/assets/install_service_RunAs.png")
+!["Accéder au gestionnaire de services de Windows"](/assets/install_service_RunAs.png)
 
 3. Cliquer sur `OK`, une fenêtre indique qu'il est nécessaire de redémarrer le service pour prendre en compte le changement,
 4. Clic droit sur le service > `Redémarrer`
@@ -59,13 +59,29 @@ L’installation est à présent terminée :) !
 
 ## Retour à l’application Isogeo {#app}
 
-Une fois l’installation effectuée, revenez sur votre navigateur et sur l'interface du Scan FME. 
+Une fois l’installation effectuée, revenez sur votre navigateur et sur l'interface du Scan FME.
 
 Si l'installation est réussie, le service installé prend automatiquement le nom de votre serveur
-La version et l'état "Connecté" s'affichent également en vert. 
+La version et l'état "Connecté" s'affichent également en vert.
 
-En cliquant sur le nom du service, vous constaterez que les informations sur la configuration du serveur et le chemin vers FME sont remontées. 
+En cliquant sur le nom du service, vous constaterez que les informations sur la configuration du serveur et le chemin vers FME sont remontées.
 
-!["Installation réussie"](/assets/install_service_done.png")
+!["Installation réussie"](/assets/install_service_done.png)
 
-Si le point est rouge, actualise la page. Si rien ne change au bout de 5 minutes, [contacter le support](../../../support/index.html).
+Si le point est rouge, actualisez la page, la communication est peut-être bloquée par un proxy. 
+
+## Configurer le proxy {#config_proxy}
+
+Le client peut être utilisé derrière un proxy d'entreprise. Pour cela, il faut créer un fichier *proxy.json* à la racine du répertoire du service, et indiquer l'URL du proxy. Indiquer également un utilisateur et son mot de passe si une authentification au proxy est nécéssaire.
+
+Exemple :
+
+```json
+
+{
+  "httpsProxy": "http://user.pass@proxy:8080"
+}
+
+```
+
+Si la connexion n'est toujours pas affective, [contacter le support](../../../support/index.html).

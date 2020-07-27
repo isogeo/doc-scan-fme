@@ -2,7 +2,9 @@
 description: Installation de plusieurs services client du Scan FME (Isogeo)
 ---
 
-# Installer plusieurs services et les lier à un même FME {#scan_multiple_workers}
+# Installer plusieurs services et les lier à un même FME [méthode dépréciée]  {#scan_multiple_workers}
+
+> Cette méthode n'est plus utilisée à partir de la version 2.5, le nom du service Isogeo Worker étant nommer automatiquement avec l'identifiant du groupe de travail.
 
 Pour les besoins des projets partenariaux où le Scan est mutualisé ou pour des besoins de cloisonnement des groupes de travail créant les fiches automatiquement, il est possible de lier plusieurs services du Scan à une seule installation de FME, sur un ou plusieurs serveurs.
 

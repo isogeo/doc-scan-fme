@@ -8,7 +8,7 @@ description: Présentation du Scan FME Isogeo
 
 Développé en 2013 par Isogeo, le service Isogeo Worker a commencé à être déployé à la fin de la même année et surtout à partir de début 2014.
 
-Basé sur lETL FME, édité par Safe Software, il permet de lire un très grand nombre de formats de données géographiques et den extraire la plupart des informations techniques que lon sattend à voir dans une fiche de métadonnées.
+Basé sur l'ETL FME, édité par Safe Software, il permet de lire un très grand nombre de formats de données géographiques et d'en extraire la plupart des informations techniques que l'on s'attend à voir dans une fiche de métadonnées.
 
 ![Logo Safe Software - FME](/assets/logo_safe_fme.png)
 
