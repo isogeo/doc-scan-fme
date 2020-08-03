@@ -12,7 +12,7 @@ Pour que le Scan FME puisse analyser les tables d'un schéma, il faut donc que :
 
 ## Démonstration et commandes {#demonstration}
 
-Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dans laquelle sont stockées les limites administratives du [produit idoine de lIGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondants à la métropole et chaque DOM, l'un (*global*) la fusion de l'ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
+Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dans laquelle sont stockées les limites administratives du [produit idoine de lIGN France](https://geoservices.ign.fr/documentation/diffusion/documentation-offre.html) et structurée en 9 schémas dont 6 correspondants à la métropole et chaque DOM, l'un (*global*) la fusion de l'ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
 
 L'objectif est de scanner les tables des 6 schémas de données avec l'utilisateur *isogeo_demo* appartenant au groupe *isogeo_editor*.
 
