@@ -31,7 +31,7 @@ L'interface, vous permet ensuite de télécharger l'installeur.
 
     !["Installer le service avec les droits d'administration"](/assets/install_RunAsAdmin.png)
 
-Une console Windows s’ouvre alors, indiquant que l’installation et le démarrage du service sont en cours puis se ferme automatiquement. Si la fenêtre ne se ferme pas et qu’un message d’erreur apparaît, revérifier les prérequis. Si le problème persiste, [contacter le support](../../../support/index.html).
+Une console Windows s’ouvre alors, indiquant que l’installation et le démarrage du service sont en cours puis se ferme automatiquement. Si la fenêtre ne se ferme pas et qu’un message d’erreur apparaît, revérifier les prérequis. Si le problème persiste, [contacter le support](/support/support.md).
 
 ## Vérifier l'installation du service {#verification}
 
@@ -42,7 +42,7 @@ Si ce service n'apparaît pas, tenter de rafraîchir la liste (F5). S'il n'appar
 
 ## Configuration du service {#configuration}
 
-Le service **doit être lancé par l'utilisateur Windows dédié isogeo** ([voir les pré-requis](prerequisites.html#compte-utilisateur)). Or après l'installation, c'est le compte administrateur local qui en est "maître".
+Le service **doit être lancé par l'utilisateur Windows dédié isogeo** ([voir les pré-requis](server.md#user)). Or après l'installation, c'est le compte administrateur local qui en est "maître".
 
 1. Ouvrir les propriétés du service (clic droit>propriétés)
 
@@ -84,4 +84,4 @@ Exemple :
 
 ```
 
-Si la connexion n'est toujours pas affective, [contacter le support](../../../support/index.html).
+Si la connexion n'est toujours pas affective, [contacter le support](/support/support.md).

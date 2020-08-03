@@ -7,12 +7,12 @@ Par défaut dans PostgreSQL et donc dans PostGIS, le schéma public est créé d
 FME s'appuie sur les droits et le chemin de parcours (*search_path*) pour établir sa connexion à une base PostGIS. Parfois, la base n'est pas correctement configurée.
 
 Pour que le Scan FME puisse analyser les tables d'un schéma, il faut donc que :
-* l'utilisateur configuré ait les droit en lecture sur les tables ;
+* l'utilisateur configuré ait les droits en lecture sur les tables ;
 * le chemin du parcours de l'utilisateur contienne les schémas contenant les tables.
 
 ## Démonstration et commandes {#demonstration}
 
-Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dont laquelle sont stockées les limites administratives du [produit idoine de lIGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondants à la métropole et chaque DOM, l'un (*global*) la fusion de l'ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
+Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dans laquelle sont stockées les limites administratives du [produit idoine de lIGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondants à la métropole et chaque DOM, l'un (*global*) la fusion de l'ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
 
 L'objectif est de scanner les tables des 6 schémas de données avec l'utilisateur *isogeo_demo* appartenant au groupe *isogeo_editor*.
 
@@ -20,13 +20,13 @@ L'objectif est de scanner les tables des 6 schémas de données avec l'utilisate
 
 ### 1. Configurer le point d'entrée 
 
-Suivre [les indications données ici](/assets/new_db.html), afin d'obtenir quelque chose de similaire à cela :
+Suivre [les indications données ici](/usage/databases.md), afin d'obtenir quelque chose de similaire à cela :
 
 ![APP - Point d'entrée PostGIS](/assets/annex_scanPostGIS_entryPoint_geofla.png)
 
 ### 2. Constater que rien ne s'affiche
 
-Si on lance le scan, on s'aperçoit que la seule table remontée est *public.raster_columns* qui est une table système de l'extension PostGIS. Elle est en erreur car ne contenant aucune entité géographique.
+Si on lance le scan, on s'aperçoit que la seule table remontée est *public.raster_columns* qui est une table système de l'extension PostGIS. Elle est en erreur puisqu'elle ne contient aucune entité géographique.
 
 ![APP - 1er scan du point dentrée](/assets/annex_scanPostGIS_scan0.png)
 
@@ -94,7 +94,7 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, guad
 
 ### Précisions complémentaires {#precisions}
 
-* le chemin du parcours de l'utilisateur doit obligatoirement contenir *public*, sinon FME ny parviendra pas ;
+* le chemin du parcours de l'utilisateur doit obligatoirement contenir *public*, sinon FME n'y parviendra pas ;
 * le *$user* correspond à la table de l'utilisateur. Facultatif. ;
 * il est possible de réinitialiser le search_path d'un utilisateur à la configuration par défaut du SGBD :
     ```sql

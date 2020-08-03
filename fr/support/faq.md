@@ -1,10 +1,10 @@
 # Question et erreurs fréquentes {#questions_errors}
 
-De notre expérience d'années de support, dans la plupart des cas les soucis sont résolus en vérifiant de nouveau [les prérequis](prerequisites.html) puis en redémarrant le service. Sinon cette page peut peut-être répondre à votre problème, avant d'écrire au [support du Scan](support.html).
+De notre expérience d'années de support, dans la plupart des cas les soucis sont résolus en vérifiant de nouveau [les prérequis](/prerequisites.md) puis en redémarrant le service. Sinon cette page peut peut-être répondre à votre problème, avant d'écrire au [support du Scan](support.html).
 
 ## Du côté de l'installation {#installation}
 
-Si le message suivant saffiche, veuillez vérifier [les prérequis](prerequisites.html), en particulier [les droits de l'utilisateur configuré](prerequisites.html#compte-utilisateur) pour lancer le service.
+Si le message suivant s'affiche, veuillez vérifier [les prérequis](/prerequisites.md), en particulier [les droits de l'utilisateur configuré](/installation/server.md#user) pour lancer le service.
 
 ![Service non démarré](/assets/install_errors_ServiceDoNotStart.png "Le service na pas démarré")
 
@@ -12,9 +12,9 @@ Si le message suivant saffiche, veuillez vérifier [les prérequis](prerequisite
 
 ## Du côté de l'interface {#interface}
 
-### Problème dauthentification {#scan_err_ui_auth}
+### Problème d'authentification {#scan_err_ui_auth}
 
-Après s'être authentifié sur l'interface du Scan FME, il arrive que l'interface du scan ne s'affiche pas. Il s'agit dun problème qui peut intervenir lors de multiples authentifications à Isogeo dans différents onglets.
+Après s'être authentifié sur l'interface du Scan FME, il arrive que l'interface du scan ne s'affiche pas. Il s'agit d'un problème qui peut intervenir lors de multiples authentifications à Isogeo dans différents onglets.
 
 Pour résoudre le problème, cliquer sur https://scan.isogeo.com/api/logout puis réessayez.
 
@@ -57,7 +57,7 @@ Le Scan a été lancé avec une version de FME non compatible (FME 2017).
 
 #### Solution
 
-Installer FME 2016.1 ou FME 2018 comme indiqué dans [les prérequis](prerequisites.html), puis redémarrer le service.
+Installer FME 2016.1 ou FME 2018 comme indiqué dans [les prérequis](/prerequisites.md), puis redémarrer le service.
 
 ### Le nom de la donnée est le type de géométrie {#scan_err_badName}
 
@@ -71,7 +71,7 @@ Le Scan a été lancé avec une version de FME non compatible (FME 2017).
 
 #### Solution {#scan_err_badName_solve}
 
-Installer FME 2016.1 ou FME 2018 comme indiqué dans [les prérequis](prerequisites.html), puis redémarrer le service.
+Installer FME 2016.1 ou FME 2018 comme indiqué dans [les prérequis](/prerequisites.md), puis redémarrer le service.
 
 ----
 

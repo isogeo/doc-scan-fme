@@ -1,6 +1,8 @@
 ---
 description: Paramètres logiciels (FME, ArcGIS) du service client du Scan FME (Isogeo)
 ---
+# Logiciels
+
 ## Installation de FME Desktop {#fme_installation}
 
 FME Desktop doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques. Points de vérification :
@@ -49,8 +51,6 @@ Pour aller plus loin :
 * consulter cet [article](https://www.inser.ch/fr/content/fme-et-arcgis-desktoparcgis-pro) sur la compatibilité FME/Esri ;
 * consulter la [matrice des formats et versions de FME](https://www.safe.com/fme/formats-matrix/#search=arcsde) ;
 * consulter [l'article dédié [en]](https://knowledge.safe.com/articles/1517/notes-on-fme-and-esri-versions-and-compatibility.html) à ces questions d'interopérabilité sur le site de Safe, éditeur de FME.
-* si vous utilisez une [version d'ArcGIS qui n'est plus supportée](http://support.esri.com/other-resources/product-life-cycle) par Esri, [consulter l'article dédié](https://knowledge.safe.com/articles/22886/fme-compatibility-for-retired-esri-software.html) ;
-* si vous utilisez Direct Connect, [consulter cet article](https://knowledge.safe.com/articles/227/how-do-i-connect-to-my-arcsde-geodatabase-using-di.html).
 
 ### Oracle {#oracle}
 

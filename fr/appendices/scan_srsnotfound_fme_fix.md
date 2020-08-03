@@ -54,4 +54,3 @@ Cela peut se produire pour les formats de données qui ne gèrent pas correcteme
 ## Ressources {#ressources}
 
 * trouvez votre système de coordonnées dans le [registre officiel EPSG](http://epsg.io/) ;
-* les [systèmes de coordonnées français dans FME](http://documentation.veremes.net/public/fme/fme_ft_systemes_de_projection_francais.pdf).

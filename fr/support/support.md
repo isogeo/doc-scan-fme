@@ -4,13 +4,13 @@ En cas de problème et après avoir vérifié que l'erreur n'est pas documentée
 
 ## Eléments pour faciliter le diagnostic du support
 
-Le service du Scan FME (nommé Isogeo Worker) étant le seul composant installé sur l'architecture informatique des clients, c'est celui qui exige le plus d'informations de la part du client. Afin d'assurer un support rapide, merci de lire attentivement les différetnts éléments à réviser ou joindre **avant de contacter le support**.
+Le service du Scan FME (nommé Isogeo Worker) étant le seul composant installé sur l'architecture informatique des clients, c'est celui qui exige le plus d'informations de la part du client. Afin d'assurer un support rapide, merci de lire attentivement les différents éléments à réviser ou joindre **avant de contacter le support**.
 
 ### Etapes classiques pour écarter les problèmes communs {#scan_auto_diag}
 
 1. Vérifier les prérequis, notamment :
 
-    * la communication vers les domaines Isogeo (voir prérequis). Un changement de proxy ou pare-feu est si vite arrivé...
+    * la communication vers les domaines Isogeo (voir [prérequis](/prerequisites.md)). Un changement de proxy ou pare-feu est si vite arrivé...
     * la licence FME et sa disponibilité durant tout la durée dun scan
     * les droits en lecture sur les données ciblées et les droits d'écriture sur le dossier d'installation du service
 
@@ -19,11 +19,11 @@ Le service du Scan FME (nommé Isogeo Worker) étant le seul composant installé
     1. ouvrir FME Data Inspector
     2. [ouvrir les jeux de données ciblés](https://desktopmanualbasic.safe.com/DesktopBasic1Basics/1.13.ViewingData.html) avec les mêmes paramètres d'accès (fichier de connexion, chemin...) que ceux entrés dans les points dentrée du Scan FME
 
-3. S'assurer que le point d'entrée configuré n'accède pas à plus de 1 300 jeux de données. Créer des points daccès plus fins.
+3. S'assurer que le point d'entrée configuré n'accède pas à plus de 1 300 jeux de données. Créer des points d'accès plus fins.
 
 ### Récupérer les logs du service de Scan {#scan_log_srv}
 
-Le service Isogeo Worker produit plusieurs types de log (fichiers de journalisation des opérations et erreurs dun processus informatique - [fiche Wikipédia [en]](https://en.wikipedia.org/wiki/Log_file)). Celui à joindre est celui contenu dans le dossier `dossier_installation_isogeo\logs` :
+Le service Isogeo Worker produit plusieurs types de logs (fichiers de journalisation des opérations et erreurs d'un processus informatique - [fiche Wikipédia [en]](https://en.wikipedia.org/wiki/Log_file)). Celui à joindre est celui contenu dans le dossier `dossier_installation_isogeo\logs` :
 
 ![Fichier de log](/assets/install_log_file.png)
 
@@ -43,9 +43,9 @@ Exemples :
 Safe Software, l'éditeur de FME, met un petit outil à disposition pour générer un rapport de diagnostic complet et lisible sur l'environnement logiciel autour de l'ETL (système d'exploitation, version de FME installée, présence de logiciels tiers comme Esri, Oracle...). 
 Il est présenté dans [cet article de la base de connaissance partagée de FME](https://knowledge.safe.com/articles/714/general-troubleshooting-gathering-system-informati.html) et [détaillé dans celui-ci](https://knowledge.safe.com/articles/692/a-guide-to-interpreting-the-system-information-bat.html).
 
-Pour l'utiliser, les **droits dadministrateur** sur la machine où FME est installé sont requis :
+Pour l'utiliser, les **droits d'administrateur** sur la machine où FME est installé sont requis :
 
-1. Lancer le fichier `system_information.bat` dans le dossier deamon du répertoire d'installation du service.
+1. Lancer le fichier `system_information.bat` dans le dossier *deamon* du répertoire d'installation du service.
 2. Clic droit > "Exécuter en tant qu'administrateur" ;
 
 Joindre à votre mail le fichier `FMEReport.html`, généré à côté du fichier `system_information.bat` ainsi que sur le bureau.
