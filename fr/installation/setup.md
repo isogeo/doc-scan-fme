@@ -61,7 +61,7 @@ L’installation est à présent terminée :) !
 
 Une fois l’installation effectuée, revenez sur votre navigateur et sur l'interface du Scan FME.
 
-Si l'installation est réussie, le service installé prend automatiquement le nom de votre serveur
+Si l'installation est réussie, le service installé prend automatiquement le nom de votre serveur.
 La version et l'état "Connecté" s'affichent également en vert.
 
 En cliquant sur le nom du service, vous constaterez que les informations sur la configuration du serveur et le chemin vers FME sont remontées.

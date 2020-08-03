@@ -15,4 +15,4 @@ Pour mettre à jour il suffit de procéder à :
 1. une [désinstallation du service existant](uninstall.html) ;
 2. une [nouvelle installation](setup.html).
 
-La nouvelle installation vous permettre de bénéficier ensuite des mises à jour automatiques.
+La nouvelle installation vous permet de bénéficier ensuite des mises à jour automatiques.

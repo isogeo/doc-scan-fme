@@ -24,7 +24,7 @@ Plusieurs paramètres sont potentiellement spécifiques à votre installation.
 
 3. Faites un clic droit sur le fichier uninstall.bat, puis `Exécuter en tant qu’administrateur`. Une fenêtre devrait s'ouvrir puis se fermer automatiquement.
 
-4. Supprimez l'ensemble de répertoire du service.
+4. Supprimez l'ensemble du répertoire du service.
 
 <!-- ### Suppression forcée du service dans Windows {#remove_cmd}
 

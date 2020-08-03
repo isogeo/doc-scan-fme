@@ -31,7 +31,7 @@ La licence de FME utilisée est de nouveau disponible pour d'autres usages une f
 4. Une fois terminé, le scan vous indique :
 
     * La liste complète des données recensées. Dans cette liste, chaque donnée est caractérisée par un identifiant unique, son nom, son emplacement, son format et son statut (nouveau, modifiée, déplacée, inchangée, erreur). 
-    * Vous pouvez trier ce tableau et rechercher une table. Un système de paginationation a également été mis en place.
+    * Vous pouvez trier ce tableau et rechercher une table. Un système de pagination a également été mis en place.
 
 La liste complète des données recensées pendant le scan vous permet d’identifier :
 

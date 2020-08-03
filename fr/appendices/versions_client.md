@@ -6,7 +6,7 @@ description: Notes de versions (changelog) du Scan FME Isogeo (client Windows)
 
 Indépendant de la plateforme, le service est mis à jour autoamtiquement lorsque des anomalies sont remontées ou pour couvrir de nouveaux besoins identifiés (nouveaux formats par exemple). Attention, ne pas confondre avec les mises à jour concernant l'interface dadministration du scan à laquelle vous accédez via [https://app.isogeo.com/admin/isogeo-worker](https://app.isogeo.com/admin/isogeo-worker).
 
-Vous pouvez facilement vérifier la version du service installée en ouvrant la page de détail du service en cliquant sur son nom depuis l'interface. Une note de version accompagne le service. 
+Vous pouvez facilement vérifier la version du service installée en ouvrant la page de détail du service en cliquant sur son nom depuis l'interface. Une note de version accompagne le service.
 
 ![Scan FME - Version du service](/assets/service_version.png)
 
@@ -18,6 +18,8 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### 2.6.0 (17 juin 2020)
 
+Voir [l'article de blog](https://www.isogeo.com/blog-et-actus/2020/06/16/Refonte-du-Scan-Isogeo-tour-d-horizon).
+
 * Nouveau protocole de communication avec le serveur (ne nécessite plus l'ouverture d'un port)
 * Introduction de la mise à jour automatique du service
 * Configuration du service à partir de l’interface de gestion et prise en compte immédiate
@@ -25,6 +27,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 * Mise à jour vers Node.js 12.18.0
 * Amélioration de la fiabilité du processus de scan
 * Corrections diverses
+
+_________
+
+## Versions obsolètes {#deprecated}
 
 ### 2.1.0
 
@@ -95,10 +101,6 @@ Voir [la lettre dinformations](http://eepurl.com/b8uYqb).
 ### 1.0.21
 
 * Possibilité d’arrêter une requête.
-
-_________
-
-## Versions obsolètes {#deprecated}
 
 > Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s'affiche en orange.
 
