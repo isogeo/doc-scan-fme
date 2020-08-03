@@ -24,13 +24,13 @@ Lors de sa refonte en 2020, une nouvelle architecture a été mise en place ne n
 * un service ne peut être lié quà un seul groupe de travail.
 * une licence FME peut être utilisée par plusieurs services.
 
-## Guide vidéo {#video}
+<!-- ## Guide vidéo {#video}
 
 
 {% youtube %}
 <https://www.youtube.com/watch?v=gLCSeQZMqvs>
 {% endyoutube %}
 
-----
+---- -->
 
 Date de la dernière mise à jour de cette documentation : **{{ gitbook.time | date("DD/MM/YYYY") }}**.
