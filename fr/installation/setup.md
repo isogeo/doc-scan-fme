@@ -79,7 +79,7 @@ Exemple :
 ```json
 
 {
-  "httpsProxy": "http://user.pass@proxy:8080"
+  "httpsProxy": "http://user:pass@proxy:8080"
 }
 
 ```
