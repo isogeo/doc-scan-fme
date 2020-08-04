@@ -77,11 +77,9 @@ Le client peut être utilisé derrière un proxy d'entreprise. Pour cela, il fau
 Exemple :
 
 ```json
-
 {
   "httpsProxy": "http://user:pass@proxy:8080"
 }
-
 ```
 
-Si la connexion n'est toujours pas affective, [contacter le support](/support/support.md).
+Si la connexion n'est toujours pas effective, [contacter le support](/support/support.md).
