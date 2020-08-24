@@ -12,7 +12,7 @@ Basé sur l'ETL FME, édité par Safe Software, il permet de lire un très grand
 
 ![Logo Safe Software - FME](/assets/logo_safe_fme.png)
 
-Lors de sa refonte en 2020, une nouvelle architecture a été mise en place ne nécéssitant plus l'ouverture d'un port spécifique pour la communication. Une nouvelle interface, et une API dédiée ont également été mis en place.
+Lors de sa refonte en 2020, une nouvelle architecture a été mise en place ne nécéssitant plus l'ouverture d'un port spécifique pour la communication. Une nouvelle interface, et une API dédiée ont également été mises en place.
 
 ## Architecture {#architecture}
 
@@ -21,7 +21,7 @@ Lors de sa refonte en 2020, une nouvelle architecture a été mise en place ne n
 ## Relations logiques {#relations}
 
 * un groupe de travail peut installer plusieurs services.
-* un service ne peut être lié quà un seul groupe de travail.
+* un service ne peut être lié qu'à un seul groupe de travail.
 * une licence FME peut être utilisée par plusieurs services.
 
 <!-- ## Guide vidéo {#video}

@@ -4,7 +4,7 @@ description: Fonctionnement global du Scan FME (Isogeo)
 
 # Fonctionnement global du Scan FME {#operation}
 
-Le Scan s'appuie sur FME pour parcourir les données et nécessite donc qu'une licence soit disponible durant le processus. Par défaut, le scan lance jusquà 3 instances de FME en parallèle, avec une seule licence utilisée (voir [Configuration du service](/configuration/configuration.md#scan_concurrency)).
+Le Scan s'appuie sur FME pour parcourir les données et nécessite donc qu'une licence soit disponible durant le processus. Par défaut, le scan lance jusqu'à 3 instances de FME en parallèle, avec une seule licence utilisée (voir [Configuration du service](/configuration/configuration.md#scan_concurrency)).
 
 Chaque instance s'occupe d'une action associée à une donnée : par exemple *signer GEOFLA.DEPARTEMENTS* ou *documenter GEOFLA.COMMUNES*. Une file d'attente (indépendante des points d'entrée) démarre une nouvelle instance dès qu'une se termine.
 
