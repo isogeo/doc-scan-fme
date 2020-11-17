@@ -32,7 +32,7 @@
             "selector": ".markdown-section h2, .markdown-section h3"
         },
         "sitemap-general": {
-            "prefix": "http://help.isogeo.com/scan/"
+            "prefix": "https://help.isogeo.com/scan/"
         }
     },
     "variables": {
