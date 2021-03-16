@@ -10,11 +10,14 @@ Le Scan FME utilise le protocole HTTPS.
 
 Pour que le client du Scan FME puisse communiquer correctement avec les serveurs d'Isogeo, il faut s'assurer que :
 
-* votre navigateur peut accéder aux différents sites Internet gérés par Isogeo (tous nos sites ont des domaines qui se terminent par isogeo.com et utilisent le protocole sécurisé HTTPS) tel que [https://app.isogeo.com](https://app.isogeo.com)
+* votre système d’exploitation peut se connecter au port **443** vers le domaine **scan.isogeo.com**, à l'aide du **protocole HTTPS sécurisé** (obligatoire)
+* votre navigateur peut accéder aux différents sites Internet gérés par Isogeo (tous nos sites ont des domaines qui se terminent par isogeo.com et utilisent le protocole sécurisé HTTPS) tel que [https://app.isogeo.com](https://app.isogeo.com) (optionnel mais pratique pour télécharger le service depuis l'interface sur le serveur)
 
-* votre système d’exploitation peut se connecter au port **443** vers le domaine **scan.isogeo.com**, à l'aide du **protocole HTTPS sécurisé**.
+## Proxy {#proxy}
 
-Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts qu'ils autorisent bien les communications. Généralement vous obtiendrez ces informations auprès de votre service informatique.
+Si la connexion au réseau nécessite de configurer le proxy, il faudra indiquer l'url *http* de celui-ci dans le répertoire d'installation du service (cf. [Configuration du proxy](setup.html#config_proxy)). Il faut donc récupérer cette url auprès de votre DSI pour l'installation. Un couple utilisateur/mot de passe pour également être nécessaire pour s'authentifier au proxy.
+
+<!-- Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts qu'ils autorisent bien les communications. Généralement vous obtiendrez ces informations auprès de votre service informatique. -->
 
 ----
 
