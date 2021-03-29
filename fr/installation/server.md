@@ -20,7 +20,7 @@ Les versions de Windows supportées sont (les versions  en **gras** sont recomma
 Vous devez créer un compte utilisateur Windows dans votre domaine permettant :
 
 * d'exécuter FME Desktop,
-* d'installer le service windows et d'écrire dans son répertoire d'installation,
+* d'installer le service windows et d'écrire dans son répertoire d'installation (pour les mises à jour automatiques notamment),
 * d’accéder aux ressources réseaux nécessaires pour lire vos données SIG,
 
 Il est préférable que l'utilisateur Isogeo soit *administrateur local* sur le serveur.
