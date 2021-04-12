@@ -20,11 +20,6 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé `
 
 * [Logiciels](installation/softwares.md)  
   * FME Desktop 2018-2020
-  
-  | Edition de FME           | Format de donnée                                                                 |
-|--------------------------|----------------------------------------------------------------------------------|
-| FME Professional Edition | Tous les formats pris en compte par le scan sauf les **Esri Geodatabase ArcSDE** |
-| FME Esri Edition         | Tous les formats pris en compte par le scan                                      |
   * ArcGIS Desktop (si formats Esri)
   * Client Oracle (si base Oracle)
 
