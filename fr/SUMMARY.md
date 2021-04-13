@@ -11,7 +11,7 @@
 * [Préréquis logiciels](installation/softwares.md)
 * [Réseau](installation/network.md)
 * [Installer un service](installation/setup.md)
-* [Désinstaller](installation/uninstall.md))
+* [Désinstaller](installation/uninstall.md)
 * [Mettre à jour](installation/update.md)
 
 ## Configuration avancée

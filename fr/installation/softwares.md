@@ -3,11 +3,11 @@ description: Paramètres logiciels (FME, ArcGIS) du service client du Scan FME (
 ---
 # Logiciels
 
-## Edition de FME nécessaire selon les formats de données scannées {FME_Edition}
+## Edition de FME nécessaire selon les formats de données scannées {#FME_Edition}
 
 Il existe plusieurs éditions de FME utilisables selon le(s) format(s) de données à scanner.
 
-| Edition de FME           | Format de donnée                                                                              |
+| Edition de FME           | Formats de données                                                                              |
 |--------------------------|-----------------------------------------------------------------------------------------------|
 | FME Professional Edition | Tous les formats pris en compte par le scan sauf les **Esri Entreprise Geodatabase (ArcSDE)** |
 | FME Esri Edition         | Tous les formats pris en compte par le scan                                                   |
@@ -16,7 +16,7 @@ Il existe plusieurs éditions de FME utilisables selon le(s) format(s) de donné
 
 FME Desktop doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques. Points de vérification :
 
-* édition de la licence (Professionnal ou Esri Edition pour SDE)  ;
+* édition de la licence (Professionnal ou Esri Edition pour SDE) ;
 * jeton de licence FME disponible au moment du scan ;
 * architecture 32 ou 64 bits ;
 * plugins spécifiques.
