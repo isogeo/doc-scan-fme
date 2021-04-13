@@ -7,7 +7,7 @@ description: Paramètres logiciels (FME, ArcGIS) du service client du Scan FME (
 
 FME Desktop doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques. Points de vérification :
 
-* édition de la licence (cf. [Formats pris en charge par le scan](softwares.html)) ;
+* édition de la licence (cf. [Formats pris en charge par le scan](/usage/formats.md)) ;
 * jeton de licence FME disponible au moment du scan ;
 * architecture 32 ou 64 bits ;
 * plugins spécifiques.
