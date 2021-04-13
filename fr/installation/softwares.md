@@ -3,7 +3,7 @@ description: Paramètres logiciels (FME, ArcGIS) du service client du Scan FME (
 ---
 # Logiciels
 
-## Edition de FME nécessaire selon les formats de données scannées
+## Edition de FME nécessaire selon les formats de données scannées {FME_Edition}
 
 Il existe plusieurs éditions de FME utilisables selon le(s) format(s) de données à scanner.
 
