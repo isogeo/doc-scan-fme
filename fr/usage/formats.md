@@ -20,7 +20,7 @@ La liste suivante présente les formats de données pris en charge par le scan e
 | AutoDesk SDF (.sdf)                                                                                               | x                      | x              | x                  |
 | ER Mapper ECW (.ecw)                                                                                              | x                      | x              | x                  |
 | Esri ASCII Grid (.grd, .asc)                                                                                      | x                      | x              | x                  |
-| Esri File Geodatabase (.gdb)                                                                                      | x                      | x              | x                  |
+| Esri File Geodatabase (.gdb)                                                                                      | -                      | x              | x                  |
 | Esri Personal Geodatabase (.mdb)                                                                                  | x                      | x              | x                  |
 | Esri shapefiles (.shp)                                                                                            | x                      | x              | x                  |
 | Geography Markup Language (.gml) [seulement la 1ère couche dans lordre alphabétique]                              | x                      | x              | x                  |
@@ -49,6 +49,5 @@ La liste suivante présente les formats de SGBD pris en charge par le scan et l'
 | PostGIS                                | x                      | x              | x                  |
 | Esri Enterprise Geodatabase (ArcSDE)   | -                      | x              | x                  |
 | Oracle Spatial                         | -                      | -              | x                  |
-| MySQL                                  | -                      | -              | x                  |
 
 Tous les formats ne sont néanmoins pas pris en compte au même degré et de la même façon, compte-tenu de leurs spécificités.
