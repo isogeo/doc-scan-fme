@@ -14,30 +14,30 @@ La liste suivante présente les formats de données pris en charge par le scan e
 
 | Formats de fichiers                                                                                               | Professional Edition   | Esri Edition   | Database Edition   |
 |:-----------------------------------------------------------------------------------------------------------------:|:----------------------:|:--------------:|:------------------:|
-|                                          Apic Exchange Format (.asc)                                              | x                      | -              | -                  |
-| AutoCAD DWG (.dwg)                                                                                                | x                      | -              | -                  |
-| AutoDesk DXF (.dxf)                                                                                               | x                      | -              | -                  |
-| AutoDesk SDF (.sdf)                                                                                               | x                      | -              | -                  |
-| ER Mapper ECW (.ecw)                                                                                              | x                      | -              | -                  |
-| Esri ASCII Grid (.grd, .asc)                                                                                      | x                      | -              | -                  |
-| Esri File Geodatabase (.gdb)                                                                                      | x                      | -              | -                  |
-| Esri Personal Geodatabase (.mdb)                                                                                  | x                      | -              | -                  |
-| Esri shapefiles (.shp)                                                                                            | x                      | -              | -                  |
-| Geography Markup Language (.gml) [seulement la 1ère couche dans lordre alphabétique]                              | x                      | -              | -                  |
-| GeoTIFF (.geotiff)                                                                                                | x                      | -              | -                  |
-| Google Earth (.kml / .kmz) [seulement la 1ère couche dans lordre alphabétique]                                    | x                      | -              | -                  |
-| GPS eXchange Format (.gpx)                                                                                        | x                      | -              | -                  |
-| Intergraph GeoMedia database (.mdb)                                                                               | x                      | -              | -                  |
-| JPEG (.jpg / .jpeg)                                                                                               | x                      | -              | -                  |
-| JPEG 2000 (.jp2)                                                                                                  | x                      | -              | -                  |
-| Lidar Data Exchange Format (.las, .laz, .lasd)                                                                    | x                      | -              | -                  |
-| MapInfo tables (.tab)                                                                                             | x                      | -              | -                  |
-| MapInfo Interchange Format (.mif / .mid)                                                                          | x                      | -              | -                  |
-| MicroStation DGN (.dgn)                                                                                           | x                      | -              | -                  |
-| Portable Network Graphics (.png)                                                                                  | x                      | -              | -                  |
-| SpatiaLite (.sqlite)                                                                                              | x                      | -              | -                  |
-| TIFF (.tiff)                                                                                                      | x                      | -              | -                  |
-| XYZ (.xyz) [seulement pour les fichiers contenant 3 colonnes attributaires (X Y et Z) séparées par des espaces]   | x                      | -              | -                  |
+|                                          Apic Exchange Format (.asc)                                              | x                      | x              | x                  |
+| AutoCAD DWG (.dwg)                                                                                                | x                      | x              | x                  |
+| AutoDesk DXF (.dxf)                                                                                               | x                      | x              | x                  |
+| AutoDesk SDF (.sdf)                                                                                               | x                      | x              | x                  |
+| ER Mapper ECW (.ecw)                                                                                              | x                      | x              | x                  |
+| Esri ASCII Grid (.grd, .asc)                                                                                      | x                      | x              | x                  |
+| Esri File Geodatabase (.gdb)                                                                                      | x                      | x              | x                  |
+| Esri Personal Geodatabase (.mdb)                                                                                  | x                      | x              | x                  |
+| Esri shapefiles (.shp)                                                                                            | x                      | x              | x                  |
+| Geography Markup Language (.gml) [seulement la 1ère couche dans lordre alphabétique]                              | x                      | x              | x                  |
+| GeoTIFF (.geotiff)                                                                                                | x                      | x              | x                  |
+| Google Earth (.kml / .kmz) [seulement la 1ère couche dans lordre alphabétique]                                    | x                      | x              | x                  |
+| GPS eXchange Format (.gpx)                                                                                        | x                      | x              | x                  |
+| Intergraph GeoMedia database (.mdb)                                                                               | x                      | x              | x                  |
+| JPEG (.jpg / .jpeg)                                                                                               | x                      | x              | x                  |
+| JPEG 2000 (.jp2)                                                                                                  | x                      | x              | x                  |
+| Lidar Data Exchange Format (.las, .laz, .lasd)                                                                    | x                      | x              | x                  |
+| MapInfo tables (.tab)                                                                                             | x                      | x              | x                  |
+| MapInfo Interchange Format (.mif / .mid)                                                                          | x                      | x              | x                  |
+| MicroStation DGN (.dgn)                                                                                           | x                      | x              | x                  |
+| Portable Network Graphics (.png)                                                                                  | x                      | x              | x                  |
+| SpatiaLite (.sqlite)                                                                                              | x                      | x              | x                  |
+| TIFF (.tiff)                                                                                                      | x                      | x              | x                  |
+| XYZ (.xyz) [seulement pour les fichiers contenant 3 colonnes attributaires (X Y et Z) séparées par des espaces]   | x                      | x              | x                  |
 
 ## Les systèmes de gestion de bases de données (SGBD) {#sgbd}
 
@@ -45,9 +45,10 @@ La liste suivante présente les formats de SGBD pris en charge par le scan et l'
 
 | SGBD                                   | Professional Edition   | Esri Edition   | Database Edition   |
 |:--------------------------------------:|:----------------------:|:--------------:|:------------------:|
-| Esri Enterprise Geodatabase (ArcSDE)   | -                      | x              | -                  |
-| Microsoft SQL Server Spatial           | x                      | -              | -                  |
+| Microsoft SQL Server Spatial           | x                      | x              | x                  |
+| PostGIS                                | x                      | x              | x                  |
+| Esri Enterprise Geodatabase (ArcSDE)   | -                      | x              | x                  |
 | Oracle Spatial                         | -                      | -              | x                  |
-| PostGIS                                | x                      | -              | -                  |
+| MySQL                                  | -                      | -              | x                  |
 
 Tous les formats ne sont néanmoins pas pris en compte au même degré et de la même façon, compte-tenu de leurs spécificités.
