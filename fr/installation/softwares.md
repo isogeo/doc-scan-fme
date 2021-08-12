@@ -39,7 +39,7 @@ Selon votre installation Esri, voici la version de FME à installer.
 | ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Desktop (64 bits) |
 |                               ArcGIS Pro (64 bits)                              | FME Desktop (64 bits) |
 
-Cependant, pour éviter tout problème de compatibilité, il est recommandé de mettre en place la première configuration ArcGIS Desktop et FME 32 bits.
+> NB : Pour que la licence ArcGIS Pro fonctionne, il faut authentifier le logiciel avec l'utilisateur qui lance le service.
 
 <!-- 1. Tout d'abord, il faut **la version 32 bits de FME** et si possible l'édition Esri
 2. Ensuite :
