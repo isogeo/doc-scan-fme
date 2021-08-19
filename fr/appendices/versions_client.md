@@ -12,6 +12,31 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Version 2.9.1 (août 2021)
+
+- Prise en charge du format geojson `.geojson`
+
+### Version 2.9.0 (22 avril 2021)
+
+- Réécriture significative du gestionnaire de tâches
+- Ajout d’un mécanisme “heartbeat” pour notifier la plateforme qu’une tâche est toujours en cours
+- Amélioration de l’auto-nettoyage des fichiers temporaires
+- Amélioration de la prise en charge ESRI GDB
+
+### Version 2.8.1 (9 mars 2021)
+
+- Correction de la stratégie de mise à jour automatique
+
+### Version 2.8.0 (9 mars 2021)
+
+- Meilleure détection des processus FME en erreur
+- Amélioration de la stabilité du client Isogeo
+- Ajout d'une fonctionnalité de redémarrage à distance du client Isogeo
+
+### Version 2.7.0 (9 septembre 2020)
+
+- Support des proxy HTTP/HTTPS côté client
+
 ### 2.6.1 (24 juin 2020)
 
 * Correction d’un bug lors de l’étape “Recenser” affectant les bases de données comportant plusieurs centaines de couches
