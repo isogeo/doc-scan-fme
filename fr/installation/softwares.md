@@ -39,7 +39,11 @@ Selon votre installation Esri, voici la version de FME à installer.
 | ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Desktop (64 bits) |
 |                               ArcGIS Pro (64 bits)                              | FME Desktop (64 bits) |
 
-> NB : Pour que la licence ArcGIS Pro fonctionne, il faut authentifier le logiciel avec l'utilisateur qui lance le service.
+> NB : Pour que la licence ArcGIS Pro fonctionne, il faut :
+> * authentifier le logiciel avec l'utilisateur qui lance le service
+> * paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Desktop, menu "Tools" > "FME Options" > onglet "Translations" > rubrique "Python Interpreter" :
+>   * "Preferred Python Interpreter" : sélectionner "Use Custom Interpreter..." dans la liste déroulante puis indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3\python3.dll" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
+>   * "Python Home (PYTHONHOME")" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
 
 <!-- 1. Tout d'abord, il faut **la version 32 bits de FME** et si possible l'édition Esri
 2. Ensuite :
