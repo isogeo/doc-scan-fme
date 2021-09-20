@@ -16,9 +16,9 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 ## Ajouter un point d'entrée vers une base de donnée {#process}
 
 1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau... » ;
-2. Sélectionner le type « Base de données (PostGIS, Oracle, SQL Server) » ;
-3. Nommer le point d’entrée.
-4. Sélectionner le type de base de données dans la liste déroulante. ;
+2. Sélectionner le type de point d'entrée « Base de données (PostGIS, Oracle, SQL Server) » ;
+3. Nommer le point d’entrée ;
+4. Sélectionner le type de base de données dans la liste déroulante ;
 5. Saisir les paramètres de connexion ;
 6. Sauvegarder.
 
@@ -26,11 +26,11 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 
 ## Paramètres requis selon le type de base de données {#parameters}
 
-Légende :
+<!-- Légende :
 
 * X = requis
 * \ = facultatif
-* \- = désactivé
+* \- = désactivé -->
 
 | Champ                       | PostGIS | Oracle | SQL Server |
 | --------------------------- | :-----: | :----: | :--------: |
