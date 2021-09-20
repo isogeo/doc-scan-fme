@@ -37,14 +37,14 @@ Il est également possible de forcer la version par défaut de FME dans le syst�
 
 ![Scan FME - Version par défaut système](/assets/install_fmePath_registry.png "Scan FME - Forcer la version de FME dans la base de registre")
 
-## Version des scripts FME {#fme_scripts_version}
+<!-- ## Version des scripts FME {#fme_scripts_version}
 
 Selon la version détéctée automatiquement ou configurée ci-dessous, sélectionnez la version des scripts FME à utiliser.
 
 * Pour les versions 2016 et inférieures, sélectionnez *2016*.
 * Pour la version 2018, sélectionnez la version correspondante (version par défaut).
 
-![Choisir la version des scripts FME](/assets/config_service_scripts_version.png)
+![Choisir la version des scripts FME](/assets/config_service_scripts_version.png) -->
 
 ## Paralléliser le Scan {#scan_concurrency}
 
