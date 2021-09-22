@@ -43,3 +43,9 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 | Nom de la base de données   | X       |        | X          |
 <!-- | Nom de l'instance           | -       |        |            |
 | Version transactionnelle    | -       |        |            | -->
+
+### Cas spécifique des bases Oracles
+
+Pour les bases Oracle, il n'est pas nécessaire de renseigner le port et le nom de la base de donnée. 
+En revanche, vous pouvez indiquer dans le champs `Serveur`, soit l'hôte du serveur (ip ou domaine), soit le nom de l'instance configurée dans le fichier `tnsnames.ora` selon la configuration de votre environnement.
+Attention à ne pas basculer de l'un à l'autre en modifiant le champ `Serveur`. En effet, cela peut entrainer des doublons puisque le Scan considère qu'il ne s'agit pas de la même base de donnée. 
