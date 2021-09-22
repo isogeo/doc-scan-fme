@@ -19,7 +19,7 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé `
   * Url http du proxy (si besoin de le configurer)
 
 * [Logiciels](installation/softwares.md)  
-  * FME Desktop 2018-2020
+  * FME Desktop 2018.1.2.1 à 2020.1.2.1
   * ArcGIS Desktop ou ArcGIS Pro (si formats Esri)
   * Client Oracle (si base Oracle)
 
