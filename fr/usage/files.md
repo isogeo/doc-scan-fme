@@ -2,7 +2,7 @@
 description: Créer un point d'entrée de type arborescence de fichiers pour le Scan FME Isogeo
 ---
 
-# Arborescence de fichiers <i class="fa fa-folder-open"></i> {#files}
+# Système de fichiers <i class="fa fa-folder-open"></i> {#files}
 
 Indiquer le chemin absolu d'accès à une arborescence de répertoires contenant les données géographiques.
 
@@ -31,3 +31,9 @@ Pour créer un point d’entrée « Fichiers » :
 6. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
 
     ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
+    
+### Concernant les ESRI FileGDB {#filegdb}
+
+Quelques précisions concernant ce format :
+* Pour scanner une FileGDB ESRI, il faut indiquer comme "Chemin du répertoire", l'emplacement du répertoire dans lequel se situe le dossier `.gdb`. Par exemple, pour scanner `C://SIG/datas/FGDB/MyGDB.gdb` il faut indiquer `C://SIG/datas/FGDB` comme "Chemin du répertoire" et non `C://SIG/datas/FGDB/MyGDB.gdb`.
+* Dans le cas où le répertoire indiqué contient plusieurs dossiers `.gdb`, si le nombre de dossiers `.gdb` est supérieur au [nombre d'appels FME simultanés](/configuration/configuration.html#scan_concurrency) configuré pour le service, il est probable que toutes les données ne soient pas recensés et que le résultat du scan varie d'une requête à l'autre. Par conséquent, nous vous recommandons de faire attention au nombre de dossiers `.gdb` présents dans le répertoire.
