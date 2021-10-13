@@ -29,7 +29,7 @@ Pour télécharger FME :
 
 Pour plus d’informations, veuillez contacter votre distributeur FME.
 
-### Cas spécifique pour les formats Esri {#esri}
+## Cas spécifique pour les formats Esri {#esri}
 
 Selon votre installation Esri, voici la version de FME à installer.
 
@@ -39,12 +39,6 @@ Selon votre installation Esri, voici la version de FME à installer.
 | ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Desktop (64 bits) |
 |                               ArcGIS Pro (64 bits)                              | FME Desktop (64 bits) |
 
-> NB : Pour que la licence ArcGIS Pro fonctionne, il faut :
-> * authentifier le logiciel avec l'utilisateur qui lance le service
-> * paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Desktop, menu "Tools" > "FME Options" > onglet "Translations" > rubrique "Python Interpreter" :
->   * "Preferred Python Interpreter" : sélectionner "Use Custom Interpreter..." dans la liste déroulante puis indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3\python3.dll" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
->   * "Python Home (PYTHONHOME")" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
-
 <!-- 1. Tout d'abord, il faut **la version 32 bits de FME** et si possible l'édition Esri
 2. Ensuite :
     * soit ArcGIS Desktop 32 bits sur la même machine avec une licence disponible pendant toute la durée du Scan - méthode recommandée ;
@@ -53,14 +47,29 @@ Selon votre installation Esri, voici la version de FME à installer.
 
     ![Scan - ArcGIS SDE license](/assets/install_SDE_env_var_arcgis_licensing.png "Variable d'environnement pour le serveur de licence d'ArcGIS") -->
 
-Pour aller plus loin :
+### Avec ArcGIS Pro
+
+Pour que la licence ArcGIS Pro fonctionne, il faut :
+* authentifier le logiciel avec l'utilisateur qui lance le service
+* paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Desktop, menu "Tools" > "FME Options" > onglet "Translations" > rubrique "Python Interpreter" :
+  * "Preferred Python Interpreter" : sélectionner "Use Custom Interpreter..." dans la liste déroulante puis indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3\python3.dll" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
+  * "Python Home (PYTHONHOME")" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
+
+### Avec ArcMap et FME en version 64 bits
+
+Pour que la licence ArcMap fonctionne avec FME en version 64 bits, il faut :
+* installer le ArcGIS Desktop Background Geoprocessing 64bits.
+* ajouter une variable d'environnement système "SDEHOME" dont la valeur est "C:\Program Files (x86)\ArcGIS\Desktop10.8\bin64" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcMap)
+
+### Pour aller plus loin
 
 * consulter cet [article](https://www.inser.ch/fr/content/fme-et-arcgis-desktoparcgis-pro) sur la compatibilité FME/Esri ;
 * consulter la [matrice des formats et versions de FME](https://www.safe.com/fme/formats-matrix/#search=arcsde) ;
 * consulter [l'article dédié [en]](https://knowledge.safe.com/articles/1517/notes-on-fme-and-esri-versions-and-compatibility.html) à ces questions d'interopérabilité sur le site de Safe, éditeur de FME.
 
-### Oracle {#oracle}
+## Base de données Oracle {#oracle}
 
-Pour pouvoir se connecter aux bases Oracle, il est nécessaire d'avoir installé le client Oracle Instant.
+Pour accéder à une base Oracle, que la cartouche spatiale soit Oracle Spatial ou ArcSDE, il est nécessaire d'avoir installé une instance de client : [Oracle Instant Client Basic Light](https://www.oracle.com/database/technologies/instant-client.html).
 
-* [Oracle Instant Client Basic Light](https://www.oracle.com/database/technologies/instant-client.html) 19.5, téléchargeable [ici en 64 bits](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html) et [là en 32 bits](https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html).
+* [téléchargeable ici en 64 bits](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html), si FME a été installé en version 64 bits
+* [téléchargeable ici en 32 bits](https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html), si FME a été installé en version 32 bits
