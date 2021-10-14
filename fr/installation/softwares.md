@@ -12,26 +12,21 @@ FME Desktop doit être installé et parfaitement configuré pour accéder et man
   * Esri Edition ;
   * Database Edition ;
 * jeton de licence FME disponible au moment du scan ;
-* architecture 32 ou 64 bits ;
+* architecture 32 ou 64 bits selon configuration Esri ou Oracle ;
 * plugins spécifiques.
 
 À ce jour, les versions de FME supportées sont :
 
 * de FME Desktop 2018.1.2.1;
-* à FME Desktop 2020.1.2.1
+* à FME Desktop 2020.2.4
 
-Ainsi que les Service Pack associés.
+Pour télécharger FME, consulter le [site de safe](https://www.safe.com/support/downloads/#past-versions).
 
-Pour télécharger FME :
-
-* la dernière version compatible [en 32 bits](https://downloads.safe.com/fme/2018/fme-desktop-2018.1.2.1-b18592-win-x86.msi) ou [en 64 bits](https://downloads.safe.com/fme/2018/fme-desktop-2018.1.2.1-b18592-win-x64.msi) ;
-* une [ancienne version spécifique](https://www.safe.com/support/support-resources/fme-downloads/archived/).
-
-Pour plus d’informations, veuillez contacter votre distributeur FME.
+Pour plus d’informations, consulter la [matrice des formats et versions de FME](https://www.safe.com/fme/formats-matrix/) ;
 
 ## Cas spécifique pour les formats Esri {#esri}
 
-Selon votre installation Esri, voici la version de FME à installer.
+Selon votre installation Esri, voici la version de FME à installer. Consulter également [l'article dédié [en]](https://knowledge.safe.com/articles/1517/notes-on-fme-and-esri-versions-and-compatibility.html) aux compatibilités entre FME et ArcGIS Desktop/Pro sur le site de Safe, éditeur de FME.
 
 |                                Installation Esri                                |     Version de FME    |
 |:-------------------------------------------------------------------------------:|:---------------------:|
@@ -39,33 +34,19 @@ Selon votre installation Esri, voici la version de FME à installer.
 | ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Desktop (64 bits) |
 |                               ArcGIS Pro (64 bits)                              | FME Desktop (64 bits) |
 
-<!-- 1. Tout d'abord, il faut **la version 32 bits de FME** et si possible l'édition Esri
-2. Ensuite :
-    * soit ArcGIS Desktop 32 bits sur la même machine avec une licence disponible pendant toute la durée du Scan - méthode recommandée ;
-    * soit installer les librairies SDE sur la machine où est installée votre FME ([voir cet article](https://knowledge.safe.com/articles/358/arcsde-libraries-required-for-the-esri-arcsde-sde3.html)) - méthode plus complexe.
-3. Si ArcGIS est en licence flottante liée à un serveur de licences distant, ajouter la variable d'environnement `ARCGIS_LICENCE_FILE` (voir [la doc Esri](http://resources.arcgis.com/fr/help/install-guides/license-manager/10.1/index.html#/Defining_port_host_to_one_or_more_license_servers/00790000000t000000/)) avec pour valeur le port et l'adresse de votre serveur de licence (information située dans ArcGIS Administrator) :
+### Avec ArcMap et FME en version 64 bits
 
-    ![Scan - ArcGIS SDE license](/assets/install_SDE_env_var_arcgis_licensing.png "Variable d'environnement pour le serveur de licence d'ArcGIS") -->
+Pour que la licence ArcMap fonctionne avec FME en version 64 bits, il faut :
+* installer le [ArcGIS Desktop Background Geoprocessing 64 bits](https://desktop.arcgis.com/fr/arcmap/latest/analyze/executing-tools/64bit-background.htm).
+* ajouter une variable d'environnement système "SDEHOME" dont la valeur est "C:\Program Files (x86)\ArcGIS\Desktop10.8\bin64" (cet emplacement peut différer dépendamment de votre installation et de votre version du logiciel ArcMap)
 
 ### Avec ArcGIS Pro
 
 Pour que la licence ArcGIS Pro fonctionne, il faut :
-* authentifier le logiciel avec l'utilisateur qui lance le service
+* authentifier le logiciel avec l'utilisateur qui lance le service, c'est à dire qu'il faut se connecter à distance au serveur avec la session de l'utilisateur Isogeo puis ouvrir ArcGIS Pro et l'authentifier.
 * paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Desktop, menu "Tools" > "FME Options" > onglet "Translations" > rubrique "Python Interpreter" :
   * "Preferred Python Interpreter" : sélectionner "Use Custom Interpreter..." dans la liste déroulante puis indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3\python3.dll" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
   * "Python Home (PYTHONHOME")" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
-
-### Avec ArcMap et FME en version 64 bits
-
-Pour que la licence ArcMap fonctionne avec FME en version 64 bits, il faut :
-* installer le ArcGIS Desktop Background Geoprocessing 64bits.
-* ajouter une variable d'environnement système "SDEHOME" dont la valeur est "C:\Program Files (x86)\ArcGIS\Desktop10.8\bin64" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcMap)
-
-### Pour aller plus loin
-
-* consulter cet [article](https://www.inser.ch/fr/content/fme-et-arcgis-desktoparcgis-pro) sur la compatibilité FME/Esri ;
-* consulter la [matrice des formats et versions de FME](https://www.safe.com/fme/formats-matrix/#search=arcsde) ;
-* consulter [l'article dédié [en]](https://knowledge.safe.com/articles/1517/notes-on-fme-and-esri-versions-and-compatibility.html) à ces questions d'interopérabilité sur le site de Safe, éditeur de FME.
 
 ## Base de données Oracle {#oracle}
 
