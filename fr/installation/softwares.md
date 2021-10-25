@@ -46,7 +46,7 @@ Pour que la licence ArcGIS Pro fonctionne, il faut :
 * authentifier le logiciel avec l'utilisateur qui lance le service, c'est à dire qu'il faut se connecter à distance au serveur avec la session de l'utilisateur Isogeo puis ouvrir ArcGIS Pro et l'authentifier.
 * paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Desktop, menu "Tools" > "FME Options" > onglet "Translations" > rubrique "Python Interpreter" :
   * "Preferred Python Interpreter" : sélectionner "Use Custom Interpreter..." dans la liste déroulante puis indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3\python3.dll" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
-  * "Python Home (PYTHONHOME")" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
+  * "Python Home (PYTHONHOME)" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
 
 ## Base de données Oracle {#oracle}
 
