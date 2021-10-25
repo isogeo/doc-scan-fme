@@ -34,19 +34,19 @@ Selon votre installation Esri, voici la version de FME à installer. Consulter �
 | ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Desktop (64 bits) |
 |                               ArcGIS Pro (64 bits)                              | FME Desktop (64 bits) |
 
-### Avec ArcMap et FME en version 64 bits
+### Avec ArcMap et FME en version 64 bits {#esri_arcmap}
 
 Pour que la licence ArcMap fonctionne avec FME en version 64 bits, il faut :
 * installer le [ArcGIS Desktop Background Geoprocessing 64 bits](https://desktop.arcgis.com/fr/arcmap/latest/analyze/executing-tools/64bit-background.htm).
 * ajouter une variable d'environnement système "SDEHOME" dont la valeur est "C:\Program Files (x86)\ArcGIS\Desktop10.8\bin64" (cet emplacement peut différer dépendamment de votre installation et de votre version du logiciel ArcMap)
 
-### Avec ArcGIS Pro
+### Avec ArcGIS Pro {#esri_argispro}
 
 Pour que la licence ArcGIS Pro fonctionne, il faut :
 * authentifier le logiciel avec l'utilisateur qui lance le service, c'est à dire qu'il faut se connecter à distance au serveur avec la session de l'utilisateur Isogeo puis ouvrir ArcGIS Pro et l'authentifier.
 * paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Desktop, menu "Tools" > "FME Options" > onglet "Translations" > rubrique "Python Interpreter" :
   * "Preferred Python Interpreter" : sélectionner "Use Custom Interpreter..." dans la liste déroulante puis indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3\python3.dll" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
-  * "Python Home (PYTHONHOME")" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
+  * "Python Home (PYTHONHOME")" : indiquer "C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
 
 ## Base de données Oracle {#oracle}
 
