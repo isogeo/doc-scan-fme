@@ -6,7 +6,7 @@ description: Mise à jour du service client du Scan FME (Isogeo)
 
 Les mises à jour sont effectuées automatiquement par Isogeo lors de la mise en production d'une nouvelle version.
 
-Vous pouvez consulter les notes de versions dans le détail du service
+Vous pouvez consulter les notes de versions dans le détail du service.
 
 ![Consulter les notes de version du service Isogeo](/assets/versions_notes.png)
 

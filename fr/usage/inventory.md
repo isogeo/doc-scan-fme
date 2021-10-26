@@ -30,7 +30,7 @@ La licence de FME utilisée est de nouveau disponible pour d'autres usages une f
 
 4. Une fois terminé, le scan vous indique :
 
-    * La liste complète des données recensées. Dans cette liste, chaque donnée est caractérisée 
+    * La liste complète des données recensées. Dans cette liste, chaque donnée est caractérisée par :
       * un identifiant unique
       * son nom de fichier ou de table
       * son type (Base de données, Vecteurs, Raster, CAO/DAO)
