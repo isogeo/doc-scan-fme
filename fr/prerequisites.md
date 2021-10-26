@@ -11,7 +11,7 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé `
   * un accès administrateur au groupe de travail pour télécharger le service et lancer les scans via <https://app.isogeo.com>
 
 * [Serveur](installation/server.md)
-  * Windows Server 2008, 2008 R2, **2012**, **2012 R2**, **2016** et **2019** ;
+  * Windows Server 2012, 2012 R2, 2016 et 2019
   * Compte utilisateur Windows ayant accès au ressources SIG
 
 * [Réseau](installation/network.md)
@@ -19,7 +19,7 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé `
   * Url http du proxy (si besoin de le configurer)
 
 * [Logiciels](installation/softwares.md)  
-  * FME Desktop 2018.1.2.1 à 2020.1.2.1
+  * FME Desktop 2018.1.2.1 à 2020.2.4
   * ArcGIS Desktop ou ArcGIS Pro (si formats Esri)
   * Client Oracle (si base Oracle)
 

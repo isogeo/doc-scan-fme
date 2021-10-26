@@ -12,8 +12,9 @@ Indiquer le chemin vers le fichier de connexion à la geodatabase d'entreprise �
 2. Sélectionner le type « Géodatabase d’entreprise Esri (SDE) » ;
 3. Nommer le point d’entrée.
 4. Dans `Fichier de connexion`, indiquer le chemin vers le fichier de connexion (.sde), ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur))
-5. Choississez dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique) 
-6. Sauvegarder.
+5. Choisir dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique)
+6. Si besoin, ajouter des schémas ou des tables à exclure.
+7. Sauvegarder.
 
 ![Nouveau point d'entrée SDE](/assets/new_DB_sde_ready.png)
 

@@ -16,7 +16,7 @@ Pour utiliser une autre version de FME, il suffit d'indiquer le chemin vers son 
 
 ![Configurer le chemin de FME](/assets/config_service_path_fme.png)
 
-### Ancienne méthode (dépréciée) {#scan_specific_version_depreciated}
+<!-- ### Ancienne méthode (dépréciée) {#scan_specific_version_depreciated}
 
 Pour les versions antérieures à la 2.5, le service est aussi configurable mais il faut effectuer les étapes suivantes : 
 
@@ -35,7 +35,7 @@ Pour les versions antérieures à la 2.5, le service est aussi configurable mais
 
 Il est également possible de forcer la version par défaut de FME dans le système via la base de registre de Windows :
 
-![Scan FME - Version par défaut système](/assets/install_fmePath_registry.png "Scan FME - Forcer la version de FME dans la base de registre")
+![Scan FME - Version par défaut système](/assets/install_fmePath_registry.png "Scan FME - Forcer la version de FME dans la base de registre") -->
 
 <!-- ## Version des scripts FME {#fme_scripts_version}
 
@@ -52,9 +52,9 @@ Le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la
 
 ![Choisir le nombre d'instances de FME](/assets/config_service_max_concurrency.png)
 
-### Ancienne méthode (dépréciée) {#scan_concurrency_depreciated}
+<!-- ### Ancienne méthode (dépréciée) {#scan_concurrency_depreciated}
 
-**Si** le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
+**Si** le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service. -->
 
 ## Choix de la branche {#branch}
 

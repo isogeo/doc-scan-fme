@@ -5,19 +5,15 @@
 * [Introduction](README.md)
 * [Prérequis](prerequisites.md)
 
-## Installation
+## Installation et configuration
 
 * [Configuration du serveur](installation/server.md)
 * [Préréquis logiciels](installation/softwares.md)
 * [Réseau](installation/network.md)
 * [Installer un service](installation/setup.md)
+* [Configurer un service](configuration/configuration.md)
 * [Désinstaller](installation/uninstall.md)
 * [Mettre à jour](installation/update.md)
-
-## Configuration avancée
-
-* [Configurer le service](configuration/configuration.md)
-* [Lier plusieurs services (déprécié)](configuration/multi_services.md)
 
 ## Usage
 
@@ -37,6 +33,5 @@
 
 * [Configuration de PostGIS](appendices/postgis.md)
 * [Métadonnées sans emprise ni SRS](appendices/scan_srsnotfound_fme_fix.md)
-* [Notes de versions - Client](appendices/versions_client.md)
-* [Notes de versions - Serveur](appendices/versions_server.md)
+* [Notes de versions](appendices/versions_client.md)
 * [Table des figures](pictures.md)

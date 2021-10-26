@@ -20,7 +20,9 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 3. Nommer le point d’entrée ;
 4. Sélectionner le type de base de données dans la liste déroulante ;
 5. Saisir les paramètres de connexion ;
-6. Sauvegarder.
+6. Choisir dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique)
+7. Si besoin, ajouter des schémas ou des tables à exclure.
+8. Sauvegarder.
 
     ![Nouveau point d'entrée de type base de donnée](/assets/new_DB_ready.png)
 
@@ -44,7 +46,7 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 <!-- | Nom de l'instance           | -       |        |            |
 | Version transactionnelle    | -       |        |            | -->
 
-### Cas spécifique des bases Oracles
+### Cas spécifique des bases Oracle
 
 Pour les bases Oracle, il n'est pas nécessaire de renseigner le port et le nom de la base de donnée. 
 En revanche, vous pouvez indiquer dans le champs `Serveur`, soit l'hôte du serveur (ip ou domaine), soit le nom de l'instance configurée dans le fichier `tnsnames.ora` selon la configuration de votre environnement.

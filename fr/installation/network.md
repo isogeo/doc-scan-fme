@@ -25,9 +25,9 @@ Si la connexion au réseau nécessite de configurer le proxy, il faudra indiquer
 
 ### Sécurisation des accès et des transmissions
 
-* Le service Isogeo (composant client) communique avec la plateforme Isogeo lors de certaines opérations d’administration (scan des données géographiques et synchronisation). L’authentification se fait par identifiants et la communication est chiffrée entre l’agent et la plateforme (SSL).
+* Le service Isogeo (composant client) communique avec la plateforme Isogeo lors de certaines opérations d’administration (scan des données géographiques et synchronisation). L’authentification se fait par identifiants et la communication est chiffrée entre l’agent et la plateforme (TLS 1.2 et 1.3).
 
-* La communication entre l’agent et la plateforme est initiée depuis l’agent. Il n’est pas nécessaire d’ouvrir de ports entrants spécifiques.
+* La communication entre l’agent et la plateforme est initiée depuis l’agent en flux sortant. Il n’est pas nécessaire d’ouvrir de ports entrants spécifiques.
 
 ### Contrôle de l’accès aux données lors du recensement automatique
 
