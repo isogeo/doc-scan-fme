@@ -14,17 +14,27 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### 21 octobre 2021
 
+**Version du client :** 2.10.0
+
+**Version du serveur :** 4.0.2
+
 - Prise en compte des vues matérialisées PostGIS
 - Possibilité de supprimer une requête
 - Ajout d'informations sur les données en cours de traitement pour un suivi plus détaillé de l'avancement du Scan
 - Ajustements mineurs de l'interface graphique (tri des points d'entrée, ajout de liens vers l'aide en ligne, affichage des erreurs ...)
 - Correction de bugs dans les Workbenchs FME et dans l'API du Scan
 
-### Version 2.9.1 (août 2021)
+### Août 2021
+
+**Version du client :** 2.9.1
 
 - Prise en charge du format geojson `.geojson`
 
-### Version 2.9.0 (22 avril 2021)
+### 22 avril 2021
+
+**Version du client :** Version 2.9.0
+
+**Version du serveur :** 4.0.0
 
 - Réécriture significative du gestionnaire de tâches
 - Ajout d’un mécanisme “heartbeat” pour notifier la plateforme qu’une tâche est toujours en cours
