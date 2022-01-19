@@ -30,7 +30,7 @@ Pour créer un point d’entrée « Fichiers » :
     ![Nouveau point d'entrée fichiers](/assets/new_files.png)
 
 5. Choisir dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique) 
-6. Si besoin, choisir un format de donnée et/ou ajouter des dossiers/fichiers à exclure.
+6. Si besoin, choisir de remonter ou non les données non géographiques et/ou d'exclure un format de donnée et/ou des dossiers/fichiers.
 7. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
 
     ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)

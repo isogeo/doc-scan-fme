@@ -21,7 +21,7 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 4. Sélectionner le type de base de données dans la liste déroulante ;
 5. Saisir les paramètres de connexion ;
 6. Choisir dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique)
-7. Si besoin, ajouter des schémas ou des tables à exclure.
+7. Si besoin, choisir de remonter ou non les tables sans géométrie et/ou d'exclure des schémas et/ou des tables à exclure.
 8. Sauvegarder.
 
     ![Nouveau point d'entrée de type base de donnée](/assets/new_DB_ready.png)

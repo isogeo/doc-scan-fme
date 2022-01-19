@@ -33,6 +33,7 @@ La licence de FME utilisée est de nouveau disponible pour d'autres usages une f
     * La liste complète des données recensées. Dans cette liste, chaque donnée est caractérisée par :
       * un identifiant unique
       * son nom de fichier ou de table
+      * son caractère (géographique, non géographique)
       * son type (Base de données, Vecteurs, Raster, CAO/DAO)
       * son format
       * son statut (nouveau, modifiée, déplacée, inchangée, ignorée ou erreur)
