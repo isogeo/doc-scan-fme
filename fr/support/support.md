@@ -16,8 +16,10 @@ Le service du Scan FME (nommé Isogeo Worker) étant le seul composant installé
 
 2. Ouvrir une session bureau à distance sur le serveur où est installé le service, **en s'identifiant avec l'utilisateur configuré pour lancer le service** puis :
 
-    1. ouvrir FME Data Inspector
-    2. [ouvrir les jeux de données ciblés](https://desktopmanualbasic.safe.com/DesktopBasic1Basics/1.13.ViewingData.html) avec les mêmes paramètres d'accès (fichier de connexion, chemin...) que ceux entrés dans les points dentrée du Scan FME
+    1. Redémarrer le service Isogeo Worker à partir de l'utilitaire des services Windows et relancer le Scan.
+    ![Redémarrer le service Isogeo Worker](/assets/restart_isogeo_worker.png)
+    2. Pour compléter le diagnostic, ouvrir FME Data Inspector dans la version utilisée par le Scan ;
+    3. [ouvrir les jeux de données ciblés](https://desktopmanualbasic.safe.com/DesktopBasic1Basics/1.13.ViewingData.html) avec les mêmes paramètres d'accès (fichier de connexion, paramètres de bases de donnée, chemin du répertoire...) que ceux entrés dans les points d'entrée du Scan FME.
 
 3. S'assurer que le point d'entrée configuré n'accède pas à plus de 1 300 jeux de données. Créer des points d'accès plus fins.
 
