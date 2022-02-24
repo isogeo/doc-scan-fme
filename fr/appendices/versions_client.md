@@ -12,6 +12,19 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### février 2022
+
+**Version du client :** 3.0.0
+
+**Version du serveur :** 4.0.3
+
+- Possibilité de scanner des données tabulaires non géographiques de format PostGres, Esri ArcSDE ou Oracle
+- Meilleure gestion du passage de FME 2018 à une version supérieure
+- Mise en place d'un mode permettant de garder les fichiers temporaires de FME dans le client
+- Récupération d'informations sur le worker dans le serveur et l'interface
+- Mises à jour graphiques variées (Modification de l'entête, warnings supplémentaires, ...)
+- Corrections de bugs dans les Workbenchs FME et dans l'API du Scan
+
 ### 21 octobre 2021
 
 **Version du client :** 2.10.0
@@ -41,25 +54,35 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 - Amélioration de l’auto-nettoyage des fichiers temporaires
 - Amélioration de la prise en charge ESRI GDB
 
-### Version 2.8.1 (9 mars 2021)
+### 9 mars 2021
+
+**Version du client :** 2.8.1
 
 - Correction de la stratégie de mise à jour automatique
 
-### Version 2.8.0 (9 mars 2021)
+### 9 mars 2021
+
+**Version du client :** Version 2.8.0
 
 - Meilleure détection des processus FME en erreur
 - Amélioration de la stabilité du client Isogeo
 - Ajout d'une fonctionnalité de redémarrage à distance du client Isogeo
 
-### Version 2.7.0 (9 septembre 2020)
+### 9 septembre 2020
+
+**Version du client :** Version 2.7.0
 
 - Support des proxy HTTP/HTTPS côté client
 
-### 2.6.1 (24 juin 2020)
+### 24 juin 2020
+
+**Version du client :** Version 2.6.1
 
 * Correction d’un bug lors de l’étape “Recenser” affectant les bases de données comportant plusieurs centaines de couches
 
-### 2.6.0 (17 juin 2020)
+### 17 juin 2020
+
+**Version du client :** Version 2.6.0
 
 Voir [l'article de blog](https://www.isogeo.com/blog-et-actus/2020/06/16/Refonte-du-Scan-Isogeo-tour-d-horizon).
 
@@ -73,7 +96,7 @@ Voir [l'article de blog](https://www.isogeo.com/blog-et-actus/2020/06/16/Refonte
 
 _________
 
-## Versions obsolètes {#deprecated}
+## Versions client obsolètes {#deprecated}
 
 ### 2.1.0
 
