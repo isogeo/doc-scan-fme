@@ -40,6 +40,16 @@ Exemples :
 * <https://app.isogeo.com/groups/08b3054757544463abd06f3ab51ee491/admin/isogeo-worker/entrypoints/56f9232db5b9172c054c1860/requests/59d7912936046e0050d61a7f>
 * <https://scan.isogeo.com/g/08b3054757544463abd06f3ab51ee491/entrypoints/56f9232db5b9172c054c1860/requests/59d7912936046e0050d61a7f> -->
 
+### Récupérer les logs des workbenches FME 
+
+Les logs des workbenches FME sont générés dans le dossier `dossier_installation_isogeo\tmp` mais ne sont pas conservés par défaut. Pour que leur suppression ne soit pas réalisée, il est possible de changer la configuration du service en éditant le fichier `dossier_installation_isogeo\env.json` et remplacer la ligne `"keepTmp" : true` par `"keepTmp" : false`.
+
+![Exemple de env.json](/assets/support_keepTmp.png)
+
+Une fois le service redémarré et le scan relancé, les logs FME ne se supprimeront plus. 
+
+Attention, laisser ce mode activé génère une large quantité de fichiers. Il est donc recommendé de l'activer seulement dans une optique de débugage et de le désactiver une fois le débugage terminé. Une fois le client redémarré, il supprimera de lui-même les fichiers de logs qui avaient été conservés. 
+
 ### Récupérer les informations sur le contexte FME (FMEReport.html) {#scan_log_fme}
 
 Safe Software, l'éditeur de FME, met un petit outil à disposition pour générer un rapport de diagnostic complet et lisible sur l'environnement logiciel autour de l'ETL (système d'exploitation, version de FME installée, présence de logiciels tiers comme Esri, Oracle...). 
