@@ -42,7 +42,7 @@ Exemples :
 
 ### Récupérer les logs des workbenches FME 
 
-Les logs des workbenches FME sont générés dans le dossier `dossier_installation_isogeo\tmp` mais ne sont pas conservés par défaut. Pour que leur suppression ne soit pas réalisée, il est possible de changer la configuration du service en éditant le fichier `dossier_installation_isogeo\env.json` et remplacer la ligne `"keepTmp" : true` par `"keepTmp" : false`.
+Les logs des workbenches FME sont générés dans le dossier `dossier_installation_isogeo\tmp` mais ne sont pas conservés par défaut. Pour que leur suppression ne soit pas réalisée, il est possible de changer la configuration du service en éditant le fichier `dossier_installation_isogeo\env.json` et remplacer la ligne `"keepTmp" : false` par `"keepTmp" : true`.
 
 ![Exemple de env.json](/assets/support_keepTmp.png)
 
