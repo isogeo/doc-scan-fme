@@ -12,7 +12,7 @@ Pour le récupérer, connectez-vous sur https://app.isogeo.com avec votre compte
 
 > Astuce : pour accéder directement à l'interface d'administration du scan : https://app.isogeo.com/admin/isogeo-worker
 
-Si aucun service n'est installé, vous pouvez créer votre premier service via l'interface ci-dessous en cliquant sur Paramètres puis *Créer un nouveau service*.
+Si aucun service n'est installé, vous pouvez créer votre premier service via l'interface ci-dessous en cliquant sur *Créer un nouveau service*.
 
 !["Création du service depuis l'interface"](/assets/interface_first_installation.png)
 
