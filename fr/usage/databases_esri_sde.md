@@ -15,7 +15,8 @@ Indiquer le chemin vers le fichier de connexion à la geodatabase d'entreprise �
 5. Dans `Fichier de connexion`, indiquer le chemin vers le fichier de connexion (.sde), ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur)) ;
 6. Choisir dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique) ;
 7. Si besoin, choisir de remonter ou non les tables sans géométrie et/ou d'exclure des schémas et/ou des tables ;
-8. Sauvegarder.
+8. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
+9. Sauvegarder.
 
 ![Nouveau point d'entrée SDE](/assets/new_DB_sde_ready.png)
 
