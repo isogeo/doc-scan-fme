@@ -18,7 +18,7 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 **Version du serveur :** 4.0.3
 
-- Possibilité de scanner des données tabulaires non géographiques de format PostGres, Esri ArcSDE ou Oracle
+- Possibilité de scanner des données tabulaires non géographiques au format PostGIS, Oracle Spatial ou Esri Entrerprise Geodatabase
 - Meilleure gestion du passage de FME 2018 à une version supérieure
 - Mise en place d'un mode permettant de garder les fichiers temporaires de FME dans le client
 - Récupération d'informations sur le worker dans le serveur et l'interface
