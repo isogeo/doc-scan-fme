@@ -6,14 +6,6 @@ description: Désinstallation du service client du Scan FME (Isogeo)
 
 La suppression d'un service Isogeo s'effectue en deux étapes dépendantes dont l'ordre d’exécution n'est pas important. Cependant, si l'une des deux étapes n'est pas réalisée, cela peut amener des dysfonctionnements futurs lors de l'utilisation de l'application.
 
-## Désinscription du service dans Isogeo
-
-1. Sur Isogeo, rendez-vous dans l'application Scan FME (menu `Administration` → `Applications / Scan FME`) ou directement en suivant [ce lien](https://app.isogeo.com/admin/isogeo-worker) ;
-
-2. Cliquez sur le service que vous voulez supprimer ;
-
-3. Cliquez sur le bouton rouge de suppression.
-
 ## Suppression du service installé sur le serveur
 
 Plusieurs paramètres sont potentiellement spécifiques à votre installation.
@@ -25,6 +17,17 @@ Plusieurs paramètres sont potentiellement spécifiques à votre installation.
 3. Faites un clic droit sur le fichier uninstall.bat, puis `Exécuter en tant qu’administrateur`. Une fenêtre devrait s'ouvrir puis se fermer automatiquement.
 
 4. Supprimez l'ensemble du répertoire du service.
+
+## Désinscription du service dans Isogeo
+
+1. Sur Isogeo, rendez-vous dans l'application Scan FME (menu `Administration` → `Applications / Scan FME`) ou directement en suivant [ce lien](https://app.isogeo.com/admin/isogeo-worker) ;
+
+2. Constatez que l’état "Déconnecté" du service s’affiche ;
+
+3. Cliquez sur le service que vous voulez supprimer ;
+
+4. Cliquez sur le bouton rouge de suppression. 
+
 
 <!-- ### Suppression forcée du service dans Windows {#remove_cmd}
 
