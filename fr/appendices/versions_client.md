@@ -16,6 +16,16 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Juin 2022
+
+**Version du serveur :** 4.0.4
+
+* Possibilité d'associer à partir d'un point d'entrée les champs suivants : thématiques de groupe, mots-clefs Isogeo et thématiques Inspire
+* Ajout automatique des nouvelles métadonnées d'un point d'entrée à toutes les données lors d'un scan
+* Synchronisation des chemins et des noms modifiés dès leur détection
+* Corrections de bugs dans l'API du scan
+* Améliorations de l'interface graphique
+
 ### Mars 2022
 
 * Ajout d'instructions de débugage lors d'une erreur du scan
