@@ -22,16 +22,19 @@ Indiquer le chemin absolu d'accès à une arborescence de répertoires contenant
 
 Pour créer un point d’entrée « Fichiers » :
 
-1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau... »
-2. Sélectionnez le type « Système de fichiers »
-3. Nommez le point d’entrée.
-4. Renseigner le chemin d’accès au répertoire contenant les données à scanner. Exemple : //serveur/partage/dossier/
+1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau... » ;
+2. Sélectionnez le type « Système de fichiers » ;
+3. Nommez le point d’entrée ;
+4. Renseigner le chemin d’accès au répertoire contenant les données à scanner. Exemple : //serveur/partage/dossier/ ;
 
-    ![Nouveau point d'entrée fichiers](/assets/new_files.png)
+    ![Renseigner le nom du point d'entrée et le chemin vers les données](/assets/New entrypoint - path.png)
 
-5. Choisir dans quel(s) catalogue(s) vous souhaitez ajouter automatiquement les nouvelles données scannées en le(s) sélectionnant (en général 1 catalogue de suivi et 1 catalogue thématique) 
-6. Si besoin, choisir de remonter ou non les données non géographiques et/ou d'exclure un format de donnée et/ou des dossiers/fichiers.
-7. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues. 
+5. Sélectionner les Thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
+
+    ![Étiquetage depuis un point d'entrée type base de donnée](/assets/Entrypoint-metadata-association.png)
+
+6. Si besoin, choisir de remonter ou non les données non géographiques et/ou d'exclure un format de donnée et/ou des dossiers/fichiers ;
+7. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
 8. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
 
     ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
