@@ -20,7 +20,7 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 3. Nommer le point d’entrée ;
 4. Sélectionner le type de base de données dans la liste déroulante ;
 5. Saisir les paramètres de connexion ;
-6. Sélectionner les Thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
+6. Sélectionner les thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
 
     ![Étiquetage depuis un point d'entrée type base de donnée](/assets/Entrypoint-metadata-association.png)
 

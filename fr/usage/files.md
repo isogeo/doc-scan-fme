@@ -29,9 +29,9 @@ Pour créer un point d’entrée « Fichiers » :
 
     ![Renseigner le nom du point d'entrée et le chemin vers les données](/assets/New entrypoint - path.png)
 
-5. Sélectionner les Thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
+5. Sélectionner les thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
 
-    ![Étiquetage depuis un point d'entrée type base de donnée](/assets/Entrypoint-metadata-association.png)
+    ![Étiquetage depuis un point d'entrée type système de fichier](/assets/Entrypoint-metadata-association.png)
 
 6. Si besoin, choisir de remonter ou non les données non géographiques et/ou d'exclure un format de donnée et/ou des dossiers/fichiers ;
 7. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;

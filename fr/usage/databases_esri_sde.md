@@ -13,9 +13,9 @@ Indiquer le chemin vers le fichier de connexion à la geodatabase d'entreprise �
 3. Nommer le point d’entrée ;
 4. Sélectionner le type de SGBD (Oracle, PostgreSQL, SQL Server) ;
 5. Dans `Fichier de connexion`, indiquer le chemin vers le fichier de connexion (.sde), ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur)) ;
-6. Sélectionner les Thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
+6. Sélectionner les thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
 
-    ![Étiquetage depuis un point d'entrée type base de donnée](/assets/Entrypoint-metadata-association.png)
+    ![Étiquetage depuis un point d'entrée type SDE](/assets/Entrypoint-metadata-association.png)
 
 7. Si besoin, choisir de remonter ou non les tables sans géométrie et/ou d'exclure des schémas et/ou des tables ;
 8. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
