@@ -16,6 +16,14 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Juillet 2022
+
+**Version client :** 3.1.0
+
+* Mise à jour des exécutables de NodeJs
+* Meilleure gestion des filegdb Esri
+* Corrections de bugs dans les Workbenches FME
+
 ### Juin 2022
 
 **Version du serveur :** 4.0.4
@@ -43,7 +51,7 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 - Mise en place d'un mode permettant de garder les fichiers temporaires de FME dans le client
 - Récupération d'informations sur le worker dans le serveur et l'interface
 - Mises à jour graphiques variées (Modification de l'entête, warnings supplémentaires, ...)
-- Corrections de bugs dans les Workbenchs FME et dans l'API du Scan
+- Corrections de bugs dans les Workbenches FME et dans l'API du Scan
 
 ### 21 octobre 2021
 
@@ -55,7 +63,7 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 - Possibilité de supprimer une requête
 - Ajout d'informations sur les données en cours de traitement pour un suivi plus détaillé de l'avancement du Scan
 - Ajustements mineurs de l'interface graphique (tri des points d'entrée, ajout de liens vers l'aide en ligne, affichage des erreurs ...)
-- Correction de bugs dans les Workbenchs FME et dans l'API du Scan
+- Correction de bugs dans les Workbenches FME et dans l'API du Scan
 
 ### Août 2021
 
