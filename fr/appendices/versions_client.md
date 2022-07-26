@@ -19,10 +19,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 ### Juillet 2022
 
 **Version client :** 3.1.0
+**Version du serveur :** 4.0.5
 
 * Mise à jour des exécutables de NodeJs
 * Meilleure gestion des filegdb Esri
 * Corrections de bugs dans les Workbenches FME
+* Corrections de bugs dans le serveur
 
 ### Juin 2022
 
