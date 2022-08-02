@@ -30,21 +30,25 @@ La licence de FME utilisée est de nouveau disponible pour d'autres usages une f
 
 4. Une fois terminé, le scan vous indique :
 
+    * Des statistiques sur la requête ;
+
+    ![Requete d'un scan](/assets/request summary.png)
+
     * La liste complète des données recensées. Dans cette liste, chaque donnée est caractérisée par :
-      * un identifiant unique
-      * son nom de fichier ou de table
-      * son caractère (géographique, non géographique)
-      * son type (Base de données, Vecteurs, Raster, CAO/DAO)
-      * son format
-      * son statut (nouveau, modifiée, déplacée, inchangée, ignorée ou erreur)
-      * son temps de signature
-      * son temps de documentation (sous réserve que la donnée soit détectée comme nouvelle ou modifiée) 
+      * un identifiant unique ;
+      * son nom de fichier ou de table ;
+      * son caractère (géographique, non géographique) ;
+      * son type (Base de données, Vecteurs, Raster, CAO/DAO) ;
+      * son format ;
+      * son statut (nouveau, modifiée, déplacée, inchangée, ignorée ou erreur) ;
+      * son temps de signature ;
+      * son temps de documentation (sous réserve que la donnée soit détectée comme nouvelle ou modifiée).
     * Vous pouvez trier ce tableau et rechercher une table ou un fichier.
     * Vous pouvez trier par temps de traitement du plus long au plus court en rentrant les paramètres suivants :
-      * `?sign` : tri par ordre de temps de signature
-      * `?lookup` : tri par ordre de temps de documentation
-      * `?anyJob` : tri par ordre de temps de signature et de documentation 
-      * `?bothJobs` : tri par la somme des deux
+      * `?sign` : tri par ordre de temps de signature ;
+      * `?lookup` : tri par ordre de temps de documentation ;
+      * `?anyJob` : tri par ordre de temps de signature et de documentation ;
+      * `?bothJobs` : tri par la somme des deux.
 
 La liste complète des données recensées pendant le scan permet d’identifier :
 
