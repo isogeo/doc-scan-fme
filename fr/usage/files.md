@@ -29,15 +29,17 @@ Pour créer un point d’entrée « Fichiers » :
 
     ![Renseigner le nom du point d'entrée et le chemin vers les données](/assets/New entrypoint - path.png)
 
-5. Sélectionner les thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées ainsi que les catalogues auxquels ces dernières seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique). L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
+5. Sélectionner les thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées.L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
+6. Lors du premier Scan **uniquement**, sélectionner les catalogues auxquels les fiches crées seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique).
 
     ![Étiquetage depuis un point d'entrée type système de fichier](/assets/Entrypoint-metadata-association.png)
 
-6. Si besoin, choisir de remonter ou non les données non géographiques et/ou d'exclure un format de donnée et/ou des dossiers/fichiers ;
-7. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
+7. Si besoin, choisir d'exclure un ou plusieurs formats de données et/ou des dossiers/fichiers ;
 8. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
 
     ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
+
+9. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
 
 ### Concernant les ESRI FileGDB {#filegdb}
 
