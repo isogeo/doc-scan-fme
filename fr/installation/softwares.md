@@ -54,3 +54,5 @@ Pour accéder à une base Oracle, que la cartouche spatiale soit Oracle Spatial 
 
 * [téléchargeable ici en 64 bits](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html), si FME a été installé en version 64 bits
 * [téléchargeable ici en 32 bits](https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html), si FME a été installé en version 32 bits
+
+De plus, pour que les tables et les vues Oracle soient lues par FME, il faut s'assurer que les valeurs indiquées dans [cette article](https://community.safe.com/s/article/adding-metadata-entries-for-oracle-spatial-tables) sont bien présentes dans la table `user_sdo_geom_metadata`, sinon il faut les ajouter comme précisé.
