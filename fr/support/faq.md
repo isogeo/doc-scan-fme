@@ -33,7 +33,7 @@ FME ne lit pas les shapefiles dont la taille de chaque composant (.shp / .dbf / 
 
 >  Note: Shape datasets larger than 2GB are considered invalid and will cause errors when opened in other applications.
 
-Il s'agit d'ailleurs d'une limite inhérente au format, qu'Esri précise dans http://support.esri.com/technical-article/000010813[](http://support.esri.com/technical-article/000010813).
+Il s'agit d'ailleurs d'une limite inhérente au format, qu'Esri précise dans [cet article](http://support.esri.com/technical-article/000010813).
 
 <!-- ### Donnée géographique corrompue ou incohérente {#scan_err_corrupted_data}
 
