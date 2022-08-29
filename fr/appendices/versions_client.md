@@ -16,6 +16,11 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Août 2022
+
+* Facilitation de l'ajout de catalogues à un point entrée
+* Corrections de problèmes dans l'interface du scan 
+
 ### Juillet 2022
 
 **Version client :** 3.1.0
