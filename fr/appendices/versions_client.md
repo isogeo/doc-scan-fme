@@ -16,6 +16,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Octobre 2022
+
+* Augmentation du nombre maximum d'instance simultanés de FME
+
 ### Août 2022
 
 * Facilitation de l'ajout de catalogues à un point entrée
