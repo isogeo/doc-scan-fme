@@ -18,7 +18,7 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### Octobre 2022
 
-* Augmentation du nombre maximum d'instance simultanés de FME
+* Augmentation du nombre maximum d'instances simultanées de FME
 
 ### Août 2022
 
