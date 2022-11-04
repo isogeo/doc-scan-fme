@@ -16,6 +16,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Novembre 2022
+
+**Version du serveur :** 4.0.6
+
+* Corrections de bugs dans le serveur
+
 ### Octobre 2022
 
 * Augmentation du nombre maximum d'instances simultanées de FME
