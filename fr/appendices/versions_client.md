@@ -16,6 +16,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Décembre 2022
+
+**Version du serveur :** 4.0.7
+
+* Corrections de bugs dans le serveur
+
 ### Novembre 2022
 
 **Version du serveur :** 4.0.6
