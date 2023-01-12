@@ -16,6 +16,14 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Janvier 2023
+
+**Version du client :** 3.2.0
+
+* Corrections de dysfonctionnements dans le client
+* Suppression du client de mises à jour expérimentales
+* Corrections des workbenches FME
+
 ### Décembre 2022
 
 **Version du serveur :** 4.0.7
