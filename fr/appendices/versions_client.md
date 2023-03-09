@@ -20,7 +20,7 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 **Version du serveur :** 4.0.8
 
-* Affichage du temps effectifs des jobs
+* Affichage du temps effectif des jobs
 * Ajout de précisions dans les instructions de debugage
 * Optimisations mineures de l'interface
 
