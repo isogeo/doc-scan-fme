@@ -16,6 +16,14 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Mars 2023
+
+**Version du serveur :** 4.0.8
+
+* Affichage du temps effectifs des jobs
+* Ajout de précisions dans les instructions de debugage
+* Optimisations mineures de l'interface
+
 ### Janvier 2023
 
 **Version du client :** 3.2.0
