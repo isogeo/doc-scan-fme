@@ -18,6 +18,11 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### Mars 2023
 
+**Version du server :** 4.0.9
+
+* Compatibilité avec FME 2022
+* Possibilité de définir des inclusions de données dans les points d'entrée
+
 **Version du serveur :** 4.0.8
 
 * Affichage du temps effectif des jobs
