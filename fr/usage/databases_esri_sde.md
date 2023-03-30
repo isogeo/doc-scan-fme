@@ -18,7 +18,8 @@ Indiquer le chemin vers le fichier de connexion à la geodatabase d'entreprise �
 
     ![Étiquetage depuis un point d'entrée type SDE](/assets/Entrypoint-metadata-association.png)
 
-8. Si besoin, choisir de remonter ou non les tables sans géométrie et/ou d'exclure des schémas et/ou des tables ;
+8. Si besoin, choisir les schémas ou tables à inclure. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
+8. Si besoin, choisir d'exclure des schémas et/ou des tables. Si une inclusion est définie, l'exclusion s'appliquera aux données inclues ;
 9. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
 10. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
 

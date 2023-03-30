@@ -25,13 +25,14 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 
     ![Étiquetage depuis un point d'entrée type base de donnée](/assets/Entrypoint-metadata-association.png)
 
-8. Si besoin, choisir de remonter ou non les tables sans géométrie et/ou d'exclure des schémas et/ou des tables à exclure ;
-9. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
-10. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
+8. Si besoin, inclure les tables ou schéma à scanner. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
+9. Si besoin, choisir d'exclure des schémas et/ou des tables à exclure. Si une inclusion est définie, l'exclusion s'appliquera aux données inclues ;
+10. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
+11. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
 
     ![Nouveau point d'entrée de type base de donnée](/assets/new_DB_ready.png)
 
-11. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
+12. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
 
 ## Paramètres requis selon le type de base de données {#parameters}
 

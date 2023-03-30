@@ -34,12 +34,13 @@ Pour créer un point d’entrée « Fichiers » :
 
     ![Étiquetage depuis un point d'entrée type système de fichier](/assets/Entrypoint-metadata-association.png)
 
-7. Si besoin, choisir d'exclure un ou plusieurs formats de données et/ou des dossiers/fichiers ;
-8. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
+7. Si besoin, inclure des fichiers, dossiers ou formats à scanner. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
+8. Si besoin, choisir d'exclure un ou plusieurs formats de données et/ou des dossiers/fichiers.Si une inclusion est définie, l'exclusion s'appliquera aux données inclues ;
+9. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
 
     ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
 
-9. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
+10. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
 
 ### Concernant les ESRI FileGDB {#filegdb}
 
