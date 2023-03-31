@@ -13,15 +13,14 @@ Indiquer le chemin vers le fichier de connexion à la geodatabase d'entreprise �
 3. Nommer le point d’entrée ;
 4. Sélectionner le type de SGBD (Oracle, PostgreSQL, SQL Server) ;
 5. Dans `Fichier de connexion`, indiquer le chemin vers le fichier de connexion (.sde), ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur)) ;
-6. Sélectionner les thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées.L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
-7. Lors du premier Scan **uniquement**, sélectionner les catalogues auxquels les fiches crées seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique).
+6. Sélectionner les métadonnées que vous souhaitez associer aux fiches de métadonnées. L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
 
-    ![Étiquetage depuis un point d'entrée type SDE](/assets/Entrypoint-metadata-association.png)
+**NOTE** : Les métadonnées sélectionnées dans le point d'entrée seront ajoutées à toutes les fiches de ce dernier, même si elles sont ajoutées après le premier scan.
 
-8. Si besoin, choisir les schémas ou tables à inclure. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
+7. Si besoin, choisir les schémas ou tables à inclure. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
 8. Si besoin, choisir d'exclure des schémas et/ou des tables. Si une inclusion est définie, l'exclusion s'appliquera aux données inclues ;
 9. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
-10. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
+10. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné ;
 
 ![Nouveau point d'entrée SDE](/assets/new_DB_sde_ready.png)
 

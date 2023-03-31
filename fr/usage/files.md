@@ -29,18 +29,17 @@ Pour créer un point d’entrée « Fichiers » :
 
     ![Renseigner le nom du point d'entrée et le chemin vers les données](/assets/New entrypoint - path.png)
 
-5. Sélectionner les thématiques du groupe de travail, les thèmes INSPIRE et les mots-clés à associer aux fiches de métadonnées.L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
-6. Lors du premier Scan **uniquement**, sélectionner les catalogues auxquels les fiches crées seront ajoutées (en général 1 catalogue de suivi et 1 catalogue thématique).
+5. Sélectionner les métadonnées que vous souhaitez associer aux fiches de métadonnées. L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
 
-    ![Étiquetage depuis un point d'entrée type système de fichier](/assets/Entrypoint-metadata-association.png)
+**NOTE** : Les métadonnées sélectionnées dans le point d'entrée seront ajoutées à toutes les fiches de ce dernier, même si elles sont ajoutées après le premier scan.
 
-7. Si besoin, inclure des fichiers, dossiers ou formats à scanner. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
-8. Si besoin, choisir d'exclure un ou plusieurs formats de données et/ou des dossiers/fichiers.Si une inclusion est définie, l'exclusion s'appliquera aux données inclues ;
-9. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
+6. Si besoin, inclure des fichiers, dossiers ou formats à scanner. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
+7. Si besoin, choisir d'exclure un ou plusieurs formats de données et/ou des dossiers/fichiers.Si une inclusion est définie, l'exclusion s'appliquera aux données inclues ;
+8. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné ;
 
     ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
 
-10. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
+9. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
 
 ### Concernant les ESRI FileGDB {#filegdb}
 
