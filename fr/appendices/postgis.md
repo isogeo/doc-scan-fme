@@ -33,11 +33,13 @@ Si on lance le scan, on s'aperçoit que la seule table remontée est *public.ras
 ### 3. Vérifier que l'utilisateur accède bien aux tables
 
 Il faut d'abord s'assurer de ce que "voit" l'utilisateur utilisé, en passant par votre console psql (ou via une interface graphique comme pgAdmin) :
+
 ```sql
 GRANT USAGE ON SCHEMA guadeloupe, guyane, lareunion TO isogeo_editor;
 GRANT USAGE ON SCHEMA guadeloupe, guyane, lareunion TO isogeo_demo;
 GRANT SELECT ON ALL TABLES IN SCHEMA guadeloupe, guyane, lareunion to isogeo_demo;
 ```
+
 En passant par QGIS, on peut constater que l'utilisateur *isogeo_demo* a accès aux tables des schémas *guadeloupe*, *guyane* et *lareunion*. Noter donc que tous les logiciels ne se connectent pas de la même façon à une base PostgreSQL. Ainsi, QGIS ne nécessite pas que le *search_path* soit configuré. FME, si.
 
 ![QGIS - Point d'entrée PostGIS](/assets/annex_scanPostGIS_grant_user_ok_qgis.png)
@@ -45,9 +47,11 @@ En passant par QGIS, on peut constater que l'utilisateur *isogeo_demo* a accès 
 ### 4. Changer le chemin de parcours de l'utilisateur
 
 Pour changer le *search_path* il faut exécuter :
+
 ```sql
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, guadeloupe;
 ```
+
 En lançant à nouveau le scan, on constate alors que les tables du schéma *guadeloupe*, **et seulement de celui-ci**, sont bien scannées :
 
 ![APP - 2ème scan du point d'entrée](/assets/annex_scanPostGIS_scan1_guadeloupe.png)
@@ -58,6 +62,7 @@ La prise en compte de cette finesse de configuration de la base de données perm
 Par ailleurs on peut voir que les variations sur le *search_path*  sur un même point d'entrée ne changent rien à la "mémoire" du Scan FME :
 
 Uniquement le schéma *guyane* :
+
 ```sql
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, guyane;
 ```
@@ -65,6 +70,7 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, guya
 ![APP - 3ème scan du point d'entrée](/assets/annex_scanPostGIS_scan2_guyane.png)
 
 Uniquement le schéma *lareunion* :
+
 ```sql
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, lareunion;
 ```
@@ -72,6 +78,7 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, lare
 ![APP - 4ème scan du point d'entrée](/assets/annex_scanPostGIS_scan3_lareunion.png)
 
 Les 3 schémas :
+
 ```sql
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, guadeloupe, guyane, lareunion;
 ```
@@ -97,10 +104,13 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, guad
 * le chemin du parcours de l'utilisateur doit obligatoirement contenir *public*, sinon FME n'y parviendra pas ;
 * le *$user* correspond à la table de l'utilisateur. Facultatif. ;
 * il est possible de réinitialiser le search_path d'un utilisateur à la configuration par défaut du SGBD :
+
     ```sql
     ALTER USER isogeo_demo RESET search_path;
     ```
+
 * pour consulter le search_path d'un utilisateur, se connecter à une base de données avec celui-ci et exécuter :
+
     ```sql
     show search_path;
     ```
@@ -109,5 +119,7 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO $user, public, guad
 
 * Dans la documentation officelle de PostgreSQL (version 9.3) : [Chemin de parcours des schémas](http://docs.postgresql.fr/9.3/ddl-schemas.html#ddl-schemas-path) ;
 * Dans les forums de FME (EN) :
-    * [In the Postgis/Postgres reader tables from a different schema dont show up or it doesnt appear to display the full list of tables](https://knowledge.safe.com/articles/480/in-the-postgispostgres-reader-tables-from-a-differ.html) ;
-    * [Setting Postgis Metadata Table Permissions](https://knowledge.safe.com/articles/420/setting-postgis-metadata-table-permissions.html).
+
+  * [In the Postgis/Postgres reader tables from a different schema dont show up or it doesnt appear to display the full list of tables](https://knowledge.safe.com/articles/480/in-the-postgispostgres-reader-tables-from-a-differ.html) ;
+
+  * [Setting Postgis Metadata Table Permissions](https://knowledge.safe.com/articles/420/setting-postgis-metadata-table-permissions.html).

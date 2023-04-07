@@ -32,6 +32,7 @@
 ## Annexes
 
 * [Configuration de PostGIS](appendices/postgis.md)
+* [Formater un CSV](appendices/csv.md)
 * [Métadonnées sans emprise ni SRS](appendices/scan_srsnotfound_fme_fix.md)
 * [Notes de versions](appendices/versions_client.md)
 * [Table des figures](pictures.md)

@@ -15,23 +15,56 @@ Indiquer les paramètres de connexion à la base de données et les instances / 
 
 ## Ajouter un point d'entrée vers une base de donnée {#process}
 
-1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau... » ;
-2. Sélectionner le type de point d'entrée « Base de données (PostGIS, Oracle, SQL Server) » ;
-3. Nommer le point d’entrée ;
-4. Sélectionner le type de base de données dans la liste déroulante ;
-5. Saisir les paramètres de connexion ;
-6. Sélectionner les métadonnées que vous souhaitez associer aux fiches de métadonnées. L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan ;
+Pour créer un point d’entrée « Base de données » :
+
+1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Créer » ;
+2. Sélectionnez le type « Bases de données (PostGIS, Oracle, SQL Server) » ;
+3. Renseigner les champs du point d'entrée répartis en quatre sections : Informations, Métadonnées, Inclusion de données, Exclusion de donnée ;
+4. Enregistrer et créer le point d'entrée.
+
+#### Informations {#add_informations}
+
+Informations générales du point d'entrée. Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enresgistrer et créer le point d'entrée.
+
+1. Nommer le point d’entrée ;
+2. Renseigner les paramètres de connexion à la base de données.
+
+#### Métadonnées {#add_metadata}
+
+La section "Métadonnées", permet de sélectionner les étiquettes à associer à toutes les fiches du point d'entrée. Les champs de cette section sont optionnels.
 
 **NOTE** : Les métadonnées sélectionnées dans le point d'entrée seront ajoutées à toutes les fiches de ce dernier, même si elles sont ajoutées après le premier scan.
 
-7. Si besoin, inclure les tables ou schéma à scanner. Si une inclusion est définie, seules les données correspondant au critère d'inclusion seront scannées ;
-8. Si besoin, choisir d'exclure des schémas et/ou des tables à exclure. Si une inclusion est définie, l'exclusion s'appliquera aux données inclues ;
-9. Si besoin, inclure les données tabulaires non géographiques qui sont par défaut exclues ;
-10. Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné ;
+Sélectionner les métadonnées de la liste suivante à associer aux fiches de métadonnées :
 
-    ![Nouveau point d'entrée de type base de donnée](/assets/new_DB_ready.png)
+* Catalogues : Tous les catalogues sur app.isogeo.com ;
+* Thématiques : Seules les thématiques sélectionnées ;
+* Thèmes INSPIRE : Tous les thèmes INSPIRE ;
+* Mot-clés : La liste de mots-clés associés **OU** la liste restreinte de mots-clés.
 
-11. Une fois le Scan terminé, désélectionner les catalogues séléctionnés lors de l'étape 6.
+L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan.
+
+#### Inclusion de données {#add_inclusions}
+
+La section "Inclusion de données" permet la sélection des données du point d'entrée à scanner. Seules les données correspondant au critère d'inclusion seront scannées. Les champs de cette partie sont optionnels.
+
+Renseigner les trois champs en fonction du besoin :
+
+* Schémas : Ajouter le(s) schéma(s) à inclure ;
+* Données : Ajouter la ou les données à inclure. Le nom de la données doit obligatoirement avoir la forme suivante : schéma.nom_de_table.
+
+Il est possible, pour les trois types d'inclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
+
+#### Exclusion de données {#add_exclusions}
+
+La section "Exclusion de données" permet la sélection des données du point d'entrée à ignorer par le Scan. Seules les données correspondant au critère d'exclusion seront scannées. Les champs de cette partie sont optionnels.
+
+Renseigner les trois champs en fonction du besoin :
+
+* Schémas : Ajouter le(s) schéma(s) à exclure ;
+* Données : Ajouter la ou les données à exclure. Le nom de la données doit obligatoirement avoir la forme suivante : schéma.nom_de_table.
+
+Il est possible, pour les trois types d'exclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
 ## Paramètres requis selon le type de base de données {#parameters}
 
