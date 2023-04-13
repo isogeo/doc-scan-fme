@@ -79,7 +79,7 @@ Renseigner les trois champs en fonction du besoin :
 
 Il est possible, pour les trois types d'exclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
-    ![Nouveau point d'entrée fichiers prêt à être scanné](./assets/new_files_ready.png)
+![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
 
 ### Concernant les ESRI FileGDB {#filegdb}
 
