@@ -16,6 +16,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Avril 2023
+
+* Ajout de la possibilité d'importer grâce à un .csv les inclusions et exclusions
+* Modification des statistiques d'une requête
+* Corrections de bugs
+
 ### Mars 2023
 
 **Version du server :** 4.0.9
