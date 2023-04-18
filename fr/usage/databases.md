@@ -19,7 +19,11 @@ Pour créer un point d’entrée « Base de données » :
 
 1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Créer » ;
 2. Sélectionnez le type « Bases de données (PostGIS, Oracle, SQL Server) » ;
-3. Renseigner les champs du point d'entrée répartis en quatre sections : Informations, Métadonnées, Inclusion de données, Exclusion de donnée ;
+3. Renseigner les champs du point d'entrée répartis en quatre sections : 
+  * Informations
+  * Métadonnées 
+  * Inclusion de données
+  * Exclusion de donnée ;
 4. Enregistrer et créer le point d'entrée.
 
 #### Informations {#add_informations}

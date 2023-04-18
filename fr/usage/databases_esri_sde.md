@@ -12,7 +12,11 @@ Pour créer un point d’entrée « Base de données » :
 
 1. Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Créer » ;
 2. Sélectionnez le type « Bases de données (PostGIS, Oracle, SQL Server) » ;
-3. Renseigner les champs du point d'entrée répartis en quatre sections : Informations, Métadonnées, Inclusion de données, Exclusion de donnée ;
+3. Renseigner les champs du point d'entrée répartis en quatre sections : 
+  * Informations
+  * Métadonnées
+  * Inclusion de données
+  * Exclusion de donnée ;
 4. Enregistrer et créer le point d'entrée.
 
 #### Informations {#add_informations}
@@ -20,7 +24,7 @@ Pour créer un point d’entrée « Base de données » :
 Informations générales du point d'entrée. Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enresgistrer et créer le point d'entrée.
 
 1. Nommer le point d’entrée ;
-2. Renseigner lele chemin du fichier de connexion SDE. Ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur)).
+2. Renseigner le chemin du fichier de connexion SDE. Ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur)).
 
 #### Métadonnées {#add_metadata}
 
@@ -30,7 +34,7 @@ La section "Métadonnées", permet de sélectionner les étiquettes à associer 
 
 Sélectionner les métadonnées de la liste suivante à associer aux fiches de métadonnées :
 
-* Catalogues : Tous les catalogues sur app.isogeo.com ;
+* Catalogues : Tous les catalogues du groupe de travail sur app.isogeo.com ;
 * Thématiques : Seules les thématiques sélectionnées ;
 * Thèmes INSPIRE : Tous les thèmes INSPIRE ;
 * Mot-clés : La liste de mots-clés associés **OU** la liste restreinte de mots-clés.
@@ -39,7 +43,7 @@ L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan.
 
 #### Inclusion de données {#add_inclusions}
 
-La section "Inclusion de données" permet la sélection des données du point d'entrée à scanner. Seules les données correspondant au critère d'inclusion seront scannées. Les champs de cette partie sont optionnels.
+La section "Inclusion de données" permet la sélection des données du point d'entrée à scanner. Seules les données correspondant au moins un des critères d'inclusion seront scannées. Les champs de cette partie sont optionnels.
 
 Renseigner les trois champs en fonction du besoin :
 
@@ -50,7 +54,7 @@ Il est possible, pour les trois types d'inclusion, d'importer une liste depuis u
 
 #### Exclusion de données {#add_exclusions}
 
-La section "Exclusion de données" permet la sélection des données du point d'entrée à ignorer par le Scan. Seules les données correspondant au critère d'exclusion seront scannées. Les champs de cette partie sont optionnels.
+La section "Exclusion de données" permet la sélection des données du point d'entrée à ignorer par le Scan. Seules les données correspondant à aucun critère d'exclusion seront scannées. Les champs de cette partie sont optionnels.
 
 Renseigner les trois champs en fonction du besoin :
 
