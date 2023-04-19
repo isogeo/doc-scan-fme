@@ -65,7 +65,7 @@ Renseigner les trois champs en fonction du besoin :
 * Dossiers : Ajouter le(s) chemin(s) absolu(s) du ou des sous-dossiers à inclure ;
 * Données : Ajouter le(s) chemin(s) absolu(s) de la ou des données à inclure.
 
-Il est possible, pour les trois types d'inclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](fr/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
+Il est possible, pour les trois types d'inclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
 #### Exclusion de données {#add_exclusions}
 
@@ -77,7 +77,7 @@ Renseigner les trois champs en fonction du besoin :
 * Dossiers : Ajouter le(s) chemin(s) absolu(s) du ou des sous-dossiers à exclure ;
 * Données : Ajouter le(s) chemin(s) absolu(s) de la ou des données à exclure.
 
-Il est possible, pour les trois types d'exclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](fr/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
+Il est possible, pour les trois types d'exclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
 ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
 
