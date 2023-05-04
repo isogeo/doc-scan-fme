@@ -17,7 +17,7 @@ FME Desktop doit être installé et parfaitement configuré pour accéder et man
 
 À ce jour, les versions de FME supportées sont :
 
-* de FME Desktop 2018.1.2.1;
+* de FME Desktop 2020.x;
 * à FME Desktop 2022.x
 
 Pour télécharger FME, consulter le [site de safe](https://www.safe.com/support/downloads/#past-versions).
