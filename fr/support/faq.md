@@ -45,34 +45,6 @@ Dans le fichier LOG, lerreur intervient sur létape "LookUp". Exemple tiré dune
 {"worker":"wk-d864517e","level":"info","message":"(etl) Start new fme script from queue with options :  [ C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\scripts\\\\lookup-postgis.fmw,\n  --OUTPUT_JSON,\n  C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\lookup-gC9aIjzL6,\n  --LOG_FILE,\n  C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\log-UUOBAvNXz,\n  --USERNAME,\n  isogeo,\n  --PASSWORD,\n  modepassepasse,\n  --SOURCE,\n  bdgeo_prod,\n  --HOST,\n  192.168.1.1,\n  --PORT,\n  5432,\n  --FEATURE_TYPES,\n  schema.dataset ]","timestamp":"2017-12-14T16:14:30.604Z"}
 ``` -->
 
-### Mauvais nombre d'entités géographiques détecté (voire doublé) {#scan_err_featureCount}
-
-#### Constat
-
-Après un Scan, le nombre d'entités détecté et reporté dans les métadonnées ne correspond pas à celui du jeu de données (voire est doublé).
-
-#### Problème
-
-Le Scan a été lancé avec une version de FME non compatible (FME 2017).
-
-#### Solution
-
-Installer FME 2016.1 ou FME 2018 comme indiqué dans [les prérequis](/prerequisites.md), puis redémarrer le service.
-
-### Le nom de la donnée est le type de géométrie {#scan_err_badName}
-
-#### Constat {#scan_err_badName_obs}
-
-Après un Scan, le nom du jeu de données (et donc son titre si la métadonnée est nouvelle) est le type de géométrie (point...) au lieu du nom du fichier/de la table.
-
-#### Problème {#scan_err_badName_diagnostic}
-
-Le Scan a été lancé avec une version de FME non compatible (FME 2017).
-
-#### Solution {#scan_err_badName_solve}
-
-Installer FME 2016.1 ou FME 2018 comme indiqué dans [les prérequis](/prerequisites.md), puis redémarrer le service.
-
 ----
 
 ### Le service refuse de démarrer (commande interne non reconnue) {#batch_error_file}
