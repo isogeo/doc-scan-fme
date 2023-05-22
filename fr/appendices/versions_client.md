@@ -16,6 +16,14 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Mai 2023
+
+**Version du server :** 4.0.10
+**Version du client :** 3.3.0
+
+* Corrections de dysfonctionnements dans l'interface
+* Meilleure gestion des fonctionnalités optionnelles 
+
 ### Avril 2023
 
 * Ajout de la possibilité d'importer grâce à un .csv les inclusions et exclusions
