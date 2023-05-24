@@ -21,13 +21,11 @@ La liste suivante présente les formats de données pris en charge par le scan e
 | ER Mapper ECW (.ecw)                                                                                              | x                      | x              | x                  |
 | Esri ASCII Grid (.grd, .asc)                                                                                      | x                      | x              | x                  |
 | Esri File Geodatabase (.gdb)                                                                                      | -                      | x              | x                  |
-| Esri Personal Geodatabase (.mdb)                                                                                  | x                      | x              | x                  |
 | Esri shapefiles (.shp)                                                                                            | x                      | x              | x                  |
 | GeoJSON (.geojson)                                                                                                | x                      | x              | x                  |
 | GeoTIFF (.geotiff)                                                                                                | x                      | x              | x                  |
 | Google Earth (.kml / .kmz) [seulement la 1ère couche dans lordre alphabétique]                                    | x                      | x              | x                  |
 | GPS eXchange Format (.gpx)                                                                                        | x                      | x              | x                  |
-| Intergraph GeoMedia database (.mdb)                                                                               | x                      | x              | x                  |
 | JPEG (.jpg / .jpeg)                                                                                               | x                      | x              | x                  |
 | JPEG 2000 (.jp2)                                                                                                  | x                      | x              | x                  |
 | Lidar Data Exchange Format (.las, .laz, .lasd)                                                                    | x                      | x              | x                  |
