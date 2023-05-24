@@ -23,7 +23,6 @@ La liste suivante présente les formats de données pris en charge par le scan e
 | Esri File Geodatabase (.gdb)                                                                                      | -                      | x              | x                  |
 | Esri Personal Geodatabase (.mdb)                                                                                  | x                      | x              | x                  |
 | Esri shapefiles (.shp)                                                                                            | x                      | x              | x                  |
-| Geography Markup Language (.gml) [seulement la 1ère couche dans lordre alphabétique]                              | x                      | x              | x                  |
 | GeoJSON (.geojson)                                                                                                | x                      | x              | x                  |
 | GeoTIFF (.geotiff)                                                                                                | x                      | x              | x                  |
 | Google Earth (.kml / .kmz) [seulement la 1ère couche dans lordre alphabétique]                                    | x                      | x              | x                  |
