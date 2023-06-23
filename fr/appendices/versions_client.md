@@ -18,6 +18,14 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Juin 2023
 
+**Version du serveur :** 4.0.12
+**Version du client:** 3.3.1
+**Version de l'interface :** 0.1.12
+
+* Amélioration de la récupération des fiches de métadonnées en cas d'erreur
+* Mise à jour des liens d'aide en ligne
+* Corrections de dysfonctionnements
+
 **Version du serveur :** 4.0.11
 
 * Corrections de dysfonctionnements
