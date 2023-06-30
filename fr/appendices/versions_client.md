@@ -16,9 +16,23 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+## Juin 2023
+
+**Version du serveur :** 4.0.12
+**Version du client:** 3.3.1
+**Version de l'interface :** 0.1.12
+
+* Amélioration de la récupération des fiches de métadonnées en cas d'erreur
+* Mise à jour des liens d'aide en ligne
+* Corrections de dysfonctionnements
+
+**Version du serveur :** 4.0.11
+
+* Corrections de dysfonctionnements
+
 ### Mai 2023
 
-**Version du server :** 4.0.10
+**Version du serveur :** 4.0.10
 **Version du client :** 3.3.0
 
 * Corrections de dysfonctionnements dans l'interface
@@ -32,7 +46,7 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### Mars 2023
 
-**Version du server :** 4.0.9
+**Version du serveur :** 4.0.9
 
 * Compatibilité avec FME 2022
 * Possibilité de définir des inclusions de données dans les points d'entrée
