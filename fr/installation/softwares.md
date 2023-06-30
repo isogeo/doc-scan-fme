@@ -68,3 +68,9 @@ Dans le menu `Tools` > `FME Options` > `Coordinate systems` de FME Workbench, re
 Pour scanner les données géographiques dont les entitées sont localisées sur le territoire du Canada, il peut être nécessaire de charger un fichier de transformation de grille particulier dans le logiciel FME Workbench. Cela concerne les données dont l'interprétation géométrique implique le datum CSRS.
 
 Le fichier de transformation de grille NAD83_to_CSRS est téléchargeable depuis le [site Internet du Gouvernement du Canada](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/data-donnees/transformations.php?locale=fr). Une fois téléchargé, il faut le charger dans FME Workbench : Tools > FME Options > Coordinate systems > chercher NAD83_to_CSRS dans la liste > cliquer sur "Éditer" > indiquer l'emplacement du fichier.
+
+Pour plus de d'informations :
+
+* [*Where to source Canadian grid shift files not included with FME*](https://community.safe.com/s/article/where-to-source-canadian-grid-shift-files-not-incl)
+* [*Canadian Spatial Reference System (CSRS) High Precision Datum*](https://community.safe.com/s/article/canadian-spatial-reference-system-csrs-high-precis)
+* [*Where can I find the CSRS transformation grids for the Province of Quebec?*](https://community.safe.com/s/question/0D54Q000080hTpjSAE/where-can-i-find-the-csrs-transformation-grids-for-the-province-of-quebec)
