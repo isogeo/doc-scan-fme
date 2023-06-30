@@ -56,3 +56,9 @@ Pour accéder à une base Oracle, que la cartouche spatiale soit Oracle Spatial 
 * [téléchargeable ici en 32 bits](https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html), si FME a été installé en version 32 bits
 
 De plus, pour que les tables et les vues Oracle soient lues par FME, il faut s'assurer que les valeurs indiquées dans [cet article](https://community.safe.com/s/article/adding-metadata-entries-for-oracle-spatial-tables) sont bien présentes dans la table `user_sdo_geom_metadata`, sinon il faut les ajouter comme précisé.
+
+## Cas spécifique pour les données en NAD83 {NAD83}
+
+Afin de scanner des données en NAD83, il est nécessaire de charger le Grid file NAD83_to_CSRS dans FME Workbench. (cf. [cet article pour le télécharger](https://community.safe.com/s/article/where-to-source-canadian-grid-shift-files-not-incl))
+
+Dans le menu `Tools` > `FME Options` > `Coordinate systems` de FME Workbench, rechercher dans la liste `Maintain Grid Transformation` NAD83_to_CSRS afin de charger le fichier téléchargé.
