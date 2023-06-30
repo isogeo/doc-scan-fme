@@ -62,3 +62,9 @@ De plus, pour que les tables et les vues Oracle soient lues par FME, il faut s'a
 Afin de scanner des données en NAD83, il est nécessaire de charger le Grid file NAD83_to_CSRS dans FME Workbench. (cf. [cet article pour le télécharger](https://community.safe.com/s/article/where-to-source-canadian-grid-shift-files-not-incl))
 
 Dans le menu `Tools` > `FME Options` > `Coordinate systems` de FME Workbench, rechercher dans la liste `Maintain Grid Transformation` NAD83_to_CSRS afin de charger le fichier téléchargé.
+
+## Cas spécifique des données Canadienne {#CSRS}
+
+Pour scanner les données géographiques dont les entitées sont localisées sur le territoire du Canada, il peut être nécessaire de charger un fichier de transformation de grille particulier dans le logiciel FME Workbench. Cela concerne les données dont l'interprétation géométrique implique le datum CSRS.
+
+Le fichier de transformation de grille NAD83_to_CSRS est téléchargeable depuis le [site Internet du Gouvernement du Canada](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/data-donnees/transformations.php?locale=fr). Une fois téléchargé, il faut le charger dans FME Workbench : Tools > FME Options > Coordinate systems > chercher NAD83_to_CSRS dans la liste > cliquer sur "Éditer" > indiquer l'emplacement du fichier.
