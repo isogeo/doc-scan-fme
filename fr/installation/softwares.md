@@ -63,6 +63,8 @@ Pour scanner les données géographiques dont les entitées sont localisées sur
 
 Le fichier de transformation de grille NAD83_to_CSRS est téléchargeable depuis le [site Internet du Gouvernement du Canada](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/data-donnees/transformations.php?locale=fr). Une fois téléchargé, il faut le charger dans FME Workbench : Tools > FME Options > Coordinate systems > chercher NAD83_to_CSRS dans la liste > cliquer sur "Éditer" > indiquer l'emplacement du fichier.
 
+!["Chargement du fichier NAD83_to_CSRS dans FME"](/assets/NAD83_to_CSRS.png)
+
 Pour plus d'informations :
 
 * [*Where to source Canadian grid shift files not included with FME*](https://community.safe.com/s/article/where-to-source-canadian-grid-shift-files-not-incl)
