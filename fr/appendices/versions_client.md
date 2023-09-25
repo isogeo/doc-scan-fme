@@ -16,6 +16,14 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+## Septembre 2023
+
+**Version du serveur :** 4.0.13
+**Version du client:** 3.3.3
+**Version de l'interface :** 0.1.13
+
+* Correctifs divers 
+
 ## Juin 2023
 
 **Version du serveur :** 4.0.12
