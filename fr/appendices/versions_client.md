@@ -18,6 +18,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Septembre 2023
 
+**Version du serveur :** 4.0.14
+
+* Meilleure gestion des suprresions de point d'entrée 
+
+## Septembre 2023
+
 **Version du serveur :** 4.0.13
 **Version du client:** 3.3.3
 **Version de l'interface :** 0.1.13
