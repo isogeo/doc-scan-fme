@@ -16,13 +16,13 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
-## Octobre 2023
+### Octobre 2023
 
 **Version du serveur :** 4.0.14
 
 * Meilleure gestion des suprresions de point d'entrée 
 
-## Septembre 2023
+### Septembre 2023
 
 **Version du serveur :** 4.0.13
 **Version du client:** 3.3.3
@@ -30,7 +30,7 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 * Correctifs divers 
 
-## Juin 2023
+### Juin 2023
 
 **Version du serveur :** 4.0.12
 **Version du client:** 3.3.1
