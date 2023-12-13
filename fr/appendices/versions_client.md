@@ -18,6 +18,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### Décembre 2023
 
+**Version de l'interface :** 0.2.3
+
+* Correctifs divers
+
 **Version du serveur :** 4.1.1
 **Version de l'interface :** 0.2.2
 
