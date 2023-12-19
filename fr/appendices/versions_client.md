@@ -18,6 +18,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### Décembre 2023
 
+**Version du serveur :** 4.2.0
+
+* Intégration de modifications pour les [prestations de scan des services arcgis server](https://www.isogeo.com/actualites/nouvelle-prestation-recensement-des-services-arcgis-server-et-associations-aux-fiches-de-donnees/318)
+
 **Version de l'interface :** 0.2.3
 
 * Correctifs divers
