@@ -6,6 +6,8 @@ En cas de problème et après avoir vérifié que l'erreur n'est pas documentée
 
 Le service du Scan FME (nommé Isogeo Worker) étant le seul composant installé sur l'architecture informatique des clients, c'est celui qui exige le plus d'informations de la part du client. Afin d'assurer un support rapide, merci de lire attentivement les différents éléments à réviser ou joindre **avant de contacter le support**.
 
+> NB : Ce diagnostic préalable doit également être réalisé si vous utilisez la version On-Premises d'Isogeo. Cependant, des étapes supplémentaires incluant votre administrateur système peuvent être necessaires (pour récupérer les logs du serveur du Scan notamment).
+
 ### Etapes classiques pour écarter les problèmes communs {#scan_auto_diag}
 
 1. Vérifier les prérequis, notamment :

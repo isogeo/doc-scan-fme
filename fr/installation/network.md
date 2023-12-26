@@ -17,8 +17,6 @@ Pour que le client du Scan FME puisse communiquer correctement avec les serveurs
 
 Si la connexion au réseau nécessite de configurer le proxy, il faudra indiquer l'url *http* de celui-ci dans le répertoire d'installation du service (cf. [Configuration du proxy](setup.html#config_proxy)). Il faut donc récupérer cette url auprès de votre DSI pour l'installation. Un couple utilisateur/mot de passe pour également être nécessaire pour s'authentifier au proxy.
 
-<!-- Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts qu'ils autorisent bien les communications. Généralement vous obtiendrez ces informations auprès de votre service informatique. -->
-
 ----
 
 ## Sécurité {#security}
@@ -27,7 +25,7 @@ Si la connexion au réseau nécessite de configurer le proxy, il faudra indiquer
 
 * Le service Isogeo (composant client) communique avec la plateforme Isogeo lors de certaines opérations d’administration (scan des données géographiques et synchronisation). L’authentification se fait par identifiants et la communication est chiffrée entre l’agent et la plateforme (TLS 1.2 et 1.3).
 
-* La communication entre l’agent et la plateforme est initiée depuis l’agent en flux sortant. Il n’est pas nécessaire d’ouvrir de ports entrants spécifiques.
+* La communication entre l’agent et la plateforme est initiée depuis l’agent en *flux sortant uniquement*. Il n’est pas nécessaire d’ouvrir de ports entrants spécifiques.
 
 ### Contrôle de l’accès aux données lors du recensement automatique
 

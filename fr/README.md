@@ -19,7 +19,7 @@ Depuis mars 2021, le Scan permet également d'indexer les données tabulaires no
 
 Lors de sa refonte en 2020, une nouvelle architecture a été mise en place ne nécéssitant plus l'ouverture d'un port spécifique pour la communication. Une nouvelle interface, et une API dédiée ont également été mises en place.
 
-![Schéma de larchitecture vulgarisée](/assets/architecture.png "Architecture globale du service de scan Isogeo")
+![Schéma d'architecture SaaS vulgarisé](/assets/architecture.png "Architecture globale du service de scan Isogeo")
 
 ## Relations logiques {#relations}
 

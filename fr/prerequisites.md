@@ -24,3 +24,5 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé `
   * Client Oracle (si base Oracle)
 
 Pour plus de détails, veuillez consulter les pages en liens ci-dessus.
+
+> NB : Il s'agit des prérequis du client du Scan pour la version SaaS. Pour plus d'information sur les prérequis en version *On-premises*, veuillez vous rapprocher de votre interlocuteur Isogeo. 

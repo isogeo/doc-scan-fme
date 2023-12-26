@@ -15,7 +15,7 @@ Les versions de Windows supportées sont (les versions  en **gras** sont recomma
 * Windows Server 2003 SP2, 2008, 2008 R2, 2012, 2012 R2, **2016** et **2019** ;
 * Windows XP SP3 32 bits, Vista SP2, 7, 8, 8.1, **10**.
 
-## Compte utilisateur {#user}
+## Compte utilisateur Windows {#user}
 
 Vous devez créer un compte utilisateur Windows dans votre domaine permettant :
 
