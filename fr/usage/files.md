@@ -48,10 +48,10 @@ La section "Métadonnées", permet de sélectionner les étiquettes à associer 
 
 Sélectionner les métadonnées de la liste suivante à associer aux fiches de métadonnées :
 
-* Catalogues : Tous les catalogues du groupe de travail sur app.isogeo.com ;
-* Thématiques : Seules les thématiques sélectionnées ;
-* Thèmes INSPIRE : Tous les thèmes INSPIRE ;
-* Mot-clés : La liste de mots-clés associés **OU** la liste restreinte de mots-clés.
+* Catalogues : Les [catalogues](https://app.isogeo.com/admin/catalogs) du groupe de travail ;
+* Thématiques : Les [thématiques affectées](https://app.isogeo.com/admin/group-themes) au groupe de travail ;
+* Thèmes INSPIRE : Les thèmes INSPIRE ;
+* Mot-clés : La liste des [mots-clés affectés](https://app.isogeo.com/admin/keywords) à au moins une fiche **OU** de la liste restreinte du groupe de travail.
 
 L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan.
 

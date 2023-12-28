@@ -58,8 +58,8 @@ Pour créer un point d’entrée « ArcGIS Server » :
 Informations générales du point d'entrée : Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enregistrer et créer le point d'entrée.
 
 1. Nommer le point d’entrée. Exemple : `Services AGS`;
-2. Renseigner le chemin d’accès au répertoire `arcgisinput` ou un sous-dossier de celui-ci contenant les services à scanner. Exemple : `//serveur/partage/arcgisinput/demo`
-3. Renseigner l'url de base de l'ArcGIS Server. Exemple : `https://carto.isogeo.net`
+2. Renseigner le chemin d’accès au répertoire `arcgisinput` ou un sous-dossier de celui-ci contenant les services à scanner. Exemple : `//serveur/partage/arcgisinput/`
+3. Renseigner l'url de base de l'ArcGIS Server. Exemple : `https://carto.isogeo.net/server`
 
     ![Renseigner les informations du point d'entrée ArcGIS Server](/assets/New entrypoint - arcgis server.png)
 
@@ -71,16 +71,16 @@ La section "Métadonnées", permet de sélectionner les étiquettes à associer 
 
 Sélectionner les métadonnées de la liste suivante à associer aux fiches de métadonnées :
 
-* Catalogues : Tous les catalogues du groupe de travail sur app.isogeo.com ;
-* Thématiques : Seules les thématiques sélectionnées ;
-* Thèmes INSPIRE : Tous les thèmes INSPIRE ;
-* Mot-clés : La liste de mots-clés associés **OU** la liste restreinte de mots-clés.
+* Catalogues : Les [catalogues](https://app.isogeo.com/admin/catalogs) du groupe de travail ;
+* Thématiques : Les [thématiques affectées](https://app.isogeo.com/admin/group-themes) au groupe de travail ;
+* Thèmes INSPIRE : Les thèmes INSPIRE ;
+* Mot-clés : La liste des [mots-clés affectés](https://app.isogeo.com/admin/keywords) à au moins une fiche **OU** de la liste restreinte du groupe de travail.
 
 L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan.
 
 #### Inclusion de services {#add_inclusions}
 
-La section "Inclusion de services" permet la sélection des services du point d'entrée à scanner. Seules les services correspondant à au moins un des critères d'inclusion seront scannées. Les champs de cette partie sont optionnels.
+La section "Inclusion de services" permet la sélection des services du point d'entrée à scanner. Seules les services correspondant à au moins un des critères d'inclusion seront scannés. Les champs de cette partie sont optionnels.
 
 Renseigner les trois champs en fonction du besoin :
 
@@ -92,7 +92,7 @@ Il est possible, pour les trois types d'inclusion, d'importer une liste depuis u
 
 #### Exclusion de services {#add_exclusions}
 
-La section "Exclusion de services" permet la sélection des services du point d'entrée à ignorer par le Scan. Seules les services correspondant à aucun critère d'exclusion seront scannées. Les champs de cette partie sont optionnels.
+La section "Exclusion de services" permet la sélection des services du point d'entrée à ignorer par le Scan. Seules les services correspondant à aucun critère d'exclusion seront scannés. Les champs de cette partie sont optionnels.
 
 Renseigner les trois champs en fonction du besoin :
 
@@ -104,5 +104,5 @@ Il est possible, pour les trois types d'exclusion, d'importer une liste depuis u
 
 #### Associations automatiques {#associations}
 
-Cette fonctionnalité permet de forcer la création des associations entre les couches des services scannées et les fiches de données présentes dans l'inventaire même si le service est inchangé. En clair, cela permet de créer l'association entre une donnée qui aurait été scannée en base de donnée après le scan du service qui publie cette même donnée. 
-Cette case doit donc être cochée uniquement dans ce cas précis.
+Cette fonctionnalité permet de forcer la création des associations entre les couches des services scannés et les fiches de données présentes dans l'inventaire même si le service est inchangé. En clair, cela permet de créer l'association entre une donnée qui aurait été scannée en base de donnée **après** le scan du service qui publie cette même donnée. 
+Cette case doit donc être cochée uniquement dans ce **cas précis**.
