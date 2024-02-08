@@ -11,7 +11,7 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé `
   * un accès administrateur au groupe de travail pour télécharger le service et lancer les scans via <https://app.isogeo.com>
 
 * [Serveur](installation/server.md)
-  * Windows Server 2012, 2012 R2, 2016 et 2019
+  * Windows Server 2012, 2012 R2, 2016, 2019 et 2022
   * Compte utilisateur Windows ayant accès au ressources SIG
 
 * [Réseau](installation/network.md)

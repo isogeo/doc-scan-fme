@@ -21,7 +21,7 @@ Pour créer un point d’entrée « Base de données » :
 
 #### Informations {#add_informations}
 
-Informations générales du point d'entrée. Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enresgistrer et créer le point d'entrée.
+Informations générales du point d'entrée. Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enregistrer et créer le point d'entrée.
 
 1. Nommer le point d’entrée ;
 2. Renseigner le chemin du fichier de connexion SDE. Ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur)).

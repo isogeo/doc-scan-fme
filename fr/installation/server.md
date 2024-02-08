@@ -12,8 +12,8 @@ Même s'il est possible d’installer le service Isogeo sur un poste d'utilisate
 
 Les versions de Windows supportées sont (les versions  en **gras** sont recommandées) :
 
-* Windows Server 2003 SP2, 2008, 2008 R2, 2012, 2012 R2, **2016** et **2019** ;
-* Windows XP SP3 32 bits, Vista SP2, 7, 8, 8.1, **10**.
+* Windows Server 2012, 2012 R2, **2019** et **2022**;
+* Windows 7, 8, 8.1, **10**.
 
 ## Compte utilisateur Windows {#user}
 
