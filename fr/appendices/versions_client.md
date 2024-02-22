@@ -16,6 +16,13 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Février 2024
+
+**Version de l'interface :** 0.2.4
+
+* Mise en place de la page ressources pour tous les groupes de travail
+* Correctifs de dysfonctionnements divers
+
 ### Décembre 2023
 
 **Version du serveur :** 4.2.0
