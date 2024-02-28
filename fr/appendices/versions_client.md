@@ -18,6 +18,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### Février 2024
 
+**Version de l'interface :** 1.0.0
+
+* Optimisation de la page ressources
+
 **Version de l'interface :** 0.2.4
 
 * Mise en place de la page ressources pour tous les groupes de travail
