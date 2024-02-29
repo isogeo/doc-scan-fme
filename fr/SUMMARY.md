@@ -24,7 +24,7 @@
   * [Geodatabase d'entreprise Esri SDE](usage/databases_esri_sde.md)
   * [Base de données](usage/databases.md)
   * [ArcGIS Server](usage/arcgis_server.md)
-* [Page ressources](usage/ressources.md)
+* [Page Ressources](usage/ressources.md)
 
 ## Support
 

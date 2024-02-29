@@ -71,7 +71,7 @@ L'onglet Paramètres avancés permet de choisir les colonnes à afficher dans le
 
 Nous avons identifié plusieurs cas d'usage de la page Ressources qui vous aideront pour l'administration, la gestion et le suivi de votre patrimoine de donnée et de son catalogue associé. 
 
-### Afficher les informations sur les modifications des données  
+### Afficher les informations sur les modifications des données {#information} 
 
 La page ressources permet d’avoir un affichage tabulaire concis des modifications de l’intégralité des données scannées. Il est notamment possible d’avoir la liste des données modifiées lors du dernier scan en filtrant selon les statuts de la donnée au dernier scan (Modifié et Structure Modifiée).
 
@@ -123,7 +123,7 @@ Ces ressources mériteraient d’être scannées à nouveau pour assurer l’act
 
 Pour les services, contacter votre chef de projet dédié pour réaliser un recensement supplémentaire dans le cadre de la prestation de Scan des services ArcGIS Server.
 
-## Identifier les données scannées sans fiche correspondante dans le catalogue {"ressources_with_no_metadata}
+### Identifier les données scannées sans fiche correspondante dans le catalogue {#ressources_with_no_metadata}
 
 Pour détecter les données scannées n’ayant pas ou plus de fiche dans l’inventaire. Dans l’onglet “paramètres avancés” : 
 
@@ -140,5 +140,25 @@ Cela peut concerner les ressources :
 * dont la création n’a pas fonctionné correctement. Il faut alors rescanner le point d’entrée et contacter le support Isogeo si le problème persiste en indiquant le nom de la donnée correspondante. 
   * Rien n’est indiqué dans la colonne *“Fiche"*
 
+### Retrouver facilement le ou les point(s) d’entrée qui scanne(nt) une donnée pour la scanner ou l'exclure {#find_entrypoints}
 
+Pour scanner une donnée, il faut savoir depuis quel(s) point(s) d’entrée elle est scannée. En fonction du nombre de points d’entrée, ce n’est pas forcément évident. Il est donc possible de récupérer l’information depuis la liste des ressources : 
 
+1. Rechercher la donnée avec les filtres disponibles (recherche textuelle, en utilisant le format, …)
+2. Cliquer sur la donnée recherchée
+3. Récupérer la liste des points d’entrée. Depuis le point d’entrée choisi, relancer le Scan. Pour information, il est possible d’utiliser un critère d’inclusion pour scanner uniquement la donnée correspondante.
+4. Vous pouvez également exclure la donnée des points d’entrée qui ne “devraient” pas la scanner (*“Bouton Actions” > “Exclure/Gérer les exclusions”*)
+![Trouver les points d'entrée et gérer les exclusions](/assets/ressources_find_entrypoint.png)
+5. Une popup s’ouvre alors pour choisir le point d’entrée où appliquer l’exclusion. Seuls les points d’entrée où aucun autre critère d’exclusion (format, dossier, schema) excluent déjà la donnée sont proposés.
+6. Sélectionner le point d'entrée correspondant et cliquer sur Exclure.
+![Exclure d'un point d'entrée](/assets/ressources_exclusion_from_entrypoint.png)
+
+### Exporter les résultats d’une requête du scan {#export}
+
+Pour exporter au format csv le résultat de la dernière requête d’un point d’entrée : 
+
+1. Sélectionner le point d’entrée de cette requête dans les filtres 
+2. Cliquer sur le bouton *Exporter la recherche*
+![Export d'une requête](/assets/ressources_search_export.png)
+3. Un fichier CSV est généré contenant toutes les colonnes peu importe celles qui sont activées dans les *Paramètres avancés*.
+![Tableau exporté](/assets/ressources_export_table.png)
