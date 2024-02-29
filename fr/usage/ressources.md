@@ -17,7 +17,7 @@ Au chargement de la page, le tableau présente l'ensemble des ressources (donné
 
 ![Retirer de la liste les données](/assets/exclusion_red_data_from_inventory.png)
 
-Vous pouvez  filtrer les resources selon les critères suivants (en **gras** les critères avec plusieurs valeurs possibles) : 
+Vous pouvez  filtrer les resources selon les critères suivants (en **gras** les critères acceptant la recherche selon plusieurs valeurs de filtre) : 
 
 * Recherche textuelle : filtrez sur toutes les resources dans laquelle on retrouve la chaîne de caractère recherchée dans le nom. Par exemple en tapant "plu" ; ![Rechercher une chaine de caractère](/assets/ressources_search_data.png)
 * **Format de la ressource** (ex : esrigdb, jp2, EMS etc.) ;
@@ -60,7 +60,7 @@ L'onglet Paramètres avancés permet de choisir les colonnes à afficher dans le
 * Date du dernier scan : date du dernier scan de la ressource
 * Lien vers la dernière requête : lien vers la dernière requête qui a scanné la ressource
 * Dernier statut : dernier statut (inchangé, modifié, structure modifiée, déplacé, nouveau, ignoré) remonté par le dernier scan de la ressource
-* Différence d'entités : différence du nombre d'entités détectées sur des données détectées comme modifiées lors du dernier scan
+* Différence d'entités : différence du nombre d'entités détectées sur les données modifiées lors du dernier scan
 * Différence d'entités (%) : pourcentage de cette différence par rapport au nombre total d'entités détectées lors du scan précédent
 * Différence d'attributs : différence du nombre d'attributs détectés sur des données dont la structure a été détectée comme modifiée lors du dernier scan
 * Attributs ajoutés et supprimés : colonnes permettant d'afficher le nombre d'attributs ajoutés et le nombre d'attributs supprimés sur des données dont la structure a été modifiée
