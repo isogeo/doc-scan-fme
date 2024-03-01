@@ -25,6 +25,8 @@
   * [Base de données](usage/databases.md)
   * [ArcGIS Server](usage/arcgis_server.md)
 * [Page Ressources](usage/ressources.md)
+  * [Présentation](usage/ressources.md)
+  * [Cas d'usage](usage/ressources_usages.md)  
 
 ## Support
 
