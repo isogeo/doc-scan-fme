@@ -24,7 +24,9 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ### Février 2024
 
-* Changement d'hôte SMTP pour l'envoi de mail lors d'échec de requête du scan
+**Version de l'interface :** 1.0.0
+
+* Optimisation de la page ressources
 
 **Version de l'interface :** 0.2.4
 
