@@ -16,7 +16,15 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Mars 2024
+
+**Version du serveur :** 4.2.1
+
+* Changement d'hôte SMTP pour l'envoi de mail lors d'échec de requête du scan
+
 ### Février 2024
+
+* Changement d'hôte SMTP pour l'envoi de mail lors d'échec de requête du scan
 
 **Version de l'interface :** 0.2.4
 
