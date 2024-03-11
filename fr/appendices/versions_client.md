@@ -22,6 +22,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 * Changement d'hôte SMTP pour l'envoi de mail lors d'échec de requête du scan
 
+**Version de l'interface :** 1.0.1
+
+* Vérification des prérequis FME
+* Amélioration de l'interface
+* Correctifs divers
+
 ### Février 2024
 
 **Version de l'interface :** 1.0.0
