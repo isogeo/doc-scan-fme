@@ -28,6 +28,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 * Amélioration de l'interface
 * Correctifs divers
 
+**Version de l'interface :** 1.0.2 
+
+* Amélioration du tri de la page données
+
 ### Février 2024
 
 **Version de l'interface :** 1.0.0
