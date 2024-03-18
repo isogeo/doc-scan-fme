@@ -32,6 +32,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 * Amélioration du tri de la page données
 
+**Version de l'interface :** 1.0.3
+
+* Prise en compte de la configuration de la page ressources dans l'URL
+
 **Version de l'interface :** 1.0.4
 
 * Correctifs divers
