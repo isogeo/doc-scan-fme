@@ -32,6 +32,10 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 * Amélioration du tri de la page données
 
+**Version de l'interface :** 1.0.4
+
+* Correctifs divers
+
 ### Février 2024
 
 **Version de l'interface :** 1.0.0
