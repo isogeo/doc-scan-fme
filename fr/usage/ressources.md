@@ -69,4 +69,4 @@ L'onglet Paramètres avancés permet de choisir les colonnes à afficher dans le
 * Lien vers la fiche : lien vers la fiche dans l'interface d'administration du catalogue
 * Actions : bouton permettant de retirer des ressources de la liste ou de gérer les exclusions de leurs points d'entrée
 
-Nous vous invitons à découvrir quelques [cas d'usage](usage/ressources_usages.md) de cette fonctionnalité en page suivante. 
+Nous vous invitons à découvrir quelques [cas d'usage](/usage/ressources_usages.md) de cette fonctionnalité en page suivante. 

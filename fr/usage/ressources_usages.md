@@ -22,6 +22,8 @@ Pour chacune de ses colonnes, il est possible de trier les valeurs selon l’ord
 
 Par exemple, en triant par *Entités (%) décroissant*, vous pouvez identifier rapidement les données qui ont été purgées. En inversant le tri, vous pouvez détecter les données qui ont été fortement remplies. 
 
+![Identifier les données purgées](/assets/ressources_purge_data.png)
+
 ### Identifier les données ayant de nouveaux attributs à documenter {#attributes}
 
 En filtrant sur le statut *Structure modifiée*, seules les données ayant eu des attributs ajoutés ou supprimées sont affichées. En cliquant sur le détail de la donnée, la liste des attributs ajoutés et supprimés s'affiche. Vous pouvez trier la colonne *Attribut* pour afficher les données ayant eu le plus de modification d'attribut. Vous pouvez ensuite cliquer sur le lien vers la fiche pour aller documenter les nouveaux attributs détectés. 
