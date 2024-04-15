@@ -16,6 +16,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Avril 2024
+
+**Version du serveur :** 4.3.0
+
+* Compatibilité FME 2023
+
 ### Mars 2024
 
 **Version du serveur :** 4.2.1
