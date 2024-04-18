@@ -22,7 +22,7 @@ Cette fonctionnalité permet d'automatiser :
 
 Pour chaque service seront récupérées les informations suivantes :
 * l’url du service, 
-* le titre, le résumé et les balises indiqués à la publication du service 
+* le résumé et les balises indiqués à la publication du service 
  * Si la chaîne de caractères d'une balise ArcGIS Server est identique à une thématique / thème INSPIRE, alors celui-ci est affecté à la fiche de service 
 ![Métadonnées renseignées lors de la publication du service avec ArcGIS Pro](/assets/metadata_publication_service_ags.png)
 * l’emprise du service sous forme de bbox
@@ -36,11 +36,9 @@ Lors d'une mise à jour des métadonnées du service, les champs suivants sont �
 * les informations sur les couches / tables du service avec leurs identifiants et leurs titres
 * l’emprise du service sous forme de bbox
 * la version de format
+* les mots-clés, thématiques et thèmes Inspire supplémentaires sont ajoutés tandis que ceux supprimés ne sont pas retirés de la fiche existante
 
-En revanche, le titre et le résumé ne sont jamais écrasés car l'utilisateur peut les avoir modifiés manuellement.
-Les mots-clés, thématiques et thèmes Inspire supplémentaires sont ajoutés tandis que ceux supprimés ne sont pas retirés de la fiche existante. 
-
-### Ajouter un répertoire de fichiers à scanner {#add_repertory}
+## Ajouter un répertoire de fichiers à scanner {#add_repertory}
 
 Pour créer un point d’entrée « ArcGIS Server » :
 
@@ -53,7 +51,7 @@ Pour créer un point d’entrée « ArcGIS Server » :
   * Exclusion de services ;
 4. Enregistrer et créer le point d'entrée.
 
-#### Informations {#add_informations}
+### Informations {#add_informations}
 
 Informations générales du point d'entrée : Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enregistrer et créer le point d'entrée.
 
@@ -63,7 +61,7 @@ Informations générales du point d'entrée : Les champs de cette partie doivent
 
     ![Renseigner les informations du point d'entrée ArcGIS Server](/assets/New entrypoint - arcgis server.png)
 
-#### Métadonnées {#add_metadata}
+### Métadonnées {#add_metadata}
 
 La section "Métadonnées", permet de sélectionner les étiquettes à associer à toutes les fiches du point d'entrée. Les champs de cette section sont optionnels.
 
@@ -78,7 +76,7 @@ Sélectionner les métadonnées de la liste suivante à associer aux fiches de m
 
 L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan.
 
-#### Inclusion de services {#add_inclusions}
+### Inclusion de services {#add_inclusions}
 
 La section "Inclusion de services" permet la sélection des services du point d'entrée à scanner. Seules les services correspondant à au moins un des critères d'inclusion seront scannés. Les champs de cette partie sont optionnels.
 
@@ -90,7 +88,7 @@ Renseigner les trois champs en fonction du besoin :
 
 Il est possible, pour les trois types d'inclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
-#### Exclusion de services {#add_exclusions}
+### Exclusion de services {#add_exclusions}
 
 La section "Exclusion de services" permet la sélection des services du point d'entrée à ignorer par le Scan. Seules les services correspondant à aucun critère d'exclusion seront scannés. Les champs de cette partie sont optionnels.
 
@@ -102,7 +100,7 @@ Renseigner les trois champs en fonction du besoin :
 
 Il est possible, pour les trois types d'exclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
-#### Associations automatiques {#associations}
+### Associations automatiques {#associations}
 
 Cette fonctionnalité permet de forcer la création des associations entre les couches des services scannés et les fiches de données présentes dans l'inventaire même si le service est inchangé. En clair, cela permet de créer l'association entre une donnée qui aurait été scannée en base de donnée **après** le scan du service qui publie cette même donnée. 
 Cette case doit donc être cochée uniquement dans ce **cas précis**.
