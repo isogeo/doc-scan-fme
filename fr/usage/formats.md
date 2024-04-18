@@ -10,42 +10,44 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 
 ## Les formats de fichiers {#formats_files}
 
-La liste suivante présente les formats de données pris en charge par le scan et l'édition de FME nécessaire pour pouvoir les scanner.
+La liste suivante présente les formats de données pris en charge par le scan : 
 
-| Formats de fichiers                                                                                               | Professional Edition   | Esri Edition   | Database Edition   |
-|:-----------------------------------------------------------------------------------------------------------------:|:----------------------:|:--------------:|:------------------:|
-|                                          Apic Exchange Format (.asc)                                              | x                      | x              | x                  |
-| AutoCAD DWG (.dwg)                                                                                                | x                      | x              | x                  |
-| AutoDesk DXF (.dxf)                                                                                               | x                      | x              | x                  |
-| AutoDesk SDF (.sdf)                                                                                               | x                      | x              | x                  |
-| ER Mapper ECW (.ecw)                                                                                              | x                      | x              | x                  |
-| Esri ASCII Grid (.grd, .asc)                                                                                      | x                      | x              | x                  |
-| Esri File Geodatabase (.gdb)                                                                                      | -                      | x              | x                  |
-| Esri shapefiles (.shp)                                                                                            | x                      | x              | x                  |
-| GeoJSON (.geojson)                                                                                                | x                      | x              | x                  |
-| GeoTIFF (.geotiff)                                                                                                | x                      | x              | x                  |
-| Google Earth (.kml / .kmz) [seulement la 1ère couche dans lordre alphabétique]                                    | x                      | x              | x                  |
-| GPS eXchange Format (.gpx)                                                                                        | x                      | x              | x                  |
-| JPEG (.jpg / .jpeg)                                                                                               | x                      | x              | x                  |
-| JPEG 2000 (.jp2)                                                                                                  | x                      | x              | x                  |
-| Lidar Data Exchange Format (.las, .laz, .lasd)                                                                    | x                      | x              | x                  |
-| MapInfo tables (.tab)                                                                                             | x                      | x              | x                  |
-| MapInfo Interchange Format (.mif / .mid)                                                                          | x                      | x              | x                  |
-| MicroStation DGN (.dgn)                                                                                           | x                      | x              | x                  |
-| Portable Network Graphics (.png)                                                                                  | x                      | x              | x                  |
-| SpatiaLite (.sqlite)                                                                                              | x                      | x              | x                  |
-| TIFF (.tiff)                                                                                                      | x                      | x              | x                  |
-| XYZ (.xyz) [seulement pour les fichiers contenant 3 colonnes attributaires (X Y et Z) séparées par des espaces]   | x                      | x              | x                  |
+| Formats de fichiers                                                                                               |
+|:-----------------------------------------------------------------------------------------------------------------:|
+|                                          Apic Exchange Format (.asc)                                              |
+| AutoCAD DWG (.dwg)                                                                                                |
+| AutoDesk DXF (.dxf)                                                                                               |
+| AutoDesk SDF (.sdf)                                                                                               |
+| ER Mapper ECW (.ecw)                                                                                              |
+| Esri ASCII Grid (.grd, .asc)                                                                                      |
+| Esri File Geodatabase (.gdb)                                                                                      |
+| Esri shapefiles (.shp)                                                                                            |
+| GeoJSON (.geojson)                                                                                                |
+| GeoTIFF (.geotiff)                                                                                                |
+| Google Earth (.kml / .kmz) [seulement la 1ère couche dans lordre alphabétique]                                    |
+| GPS eXchange Format (.gpx)                                                                                        |
+| JPEG (.jpg / .jpeg)                                                                                               |
+| JPEG 2000 (.jp2)                                                                                                  |
+| Lidar Data Exchange Format (.las, .laz, .lasd)                                                                    |
+| MapInfo tables (.tab)                                                                                             |
+| MapInfo Interchange Format (.mif / .mid)                                                                          |
+| MicroStation DGN (.dgn)                                                                                           |
+| Portable Network Graphics (.png)                                                                                  |
+| SpatiaLite (.sqlite)                                                                                              |
+| TIFF (.tiff)                                                                                                      |
+| XYZ (.xyz) [seulement pour les fichiers contenant 3 colonnes attributaires (X Y et Z) séparées par des espaces]   |
 
 ## Les systèmes de gestion de bases de données (SGBD) {#sgbd}
 
-La liste suivante présente les formats de SGBD pris en charge par le scan et l'édition de FME nécessaire pour pouvoir les scanner.
+La liste suivante présente les formats de SGBD pris en charge par le scan : 
 
-| SGBD                                   | Professional Edition   | Esri Edition   | Database Edition   |
-|:--------------------------------------:|:----------------------:|:--------------:|:------------------:|
-| Microsoft SQL Server Spatial           | x                      | x              | x                  |
-| PostGIS                                | x                      | x              | x                  |
-| Esri Enterprise Geodatabase (ArcSDE)   | -                      | x              | x                  |
-| Oracle Spatial                         | -                      | -              | x                  |
+| SGBD                                   |
+|:--------------------------------------:|
+| Microsoft SQL Server Spatial           |
+| PostGIS                                |
+| Esri Enterprise Geodatabase (ArcSDE)   |
+| Oracle Spatial                         |
+
+Pour les SGBD, le Scan a la particularité de remonter également les tables sans géométries et de créer des fiches de données tabulaires non géographiques.
 
 Tous les formats ne sont néanmoins pas pris en compte au même degré et de la même façon, compte-tenu de leurs spécificités.

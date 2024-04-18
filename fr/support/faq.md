@@ -25,6 +25,10 @@ Si l'un des messages ci-dessous s'affiche, c'est qu'il y a un problème avec les
 ![Echec du scan : problème d'accès](/assets/scan_errors_UnableToAccessEntryPoint.png)
 ----
 
+### Le service se connecte et se déconnecte en continu {#connected_deconnected}
+
+Vérifier que l'utilisateur configuré pour lancer le service a les droits d'écriture sur le répertoire d'installation du service Isogeo Worker. Si ce n'est pas le cas, il faut lui donner et redémarrer le service. Recharger l'interface pour vérifier qu'il ne se déconnecte plus. 
+
 ## Cas particuliers connus {#scan_known_cases}
 
 ### Shapefile supérieur à 2 Go {#scan_err_shp_too_big}

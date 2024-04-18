@@ -18,7 +18,7 @@ Indiquer le chemin absolu d'accès à une arborescence de répertoires contenant
 
 * il est préférable d'indiquer le chemin physique (exemple : `//serveur/partage/dossier/`) plutôt que le lecteur réseau (exemple : `G:\alias\partage\dossier`).
 
-### Ajouter un répertoire de fichiers à scanner {#add_repertory}
+## Ajouter un répertoire de fichiers à scanner {#add_repertory}
 
 Pour créer un point d’entrée « Fichiers » :
 
@@ -31,7 +31,7 @@ Pour créer un point d’entrée « Fichiers » :
   * Exclusion de donnée ;
 4. Enregistrer et créer le point d'entrée.
 
-#### Informations {#add_informations}
+### Informations {#add_informations}
 
 Informations générales du point d'entrée : Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enregistrer et créer le point d'entrée.
 
@@ -40,7 +40,7 @@ Informations générales du point d'entrée : Les champs de cette partie doivent
 
     ![Renseigner le nom du point d'entrée et le chemin vers les données](/assets/New entrypoint - path.png)
 
-#### Métadonnées {#add_metadata}
+### Métadonnées {#add_metadata}
 
 La section "Métadonnées", permet de sélectionner les étiquettes à associer à toutes les fiches du point d'entrée. Les champs de cette section sont optionnels.
 
@@ -55,7 +55,7 @@ Sélectionner les métadonnées de la liste suivante à associer aux fiches de m
 
 L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan.
 
-#### Inclusion de données {#add_inclusions}
+### Inclusion de données {#add_inclusions}
 
 La section "Inclusion de données" permet la sélection des données du point d'entrée à scanner. Seules les données correspondant à au moins un des critères d'inclusion seront scannées. Les champs de cette partie sont optionnels.
 
@@ -67,7 +67,7 @@ Renseigner les trois champs en fonction du besoin :
 
 Il est possible, pour les trois types d'inclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
-#### Exclusion de données {#add_exclusions}
+### Exclusion de données {#add_exclusions}
 
 La section "Exclusion de données" permet la sélection des données du point d'entrée à ignorer par le Scan. Seules les données correspondant aucun critère d'exclusion seront scannées. Les champs de cette partie sont optionnels.
 
@@ -81,7 +81,7 @@ Il est possible, pour les trois types d'exclusion, d'importer une liste depuis u
 
 ![Nouveau point d'entrée fichiers prêt à être scanné](/assets/new_files_ready.png)
 
-### Concernant les ESRI FileGDB {#filegdb}
+## Concernant les ESRI FileGDB {#filegdb}
 
 Quelques précisions concernant ce format :
 

@@ -3,24 +3,20 @@ description: Paramètres logiciels (FME, ArcGIS) du service client du Scan FME (
 ---
 # Logiciels
 
-## Installation de FME Desktop {#fme_installation}
+## Installation de FME Form {#fme_installation}
 
-FME Desktop doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques. Points de vérification :
+FME Form doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques. Points de vérification :
 
-* édition de la licence (cf. [Formats pris en charge par le scan](/usage/formats.md)) :
-  * Professional Edition ;
-  * Esri Edition ;
-  * Database Edition ;
+* licence valide ;
 * jeton de licence FME disponible au moment du scan ;
 * architecture 32 ou 64 bits selon configuration Esri ou Oracle ;
-* plugins spécifiques.
 
 À ce jour, les versions de FME supportées sont :
 
-* de FME Desktop 2020.x;
-* à FME Desktop 2022.x
+* de FME Form 2020.x;
+* à FME Form 2023.x
 
-Pour télécharger FME, consulter le [site de safe](https://www.safe.com/support/downloads/#past-versions).
+Pour télécharger FME, consulter le [site de safe](https://engage.safe.com/support/downloads/#past-versions).
 
 Pour plus d’informations, consulter la [matrice des formats et versions de FME](https://www.safe.com/fme/formats-matrix/) ;
 
@@ -30,9 +26,9 @@ Selon votre installation Esri, voici la version de FME à installer. Consulter �
 
 |                                Installation Esri                                |     Version de FME    |
 |:-------------------------------------------------------------------------------:|:---------------------:|
-|                             ArcGIS Desktop (32 bits)                            | FME Desktop (32 bits) |
-| ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Desktop (64 bits) |
-|                               ArcGIS Pro (64 bits)                              | FME Desktop (64 bits) |
+|                             ArcGIS Desktop (32 bits)                            | FME Form (32 bits) |
+| ArcGIS Desktop (32 bits) avec ArcGIS Desktop Background Geoprocessing (64-bits) | FME Form (64 bits) |
+|                               ArcGIS Pro (64 bits)                              | FME Form (64 bits) |
 
 ### Avec ArcMap et FME en version 64 bits {#esri_arcmap}
 
@@ -40,13 +36,13 @@ Pour que la licence ArcMap fonctionne avec FME en version 64 bits, il faut :
 * installer le [ArcGIS Desktop Background Geoprocessing 64 bits](https://desktop.arcgis.com/fr/arcmap/latest/analyze/executing-tools/64bit-background.htm).
 * ajouter une variable d'environnement système `SDEHOME` dont la valeur est `C:\Program Files (x86)\ArcGIS\Desktop10.8\bin64` (cet emplacement peut différer dépendamment de votre installation et de votre version du logiciel ArcMap)
 
-### Avec ArcGIS Pro {#esri_argispro}
+<!-- ### Avec ArcGIS Pro {#esri_argispro}
 
 Pour que la licence ArcGIS Pro fonctionne, il faut :
 * authentifier le logiciel avec l'utilisateur qui lance le service, c'est à dire qu'il faut se connecter à distance au serveur avec la session de l'utilisateur Isogeo puis ouvrir ArcGIS Pro et l'authentifier.
-* paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Desktop, menu `Tools` > `FME Options` > onglet `Translations` > rubrique `Python Interpreter` :
+* paramétrer FME pour utiliser l'interpréteur Python installé avec ArcGIS Pro : depuis FME Form, menu `Tools` > `FME Options` > onglet `Translations` > rubrique `Python Interpreter` :
   * `Preferred Python Interpreter` : sélectionner `Use Custom Interpreter...` dans la liste déroulante puis indiquer `C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3\python3.dll` (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
-  * `Python Home (PYTHONHOME)` : indiquer `C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3`" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro)
+  * `Python Home (PYTHONHOME)` : indiquer `C:\Program Files\ArcGIS Pro\bin\Python\envs\arcgispro-py3`" (cet emplacement peut différer dépendamment de votre installation du logiciel ArcGIS Pro) -->
 
 ## Base de données Oracle {#oracle}
 

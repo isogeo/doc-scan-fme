@@ -19,14 +19,14 @@ Pour créer un point d’entrée « Base de données » :
   * Exclusion de donnée ;
 4. Enregistrer et créer le point d'entrée.
 
-#### Informations {#add_informations}
+### Informations {#add_informations}
 
 Informations générales du point d'entrée. Les champs de cette partie doivent obligatoirement être renseignés afin de pouvoir enregistrer et créer le point d'entrée.
 
 1. Nommer le point d’entrée ;
 2. Renseigner le chemin du fichier de connexion SDE. Ce chemin doit être accessible par l'utilisateur Windows qui lance le service de Scan (voir [Configuration du compte utilisateur](/installation/server.html#compte-utilisateur)).
 
-#### Métadonnées {#add_metadata}
+### Métadonnées {#add_metadata}
 
 La section "Métadonnées", permet de sélectionner les étiquettes à associer à toutes les fiches du point d'entrée. Les champs de cette section sont optionnels.
 
@@ -41,7 +41,7 @@ Sélectionner les métadonnées de la liste suivante à associer aux fiches de m
 
 L'ajout de nouvelles métadonnées se fait automatiquement lors d'un Scan.
 
-#### Inclusion de données {#add_inclusions}
+### Inclusion de données {#add_inclusions}
 
 La section "Inclusion de données" permet la sélection des données du point d'entrée à scanner. Seules les données correspondant au moins un des critères d'inclusion seront scannées. Les champs de cette partie sont optionnels.
 
@@ -52,7 +52,7 @@ Renseigner les trois champs en fonction du besoin :
 
 Il est possible, pour les trois types d'inclusion, d'importer une liste depuis un fichier CSV (cf. [Annexe sur le format du fichier CSV](/appendices/csv.md)). Il est aussi possible de supprimer le contenu de chaque liste séparément.
 
-#### Exclusion de données {#add_exclusions}
+### Exclusion de données {#add_exclusions}
 
 La section "Exclusion de données" permet la sélection des données du point d'entrée à ignorer par le Scan. Seules les données correspondant à aucun critère d'exclusion seront scannées. Les champs de cette partie sont optionnels.
 
