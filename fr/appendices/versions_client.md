@@ -16,6 +16,12 @@ Vous pouvez facilement vérifier la version du service installée en ouvrant la 
 
 ## Versions valides {#valid}
 
+### Mai 2024
+
+**Version de l'interface :** 1.0.4
+
+* Ajout de la possibilité de dupliquer un point d'entrée
+
 ### Avril 2024
 
 **Version du serveur :** 4.3.0
